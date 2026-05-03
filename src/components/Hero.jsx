@@ -1,10 +1,10 @@
 import { useState, useEffect, useCallback } from 'react';
 
 const slides = [
-  { img: '/images/hero/hero1.png', tagline: 'Bloom with meaning,', sub: 'delivered with love.' },
-  { img: '/images/hero/hero2.png', tagline: 'Handle with care,', sub: 'happiness inside.' },
-  { img: '/images/hero/hero3.png', tagline: 'Setiap bunga,', sub: 'menceritakan kisahmu.' },
-  { img: '/images/hero/hero4.png', tagline: 'Rangkaian indah,', sub: 'untuk momen istimewamu.' },
+  '/images/hero/hero1.png',
+  '/images/hero/hero2.png',
+  '/images/hero/hero3.png',
+  '/images/hero/hero4.png',
 ];
 
 export default function Hero() {
@@ -12,7 +12,7 @@ export default function Hero() {
   const [paused, setPaused] = useState(false);
 
   const next = useCallback(() => setCurrent((p) => (p + 1) % slides.length), []);
-  const prev = () => setCurrent((p) => (p - 1 + slides.length) % slides.length);
+  const prev = useCallback(() => setCurrent((p) => (p - 1 + slides.length) % slides.length), []);
 
   useEffect(() => {
     if (paused) return;
@@ -23,70 +23,41 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative h-screen min-h-[600px] overflow-hidden"
+      className="relative w-full overflow-hidden"
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
     >
-      {/* Slides */}
-      {slides.map((slide, i) => (
-        <div
-          key={i}
-          className={`absolute inset-0 transition-opacity duration-1000 ${i === current ? 'opacity-100' : 'opacity-0'}`}
-        >
+      {/* Track — semua gambar berjejer horizontal, digeser dengan translateX */}
+      <div
+        className="flex transition-transform duration-700 ease-in-out"
+        style={{ transform: `translateX(-${current * 100}%)` }}
+      >
+        {slides.map((src, i) => (
           <img
-            src={slide.img}
+            key={i}
+            src={src}
             alt={`Banner ${i + 1}`}
-            className="w-full h-full object-cover"
+            className="block h-auto flex-shrink-0"
+            style={{ width: '100%', minWidth: '100%' }}
           />
-        </div>
-      ))}
-
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/50" />
-
-      {/* Content */}
-      <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-6">
-        <p className="text-sand text-sm md:text-base tracking-[0.3em] uppercase mb-4 font-light">
-          Jalé Florist · Bandung
-        </p>
-        <h1
-          key={current}
-          className="font-display text-white text-5xl md:text-7xl font-bold leading-tight mb-3"
-          style={{ animation: 'fadeUp 0.8s ease forwards' }}
-        >
-          {slides[current].tagline}
-        </h1>
-        <p
-          key={`sub-${current}`}
-          className="font-display italic text-white/90 text-3xl md:text-5xl font-normal mb-10"
-          style={{ animation: 'fadeUp 0.8s ease 0.15s forwards', opacity: 0 }}
-        >
-          {slides[current].sub}
-        </p>
-        <a
-          href="#catalog"
-          className="group inline-flex items-center gap-2 bg-rose-brand hover:bg-rose-dark text-white font-medium px-8 py-3.5 rounded-full transition-all duration-300 hover:shadow-lg hover:scale-105"
-        >
-          Lihat Koleksi
-          <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-          </svg>
-        </a>
+        ))}
       </div>
 
-      {/* Nav Arrows */}
+      {/* Arrow Kiri */}
       <button
         onClick={prev}
-        className="absolute left-4 top-1/2 -translate-y-1/2 z-20 w-10 h-10 bg-white/20 hover:bg-white/40 text-white rounded-full flex items-center justify-center backdrop-blur-sm transition-all"
+        className="absolute left-4 top-1/2 -translate-y-1/2 z-20 w-10 h-10 bg-white/80 hover:bg-white text-charcoal rounded-full flex items-center justify-center shadow-md transition-all duration-200 hover:scale-110"
         aria-label="Slide sebelumnya"
       >
         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
         </svg>
       </button>
+
+      {/* Arrow Kanan */}
       <button
         onClick={next}
-        className="absolute right-4 top-1/2 -translate-y-1/2 z-20 w-10 h-10 bg-white/20 hover:bg-white/40 text-white rounded-full flex items-center justify-center backdrop-blur-sm transition-all"
+        className="absolute right-4 top-1/2 -translate-y-1/2 z-20 w-10 h-10 bg-white/80 hover:bg-white text-charcoal rounded-full flex items-center justify-center shadow-md transition-all duration-200 hover:scale-110"
         aria-label="Slide berikutnya"
       >
         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -95,23 +66,18 @@ export default function Hero() {
       </button>
 
       {/* Dots */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex gap-2">
+      <div className="absolute bottom-4 left-1/2 -translate-x-1/2 z-20 flex gap-2">
         {slides.map((_, i) => (
           <button
             key={i}
             onClick={() => setCurrent(i)}
-            className={`rounded-full transition-all duration-300 ${i === current ? 'w-8 h-2 bg-rose-brand' : 'w-2 h-2 bg-white/60 hover:bg-white'}`}
+            className={`rounded-full transition-all duration-300 ${
+              i === current ? 'w-6 h-2 bg-white' : 'w-2 h-2 bg-white/50 hover:bg-white/80'
+            }`}
             aria-label={`Slide ${i + 1}`}
           />
         ))}
       </div>
-
-      <style>{`
-        @keyframes fadeUp {
-          from { opacity: 0; transform: translateY(20px); }
-          to { opacity: 1; transform: translateY(0); }
-        }
-      `}</style>
     </section>
   );
 }

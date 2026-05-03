@@ -9,25 +9,14 @@ const navLinks = [
 ];
 
 export default function Navbar() {
-  const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 60);
-    window.addEventListener('scroll', onScroll);
-    return () => window.removeEventListener('scroll', onScroll);
-  }, []);
-
   return (
-    <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        scrolled ? 'bg-cream/95 backdrop-blur-md shadow-sm' : 'bg-transparent'
-      }`}
-    >
+    <header className="fixed top-0 left-0 right-0 z-50 shadow-sm" style={{ backgroundColor: '#f0e4d3' }}>
       <nav className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
         <a href="#home" className="flex items-center gap-2">
-          <img src="/logo.png" alt="Jalé Florist" className="h-9 w-auto object-contain" />
+          <img src="/logo.png" alt="Jalé Florist" className="h-14 w-auto object-contain" />
         </a>
 
         {/* Desktop Nav */}
@@ -36,9 +25,7 @@ export default function Navbar() {
             <li key={link.href}>
               <a
                 href={link.href}
-                className={`text-sm font-medium tracking-wide transition-colors hover:text-rose-brand ${
-                  scrolled ? 'text-charcoal' : 'text-white drop-shadow'
-                }`}
+                className="text-sm font-medium tracking-wide transition-colors text-charcoal hover:text-rose-brand"
               >
                 {link.label}
               </a>
@@ -61,7 +48,7 @@ export default function Navbar() {
 
         {/* Mobile Hamburger */}
         <button
-          className={`md:hidden p-2 rounded-md ${scrolled ? 'text-charcoal' : 'text-white'}`}
+          className="md:hidden p-2 rounded-md text-charcoal"
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="Toggle menu"
         >
