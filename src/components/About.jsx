@@ -61,18 +61,87 @@ export default function About() {
         </div>
 
         {/* Highlights */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 mb-16">
           {[
-            { num: '8+', label: 'Kategori Produk' },
-            { num: '7', label: 'Pilihan Ukuran' },
-            { num: '500+', label: 'Pelanggan Puas' },
-            { num: '5★', label: 'Rating Google' },
-          ].map((item) => (
-            <div key={item.label} className="text-center p-6 bg-cream rounded-2xl shadow-sm">
-              <p className="font-display text-3xl font-bold text-rose-brand mb-1">{item.num}</p>
-              <p className="text-sm text-muted">{item.label}</p>
+            { 
+              num: '100+', 
+              label: 'Desain Unik & Lucu',
+              color: 'from-blue-500 to-blue-400',
+              icon: (
+                <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                </svg>
+              )
+            },
+            { 
+              num: <span className="text-[1.35rem] md:text-2xl">Berbagai</span>, 
+              label: 'Ukuran & Custom Size',
+              color: 'from-fuchsia-500 to-fuchsia-400',
+              icon: (
+                <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
+                </svg>
+              )
+            },
+            { 
+              num: '10,000+', 
+              label: 'Produk Terjual',
+              color: 'from-emerald-500 to-emerald-400',
+              icon: (
+                <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                </svg>
+              )
+            },
+            { 
+              num: '5.0', 
+              label: 'Rating Google Maps',
+              color: 'from-amber-500 to-orange-400',
+              icon: (
+                <svg className="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                </svg>
+              )
+            },
+          ].map((item, index) => (
+            <div 
+              key={index} 
+              className={`relative overflow-hidden group p-5 md:p-6 rounded-3xl bg-gradient-to-br ${item.color} shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col items-center text-center border border-white/20`}
+            >
+              {/* Dekorasi blur di background */}
+              <div className="absolute -top-4 -right-4 w-24 h-24 bg-white/20 blur-2xl rounded-full group-hover:scale-150 transition-transform duration-500 pointer-events-none"></div>
+              
+              <div className={`w-12 h-12 md:w-14 md:h-14 rounded-2xl bg-white/20 text-white backdrop-blur-md flex items-center justify-center mb-3 md:mb-4 shadow-sm group-hover:scale-110 transition-transform duration-300 relative z-10`}>
+                {item.icon}
+              </div>
+              <div className="relative z-10">
+                <p className={`font-display text-2xl md:text-3xl font-bold mb-1 flex items-center justify-center gap-1 text-white`}>
+                  {item.num}
+                  {item.label === 'Rating Google Maps' && <span className="text-lg md:text-xl text-amber-200">★</span>}
+                </p>
+                <p className="text-xs md:text-sm font-medium text-white/90">{item.label}</p>
+              </div>
             </div>
           ))}
+        </div>
+
+        {/* Galeri Toko */}
+        <div className="mb-20">
+          <div className="text-center mb-10">
+            <h3 className="text-2xl font-bold text-charcoal">Mengintip Suasana Toko Kami</h3>
+            <p className="text-muted mt-2">Kunjungi studio kami untuk melihat langsung koleksi bunga segar dan artificial terbaik.</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 px-4 md:px-0">
+            <div className="h-64 md:h-80 rounded-2xl overflow-hidden shadow-sm group md:-translate-y-4">
+              <img src="/images/toko/foto_toko.jpeg" alt="Toko Jalé Florist Depan" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+            </div>
+            <div className="h-64 md:h-80 rounded-2xl overflow-hidden shadow-sm group md:translate-y-4">
+              <img src="/images/toko/foto_toko2.jpeg" alt="Suasana Jalé Florist" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+            </div>
+            <div className="h-64 md:h-80 rounded-2xl overflow-hidden shadow-sm group md:-translate-y-4">
+              <img src="/images/toko/foto_toko3.jpeg" alt="Koleksi Jalé Florist" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+            </div>
+          </div>
         </div>
 
         {/* Lokasi & Kontak */}
