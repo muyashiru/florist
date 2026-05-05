@@ -14,7 +14,7 @@ import { getWhatsAppLink } from '../utils/whatsapp';
    4 = Cloud Dropdown (Kotak awan gemas turun dari tombol ☁️ di kanan atas)
    5 = Classic (Gaya asli dengan garis tiga dan dropdown)
 ========================================================================= */
-export const MOBILE_NAV_STYLE = 3;
+export const MOBILE_NAV_STYLE = 1;
 
 
 const navLinks = [
