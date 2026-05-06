@@ -81,7 +81,7 @@ export default function ProductMarquee() {
         <div className="text-center mb-8 md:mb-12">
           <p className="text-rose-brand text-[10px] md:text-xs font-bold tracking-[0.2em] uppercase mb-2 md:mb-3">Produk Best Seller</p>
           <h2 className="font-display text-2xl md:text-5xl text-charcoal font-bold mb-3 md:mb-4">
-            Top Bouquet &amp; Karangan Bunga
+            Artificial Flowers &amp; Fresh Flowers
           </h2>
           <p className="text-muted text-xs md:text-base max-w-2xl mx-auto">
             Produk yang kami tawarkan berkualitas dan dirangkai dengan indah untuk memenuhi setiap kebutuhan hari spesial Anda.

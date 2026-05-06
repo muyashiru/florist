@@ -162,7 +162,7 @@ export default function HighlightProduct() {
             {duplicatedProducts.map((product, index) => (
               <div 
                 key={`${product.id}-${index}`} 
-                className="group/card relative flex-none w-[260px] md:w-[320px] bg-cream rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 overflow-hidden cursor-pointer snap-start hover:-translate-y-2"
+                className="group/card relative flex-none w-[220px] md:w-[280px] bg-cream rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 overflow-hidden cursor-pointer snap-start hover:-translate-y-2"
                 onClick={() => openQuickView(product)}
               >
                 {/* Image Container with Hover Swap */}

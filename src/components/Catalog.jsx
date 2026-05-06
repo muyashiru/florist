@@ -33,12 +33,24 @@ export default function Catalog() {
       <svg className="absolute top-[15%] right-8 md:right-24 w-12 h-12 text-[#DCC5B2]/30 animate-[spin_15s_linear_infinite_reverse] pointer-events-none" viewBox="0 0 100 100" fill="currentColor">
         <circle cx="50" cy="25" r="20" /><circle cx="74" cy="42" r="20" /><circle cx="65" cy="70" r="20" /><circle cx="35" cy="70" r="20" /><circle cx="26" cy="42" r="20" />
       </svg>
+      <svg className="absolute top-[20%] left-1/3 w-10 h-10 text-[#D9A299]/15 animate-[spin_25s_linear_infinite] pointer-events-none" viewBox="0 0 100 100" fill="currentColor">
+        <circle cx="50" cy="25" r="20" /><circle cx="74" cy="42" r="20" /><circle cx="65" cy="70" r="20" /><circle cx="35" cy="70" r="20" /><circle cx="26" cy="42" r="20" />
+      </svg>
+      <svg className="absolute top-[10%] right-1/4 w-14 h-14 text-[#DCC5B2]/20 animate-[bounce_7s_infinite] pointer-events-none" viewBox="0 0 100 100" fill="currentColor">
+        <circle cx="50" cy="25" r="20" /><circle cx="74" cy="42" r="20" /><circle cx="65" cy="70" r="20" /><circle cx="35" cy="70" r="20" /><circle cx="26" cy="42" r="20" />
+      </svg>
       
       {/* Middle area */}
       <svg className="absolute top-[40%] left-5 md:left-12 w-20 h-20 text-[#D9A299]/20 animate-[bounce_5s_infinite] pointer-events-none" viewBox="0 0 100 100" fill="currentColor">
         <circle cx="50" cy="25" r="20" /><circle cx="74" cy="42" r="20" /><circle cx="65" cy="70" r="20" /><circle cx="35" cy="70" r="20" /><circle cx="26" cy="42" r="20" />
       </svg>
       <svg className="absolute top-[55%] right-10 md:right-20 w-16 h-16 text-[#DCC5B2]/25 animate-[spin_25s_linear_infinite] pointer-events-none" viewBox="0 0 100 100" fill="currentColor">
+        <circle cx="50" cy="25" r="20" /><circle cx="74" cy="42" r="20" /><circle cx="65" cy="70" r="20" /><circle cx="35" cy="70" r="20" /><circle cx="26" cy="42" r="20" />
+      </svg>
+      <svg className="absolute top-[45%] right-1/3 w-12 h-12 text-[#D9A299]/18 animate-[spin_30s_linear_infinite_reverse] pointer-events-none" viewBox="0 0 100 100" fill="currentColor">
+        <circle cx="50" cy="25" r="20" /><circle cx="74" cy="42" r="20" /><circle cx="65" cy="70" r="20" /><circle cx="35" cy="70" r="20" /><circle cx="26" cy="42" r="20" />
+      </svg>
+      <svg className="absolute top-1/2 left-1/4 w-14 h-14 text-[#DCC5B2]/22 animate-[bounce_6s_infinite_1s] pointer-events-none" viewBox="0 0 100 100" fill="currentColor">
         <circle cx="50" cy="25" r="20" /><circle cx="74" cy="42" r="20" /><circle cx="65" cy="70" r="20" /><circle cx="35" cy="70" r="20" /><circle cx="26" cy="42" r="20" />
       </svg>
       
@@ -49,6 +61,37 @@ export default function Catalog() {
       <svg className="absolute bottom-[5%] right-12 md:right-32 w-24 h-24 text-[#DCC5B2]/20 animate-[bounce_6s_infinite] pointer-events-none" viewBox="0 0 100 100" fill="currentColor">
         <circle cx="50" cy="25" r="20" /><circle cx="74" cy="42" r="20" /><circle cx="65" cy="70" r="20" /><circle cx="35" cy="70" r="20" /><circle cx="26" cy="42" r="20" />
       </svg>
+      <svg className="absolute bottom-[20%] left-1/3 w-16 h-16 text-[#D9A299]/15 animate-[spin_22s_linear_infinite] pointer-events-none" viewBox="0 0 100 100" fill="currentColor">
+        <circle cx="50" cy="25" r="20" /><circle cx="74" cy="42" r="20" /><circle cx="65" cy="70" r="20" /><circle cx="35" cy="70" r="20" /><circle cx="26" cy="42" r="20" />
+      </svg>
+      <svg className="absolute bottom-[15%] right-1/4 w-12 h-12 text-[#DCC5B2]/18 animate-[bounce_5s_infinite_2s] pointer-events-none" viewBox="0 0 100 100" fill="currentColor">
+        <circle cx="50" cy="25" r="20" /><circle cx="74" cy="42" r="20" /><circle cx="65" cy="70" r="20" /><circle cx="35" cy="70" r="20" /><circle cx="26" cy="42" r="20" />
+      </svg>
+      {/* Extra flowers - more positions */}
+      <svg className="absolute top-[5%] left-[5%] w-10 h-10 text-[#D9A299]/16 animate-[spin_28s_linear_infinite_reverse] pointer-events-none" viewBox="0 0 100 100" fill="currentColor">
+        <circle cx="50" cy="25" r="20" /><circle cx="74" cy="42" r="20" /><circle cx="65" cy="70" r="20" /><circle cx="35" cy="70" r="20" /><circle cx="26" cy="42" r="20" />
+      </svg>
+      <svg className="absolute top-1/3 left-[8%] w-14 h-14 text-[#DCC5B2]/19 animate-[bounce_7.5s_infinite_0.5s] pointer-events-none" viewBox="0 0 100 100" fill="currentColor">
+        <circle cx="50" cy="25" r="20" /><circle cx="74" cy="42" r="20" /><circle cx="65" cy="70" r="20" /><circle cx="35" cy="70" r="20" /><circle cx="26" cy="42" r="20" />
+      </svg>
+      <svg className="absolute top-[60%] right-[5%] w-16 h-16 text-[#D9A299]/17 animate-[spin_24s_linear_infinite] pointer-events-none" viewBox="0 0 100 100" fill="currentColor">
+        <circle cx="50" cy="25" r="20" /><circle cx="74" cy="42" r="20" /><circle cx="65" cy="70" r="20" /><circle cx="35" cy="70" r="20" /><circle cx="26" cy="42" r="20" />
+      </svg>
+      <svg className="absolute top-[72%] left-[22%] w-10 h-10 text-[#DCC5B2]/20 animate-[spin_26s_linear_infinite_reverse] pointer-events-none" viewBox="0 0 100 100" fill="currentColor">
+        <circle cx="50" cy="25" r="20" /><circle cx="74" cy="42" r="20" /><circle cx="65" cy="70" r="20" /><circle cx="35" cy="70" r="20" /><circle cx="26" cy="42" r="20" />
+      </svg>
+      <svg className="absolute top-[38%] right-[5%] w-12 h-12 text-[#D9A299]/15 animate-[bounce_8s_infinite_1.5s] pointer-events-none" viewBox="0 0 100 100" fill="currentColor">
+        <circle cx="50" cy="25" r="20" /><circle cx="74" cy="42" r="20" /><circle cx="65" cy="70" r="20" /><circle cx="35" cy="70" r="20" /><circle cx="26" cy="42" r="20" />
+      </svg>
+      <svg className="absolute bottom-[8%] left-[8%] w-14 h-14 text-[#DCC5B2]/21 animate-[spin_20s_linear_infinite] pointer-events-none" viewBox="0 0 100 100" fill="currentColor">
+        <circle cx="50" cy="25" r="20" /><circle cx="74" cy="42" r="20" /><circle cx="65" cy="70" r="20" /><circle cx="35" cy="70" r="20" /><circle cx="26" cy="42" r="20" />
+      </svg>
+      <svg className="absolute bottom-[28%] right-[12%] w-11 h-11 text-[#D9A299]/18 animate-[bounce_6.5s_infinite_0.8s] pointer-events-none" viewBox="0 0 100 100" fill="currentColor">
+        <circle cx="50" cy="25" r="20" /><circle cx="74" cy="42" r="20" /><circle cx="65" cy="70" r="20" /><circle cx="35" cy="70" r="20" /><circle cx="26" cy="42" r="20" />
+      </svg>
+      <svg className="absolute top-[28%] left-[50%] w-13 h-13 text-[#DCC5B2]/17 animate-[spin_32s_linear_infinite] pointer-events-none" viewBox="0 0 100 100" fill="currentColor">
+        <circle cx="50" cy="25" r="20" /><circle cx="74" cy="42" r="20" /><circle cx="65" cy="70" r="20" /><circle cx="35" cy="70" r="20" /><circle cx="26" cy="42" r="20" />
+      </svg>
 
       {/* Floating Sparkles (Menyebar) */}
       <div className="absolute top-[10%] right-[20%] text-[#D9A299]/40 text-4xl animate-pulse pointer-events-none">✦</div>
@@ -56,122 +99,22 @@ export default function Catalog() {
       <div className="absolute top-[50%] right-[30%] text-[#D9A299]/30 text-3xl animate-[pulse_4s_infinite_2s] pointer-events-none">✦</div>
       <div className="absolute top-[75%] left-[10%] text-[#DCC5B2]/40 text-4xl animate-pulse pointer-events-none">✧</div>
       <div className="absolute bottom-[10%] right-[15%] text-[#D9A299]/50 text-3xl animate-[pulse_3s_infinite] pointer-events-none">✦</div>
+      {/* Additional sparkles */}
+      <div className="absolute top-[5%] left-[15%] text-[#DCC5B2]/35 text-3xl animate-[pulse_2.5s_infinite_1.5s] pointer-events-none">✧</div>
+      <div className="absolute top-[35%] right-[10%] text-[#D9A299]/25 text-2xl animate-[pulse_3.5s_infinite_0.5s] pointer-events-none">✦</div>
+      <div className="absolute top-[65%] left-1/3 text-[#DCC5B2]/30 text-2xl animate-[pulse_2s_infinite_2s] pointer-events-none">✧</div>
+      <div className="absolute bottom-[30%] right-[8%] text-[#D9A299]/35 text-3xl animate-[pulse_3s_infinite_1s] pointer-events-none">✦</div>
+      {/* More sparkles */}
+      <div className="absolute top-[18%] right-[45%] text-[#DCC5B2]/28 text-2xl animate-[pulse_2.8s_infinite_0.3s] pointer-events-none">✧</div>
+      <div className="absolute top-[42%] left-[5%] text-[#D9A299]/32 text-3xl animate-[pulse_3.2s_infinite_1.2s] pointer-events-none">✦</div>
+      <div className="absolute bottom-[22%] left-[40%] text-[#DCC5B2]/26 text-2xl animate-[pulse_2.6s_infinite_1.8s] pointer-events-none">✧</div>
+      <div className="absolute top-[58%] right-[22%] text-[#D9A299]/29 text-3xl animate-[pulse_3.3s_infinite_0.7s] pointer-events-none">✦</div>
       
       {/* Pattern Titik Halus */}
       <div className="absolute inset-0 opacity-[0.03] pointer-events-none" style={{ backgroundImage: 'radial-gradient(#D9A299 1.5px, transparent 1.5px)', backgroundSize: '24px 24px' }}></div>
       {/* --- End Ornamen --- */}
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
-        {/* How To Order Section (Styled like hero4) */}
-        <div className="mb-24 max-w-6xl mx-auto px-2 md:px-4">
-          <div className="bg-gradient-to-br from-rose-50 via-pink-50 to-orange-50 rounded-[2rem] md:rounded-[3rem] py-12 md:py-16 px-4 md:px-8 shadow-sm border border-white relative overflow-hidden">
-            
-            {/* Aksen putih bercahaya di sudut */}
-            <div className="absolute -top-10 -right-10 w-64 h-64 bg-white/60 blur-3xl rounded-full z-0"></div>
-            <div className="absolute -bottom-10 -left-10 w-64 h-64 bg-white/60 blur-3xl rounded-full z-0"></div>
-
-            <div className="text-center mb-16 relative z-10">
-              {/* Background dekoratif di belakang teks HOW TO ORDER */}
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-16 bg-rose-200/30 blur-xl rounded-full z-0"></div>
-              
-              <h3 className="font-display text-3xl md:text-4xl text-[#D9A299] font-medium tracking-[0.15em] mb-3 relative z-10" style={{ fontFamily: 'serif' }}>
-                HOW TO ORDER
-              </h3>
-              <div className="flex items-center justify-center gap-4 relative z-10">
-                <div className="h-px w-16 md:w-24 bg-gradient-to-r from-transparent to-[#DCC5B2]"></div>
-                <svg className="w-5 h-5 text-[#D9A299]" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 2.2c-.3 0-.6.2-.7.4l-1.3 3.5-3.5-1.3c-.3-.1-.6 0-.8.2-.2.2-.2.6 0 .8l2.6 2.6-2.6 2.6c-.2.2-.2.6 0 .8.2.2.5.3.8.2l3.5-1.3 1.3 3.5c.1.3.4.4.7.4.3 0 .6-.2.7-.4l1.3-3.5 3.5 1.3c.3.1.6 0 .8-.2.2-.2.2-.6 0-.8l-2.6-2.6 2.6-2.6c.2-.2.2-.6 0-.8-.2-.2-.5-.3-.8-.2l-3.5 1.3-1.3-3.5c-.1-.2-.4-.4-.7-.4z" />
-                </svg>
-                <div className="h-px w-16 md:w-24 bg-gradient-to-l from-transparent to-[#DCC5B2]"></div>
-              </div>
-            </div>
-            
-            <div className="relative z-10">
-              {/* Garis Penghubung (Mobile: Vertikal Dashed, Desktop: Horizontal Dashed) */}
-              <div className="md:hidden absolute top-10 bottom-10 left-1/2 -translate-x-1/2 w-px border-l-2 border-dashed border-[#D9A299]/40 z-0"></div>
-              <div className="hidden md:block absolute top-6 left-[10%] right-[10%] h-px border-t-2 border-dashed border-[#D9A299]/40 z-0"></div>
-              
-              <div className="grid grid-cols-1 md:grid-cols-5 gap-8 md:gap-4 relative z-10">
-                {/* Step 1 */}
-                <div className="flex flex-col items-center text-center group max-w-[260px] mx-auto md:max-w-none w-full">
-                  <div className="w-12 h-12 rounded-full bg-white text-[#D9A299] flex items-center justify-center font-bold text-xl mb-6 shadow-md border-2 border-[#D9A299]/30 z-10 transition-all duration-500 group-hover:scale-110 group-hover:bg-[#D9A299] group-hover:text-white group-hover:border-[#D9A299]">1</div>
-                  <div className="bg-white rounded-t-[3rem] rounded-b-xl p-5 md:p-6 pt-7 md:pt-8 shadow-[0_4px_20px_-4px_rgba(217,162,153,0.15)] border border-[#DCC5B2]/30 w-full h-full flex flex-col items-center relative overflow-hidden transition-all duration-500 group-hover:border-[#D9A299]/50 group-hover:shadow-[0_8px_30px_-4px_rgba(217,162,153,0.25)] group-hover:-translate-y-2">
-                    <div className="absolute top-0 inset-x-0 h-1 bg-gradient-to-r from-transparent via-[#D9A299] to-transparent opacity-50"></div>
-                    
-                    {/* Ikon SVG Keren */}
-                    <div className="mb-5 mt-2 text-[#D9A299] group-hover:scale-110 transition-transform duration-500">
-                      <svg className="w-12 h-12 drop-shadow-sm" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                      </svg>
-                    </div>
-                    <p className="font-medium text-charcoal text-[11px] md:text-xs uppercase tracking-[0.1em] leading-relaxed">PICK YOUR BOUQUETS ON OUR CATALOG</p>
-                  </div>
-                </div>
-
-                {/* Step 2 */}
-                <div className="flex flex-col items-center text-center group max-w-[260px] mx-auto md:max-w-none w-full">
-                  <div className="w-12 h-12 rounded-full bg-white text-[#D9A299] flex items-center justify-center font-bold text-xl mb-6 shadow-md border-2 border-[#D9A299]/30 z-10 transition-all duration-500 group-hover:scale-110 group-hover:bg-[#D9A299] group-hover:text-white group-hover:border-[#D9A299]">2</div>
-                  <div className="bg-white rounded-t-[3rem] rounded-b-xl p-5 md:p-6 pt-7 md:pt-8 shadow-[0_4px_20px_-4px_rgba(217,162,153,0.15)] border border-[#DCC5B2]/30 w-full h-full flex flex-col items-center relative overflow-hidden transition-all duration-500 group-hover:border-[#D9A299]/50 group-hover:shadow-[0_8px_30px_-4px_rgba(217,162,153,0.25)] group-hover:-translate-y-2">
-                    <div className="absolute top-0 inset-x-0 h-1 bg-gradient-to-r from-transparent via-[#D9A299] to-transparent opacity-50"></div>
-                    
-                    <div className="mb-5 mt-2 text-[#D9A299] group-hover:scale-110 transition-transform duration-500">
-                      <svg className="w-12 h-12 drop-shadow-sm" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.2} d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
-                      </svg>
-                    </div>
-                    <p className="font-medium text-charcoal text-[11px] md:text-xs uppercase tracking-[0.1em] leading-relaxed">CLICK "ORDER NOW" BUTTON ON THE CATALOG</p>
-                  </div>
-                </div>
-
-                {/* Step 3 */}
-                <div className="flex flex-col items-center text-center group max-w-[260px] mx-auto md:max-w-none w-full">
-                  <div className="w-12 h-12 rounded-full bg-white text-[#D9A299] flex items-center justify-center font-bold text-xl mb-6 shadow-md border-2 border-[#D9A299]/30 z-10 transition-all duration-500 group-hover:scale-110 group-hover:bg-[#D9A299] group-hover:text-white group-hover:border-[#D9A299]">3</div>
-                  <div className="bg-white rounded-t-[3rem] rounded-b-xl p-5 md:p-6 pt-7 md:pt-8 shadow-[0_4px_20px_-4px_rgba(217,162,153,0.15)] border border-[#DCC5B2]/30 w-full h-full flex flex-col items-center relative overflow-hidden transition-all duration-500 group-hover:border-[#D9A299]/50 group-hover:shadow-[0_8px_30px_-4px_rgba(217,162,153,0.25)] group-hover:-translate-y-2">
-                    <div className="absolute top-0 inset-x-0 h-1 bg-gradient-to-r from-transparent via-[#D9A299] to-transparent opacity-50"></div>
-                    
-                    <div className="mb-5 mt-2 text-[#D9A299] group-hover:scale-110 transition-transform duration-500">
-                      <svg className="w-12 h-12 drop-shadow-sm" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
-                      </svg>
-                    </div>
-                    <p className="font-medium text-charcoal text-[11px] md:text-xs uppercase tracking-[0.1em] leading-relaxed">FILL OUT THE FORMAT ORDER</p>
-                  </div>
-                </div>
-
-                {/* Step 4 */}
-                <div className="flex flex-col items-center text-center group max-w-[260px] mx-auto md:max-w-none w-full">
-                  <div className="w-12 h-12 rounded-full bg-white text-[#D9A299] flex items-center justify-center font-bold text-xl mb-6 shadow-md border-2 border-[#D9A299]/30 z-10 transition-all duration-500 group-hover:scale-110 group-hover:bg-[#D9A299] group-hover:text-white group-hover:border-[#D9A299]">4</div>
-                  <div className="bg-white rounded-t-[3rem] rounded-b-xl p-5 md:p-6 pt-7 md:pt-8 shadow-[0_4px_20px_-4px_rgba(217,162,153,0.15)] border border-[#DCC5B2]/30 w-full h-full flex flex-col items-center relative overflow-hidden transition-all duration-500 group-hover:border-[#D9A299]/50 group-hover:shadow-[0_8px_30px_-4px_rgba(217,162,153,0.25)] group-hover:-translate-y-2">
-                    <div className="absolute top-0 inset-x-0 h-1 bg-gradient-to-r from-transparent via-[#D9A299] to-transparent opacity-50"></div>
-                    
-                    <div className="mb-5 mt-2 text-[#D9A299] group-hover:scale-110 transition-transform duration-500">
-                      <svg className="w-12 h-12 drop-shadow-sm" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.2} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
-                      </svg>
-                    </div>
-                    <p className="font-medium text-charcoal text-[11px] md:text-xs uppercase tracking-[0.1em] leading-relaxed">PAYMENT AND CONFIRMATION</p>
-                  </div>
-                </div>
-
-                {/* Step 5 */}
-                <div className="flex flex-col items-center text-center group max-w-[260px] mx-auto md:max-w-none w-full">
-                  <div className="w-12 h-12 rounded-full bg-white text-[#D9A299] flex items-center justify-center font-bold text-xl mb-6 shadow-md border-2 border-[#D9A299]/30 z-10 transition-all duration-500 group-hover:scale-110 group-hover:bg-[#D9A299] group-hover:text-white group-hover:border-[#D9A299]">5</div>
-                  <div className="bg-white rounded-t-[3rem] rounded-b-xl p-5 md:p-6 pt-7 md:pt-8 shadow-[0_4px_20px_-4px_rgba(217,162,153,0.15)] border border-[#DCC5B2]/30 w-full h-full flex flex-col items-center relative overflow-hidden transition-all duration-500 group-hover:border-[#D9A299]/50 group-hover:shadow-[0_8px_30px_-4px_rgba(217,162,153,0.25)] group-hover:-translate-y-2">
-                    <div className="absolute top-0 inset-x-0 h-1 bg-gradient-to-r from-transparent via-[#D9A299] to-transparent opacity-50"></div>
-                    
-                    <div className="mb-5 mt-2 text-[#D9A299] group-hover:scale-110 transition-transform duration-500">
-                      <svg className="w-12 h-12 drop-shadow-sm" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                      </svg>
-                    </div>
-                    <p className="font-medium text-charcoal text-[11px] md:text-xs uppercase tracking-[0.1em] leading-relaxed">SIT BACK AND RELAX</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
         {/* Header */}
         <div className="text-center mb-12">
           <p className="text-rose-brand text-sm tracking-[0.25em] uppercase font-medium mb-3">Koleksi Kami</p>

@@ -1,4 +1,5 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { useEffect } from 'react';
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import FloatingWA from './components/FloatingWA';
@@ -7,9 +8,21 @@ import AboutPage from './pages/AboutPage';
 import CatalogPage from './pages/CatalogPage';
 import ContactPage from './pages/ContactPage';
 
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    // Instant scroll ke top (tidak smooth)
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
+
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Navbar />
       <main className="pt-16">
         <Routes>

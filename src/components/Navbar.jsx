@@ -90,13 +90,19 @@ export default function Navbar() {
           {/* Tombol Menu Mobile Khusus Gaya 3 & 4 */}
           {(MOBILE_NAV_STYLE === 3 || MOBILE_NAV_STYLE === 4) && (
             <button
-              className="md:hidden w-10 h-10 flex items-center justify-center rounded-full bg-white/50 backdrop-blur-sm shadow-sm transition-transform active:scale-95"
+              className="md:hidden w-10 h-10 flex flex-col items-center justify-center rounded-lg bg-white/50 backdrop-blur-sm shadow-sm transition-transform active:scale-95 gap-1.5"
               onClick={() => setMenuOpen(!menuOpen)}
               aria-label="Toggle menu"
             >
-              <span className="text-xl">
-                {menuOpen ? '✖️' : (MOBILE_NAV_STYLE === 3 ? '🎀' : '☁️')}
-              </span>
+              {MOBILE_NAV_STYLE === 3 ? (
+                <span className="text-xl">{menuOpen ? '✖️' : '🎀'}</span>
+              ) : (
+                <>
+                  <span className={`block w-5 h-0.5 bg-charcoal transition-all duration-300 ${menuOpen ? 'rotate-45 translate-y-2' : ''}`} />
+                  <span className={`block w-5 h-0.5 bg-charcoal transition-all duration-300 ${menuOpen ? 'opacity-0' : ''}`} />
+                  <span className={`block w-5 h-0.5 bg-charcoal transition-all duration-300 ${menuOpen ? '-rotate-45 -translate-y-2' : ''}`} />
+                </>
+              )}
             </button>
           )}
 
