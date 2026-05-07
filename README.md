@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌸 Jalé Florist — Website Katalog
+# 🌸 Jalé Florist — Website Katalog Production
 
 **Bloom with meaning, delivered with love.**
 
