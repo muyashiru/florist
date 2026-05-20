@@ -294,7 +294,7 @@ export default function HighlightProduct() {
 
       {/* Quick View Modal */}
       {selectedProduct && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 animate-in fade-in duration-300">
+        <div className="fixed inset-0 z-[999] flex items-center justify-center p-4 sm:p-6 animate-in fade-in duration-300">
           <div
             className="absolute inset-0 bg-charcoal/80 backdrop-blur-sm"
             onClick={closeQuickView}
@@ -304,7 +304,7 @@ export default function HighlightProduct() {
             {/* Close Button */}
             <button
               onClick={closeQuickView}
-              className="absolute top-4 right-4 z-20 w-10 h-10 bg-white/50 hover:bg-white backdrop-blur-md rounded-full flex items-center justify-center text-charcoal transition-all shadow-sm"
+              className="absolute top-4 right-4 z-50 w-10 h-10 bg-white/80 hover:bg-white backdrop-blur-md rounded-full flex items-center justify-center text-charcoal transition-all shadow-md hover:scale-105"
             >
               <svg
                 className="w-5 h-5"
@@ -322,7 +322,7 @@ export default function HighlightProduct() {
             </button>
 
             {/* Modal Image Slider */}
-            <div className="relative w-full md:w-3/5 bg-cream aspect-square md:aspect-auto md:h-[600px] flex items-center justify-center group overflow-hidden">
+            <div className="relative w-full md:w-1/2 bg-cream h-[40vh] md:h-[80vh] flex flex-shrink-0 items-center justify-center group overflow-hidden">
               <img
                 src={selectedProduct.images[modalImageIndex]}
                 alt={`${selectedProduct.name} - view ${modalImageIndex + 1}`}
@@ -389,7 +389,7 @@ export default function HighlightProduct() {
             </div>
 
             {/* Modal Info */}
-            <div className="w-full md:w-2/5 p-6 md:p-10 flex flex-col bg-white overflow-y-auto">
+            <div className="w-full md:w-1/2 p-6 md:p-8 flex flex-col bg-white overflow-y-auto">
               <h3 className="font-display text-3xl md:text-4xl font-bold text-charcoal mb-2">
                 {selectedProduct.name}
               </h3>
@@ -404,7 +404,11 @@ export default function HighlightProduct() {
                   bersama orang terkasih.
                 </p>
                 <ul className="list-disc list-inside space-y-1 text-sm">
-                  <li>Bunga segar berkualitas premium</li>
+                  {selectedProduct.name.toLowerCase().includes('artificial') ? (
+                    <li>Bunga artificial (palsu) premium yang awet selamanya</li>
+                  ) : (
+                    <li>Bunga segar berkualitas premium</li>
+                  )}
                   <li>Tersedia opsi custom warna & ukuran</li>
                   <li>Pengiriman aman se-Bandung Raya</li>
                   <li>Gratis kartu ucapan desain eksklusif</li>

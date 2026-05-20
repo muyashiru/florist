@@ -32,17 +32,19 @@ const prefixMap = {
   'bfmal': { cat: 'Fresh Mix Artificial', sub: 'Large', dir: 'bouquet-mix/l' },
   'bfmaxl': { cat: 'Fresh Mix Artificial', sub: 'XL', dir: 'bouquet-mix/xl' },
 
-  // Bloom Box & Vas
-  'blboxartif': { cat: 'Bloom Box & Vas', sub: 'Bloom Box Artificial', dir: 'bloom-box-vas' },
-  'blboxfresh': { cat: 'Bloom Box & Vas', sub: 'Bloom Box Fresh', dir: 'bloom-box-vas' },
-  'vaskacaartif': { cat: 'Bloom Box & Vas', sub: 'Vas Kaca Artificial', dir: 'bloom-box-vas' },
-  'vaskacafresh': { cat: 'Bloom Box & Vas', sub: 'Vas Kaca Fresh', dir: 'bloom-box-vas' },
-  'vaspetitearti': { cat: 'Bloom Box & Vas', sub: 'Vas Petite Artificial', dir: 'bloom-box-vas' },
-  'vaspetite': { cat: 'Bloom Box & Vas', sub: 'Vas Petite Artificial', dir: 'bloom-box-vas' },
-  'vasplasticmelaminartif': { cat: 'Bloom Box & Vas', sub: 'Vas Plastic Melamin Artificial', dir: 'bloom-box-vas' },
+  // Bloom Box
+  'blboxartif': { cat: 'Bloom Box', sub: 'Artificial', dir: 'bloom-box-artificial' },
+  'blboxfresh': { cat: 'Bloom Box', sub: 'Fresh', dir: 'bloom-box-fresh' },
 
-  // Snack Bucket
-  'bsnack': { cat: 'Snack & Gift Bucket', sub: 'Snack', dir: 'snack-bucket' },
+  // Vas
+  'vaskacaartif': { cat: 'Vas Arrangement', sub: 'Kaca Artificial', dir: 'vas-artificial' },
+  'vaskacafresh': { cat: 'Vas Arrangement', sub: 'Kaca Fresh', dir: 'vas-fresh' },
+  'vaspetitearti': { cat: 'Vas Arrangement', sub: 'Petite Artificial', dir: 'vas-artificial' },
+  'vaspetite': { cat: 'Vas Arrangement', sub: 'Petite Artificial', dir: 'vas-artificial' },
+  'vasplasticmelaminartif': { cat: 'Vas Arrangement', sub: 'Plastic Melamin Artificial', dir: 'vas-artificial' },
+
+  // Snack Bouquet
+  'bsnack': { cat: 'Snack Bouquet', sub: 'Snack', dir: 'snack-bucket' },
 
   // Wedding Arrangement
   'wedartifcar': { cat: 'Wedding Arrangement', sub: 'Wedding Car Artificial', dir: 'wedding-arrangement' },
@@ -53,24 +55,24 @@ const prefixMap = {
   'wcartif': { cat: 'Wedding Arrangement', sub: 'Corsage Artificial', dir: 'wedding-arrangement' },
   'wcfresh': { cat: 'Wedding Arrangement', sub: 'Corsage Fresh', dir: 'wedding-arrangement' },
 
-  // Custom / Gift
-  'bgradartif': { cat: 'Custom Bucket', sub: 'Graduation Artificial', dir: 'custom-bucket' },
-  'bgradfresh': { cat: 'Custom Bucket', sub: 'Graduation Fresh', dir: 'custom-bucket' },
-  'bgradsnack': { cat: 'Custom Bucket', sub: 'Graduation Snack', dir: 'custom-bucket' },
-  'blego': { cat: 'Custom Bucket', sub: 'Lego', dir: 'custom-bucket' },
-  'brokokartif': { cat: 'Custom Bucket', sub: 'Rokok', dir: 'custom-bucket' },
-  'bphotoartif': { cat: 'Custom Bucket', sub: 'Photo', dir: 'custom-bucket' },
-  'giftcustom': { cat: 'Custom Bucket', sub: 'Gift Custom', dir: 'custom-bucket' },
-  'bdried': { cat: 'Custom Bucket', sub: 'Dried', dir: 'custom-bucket' },
-  'bcsayur': { cat: 'Custom Bucket', sub: 'Sayur', dir: 'custom-bucket' },
+  // Custom / Gift Bouquet
+  'bgradartif': { cat: 'Custom Bouquet', sub: 'Graduation Artificial', dir: 'custom-bucket' },
+  'bgradfresh': { cat: 'Custom Bouquet', sub: 'Graduation Fresh', dir: 'custom-bucket' },
+  'bgradsnack': { cat: 'Custom Bouquet', sub: 'Graduation Snack', dir: 'custom-bucket' },
+  'blego': { cat: 'Custom Bouquet', sub: 'Lego', dir: 'custom-bucket' },
+  'brokokartif': { cat: 'Custom Bouquet', sub: 'Rokok', dir: 'custom-bucket' },
+  'bphotoartif': { cat: 'Custom Bouquet', sub: 'Photo', dir: 'custom-bucket' },
+  'giftcustom': { cat: 'Custom Bouquet', sub: 'Gift Custom', dir: 'custom-bucket' },
+  'bdried': { cat: 'Custom Bouquet', sub: 'Dried', dir: 'custom-bucket' },
+  'bcsayur': { cat: 'Custom Bouquet', sub: 'Sayur', dir: 'custom-bucket' },
 
-  // Bucket Pipe
-  'bpipe': { cat: 'Bucket Pipe', sub: '', dir: 'bucket-pipe' }
+  // Pipe Bouquet
+  'bpipe': { cat: 'Pipe Bouquet', sub: '', dir: 'bucket-pipe' }
 };
 
 function getPrefixInfo(filename) {
   let lowerName = filename.toLowerCase().replace(/^salinan\s+/, '');
-  
+
   // Special check for Money Bucket
   const mbMatch = lowerName.match(/^(mb[afd]?)(\d+)?lbr/);
   if (mbMatch) {
@@ -80,10 +82,10 @@ function getPrefixInfo(filename) {
     else if (type === 'mbf') sub = 'Fresh';
     else if (type === 'mbd') sub = 'Dried';
     else sub = 'Custom';
-    
+
     return {
-      sku: mbMatch[0], 
-      cat: 'Money Bucket',
+      sku: mbMatch[0],
+      cat: 'Money Bouquet',
       sub: sub,
       dir: 'money-bucket'
     };
@@ -104,7 +106,7 @@ function parsePrice(filename) {
   const match = filename.match(/harga\s*([\d,\.]+[kK])/i);
   if (match) {
     let priceStr = match[1].toLowerCase().replace('k', '');
-    priceStr = priceStr.replace(',', '.'); 
+    priceStr = priceStr.replace(',', '.');
     const num = parseFloat(priceStr);
     if (!isNaN(num)) {
       return num * 1000;
@@ -138,7 +140,7 @@ async function organizeProducts() {
 
   // 2. Process uncategorized files (Move them)
   const filesToMove = fs.existsSync(uncategorizedDir) ? fs.readdirSync(uncategorizedDir).filter(f => f.toLowerCase().endsWith('.webp')) : [];
-  
+
   let unknownCount = 0;
 
   for (const file of filesToMove) {
@@ -180,7 +182,8 @@ async function organizeProducts() {
           const price = parsePrice(item);
           const idMatch = item.match(/^([A-Za-z0-9]+_\d+)/);
           let baseId = idMatch ? idMatch[1] : item.replace('.webp', '');
-          
+          baseId = baseId.toUpperCase();
+
           // Ensure uniqueness
           if (seenIds.has(baseId)) {
             let counter = 1;
@@ -193,9 +196,16 @@ async function organizeProducts() {
           const id = baseId;
 
           const codeNumber = idMatch ? (id.includes('_') ? id.split('_')[1] : '') : '';
-          
-          let name = `${info.cat}`;
-          if (info.sub) name += ` ${info.sub}`;
+
+          let displayNameCat = info.cat;
+          if (displayNameCat.startsWith('Bouquet ')) {
+            displayNameCat = displayNameCat.replace('Bouquet ', '');
+          }
+
+          let name = `${displayNameCat}`;
+          if (info.sub && info.sub !== displayNameCat && !displayNameCat.includes(info.sub)) {
+            name += ` ${info.sub}`;
+          }
           if (codeNumber) name += ` ${codeNumber}`;
           if (id.includes('_') && !idMatch) name += ` (Custom)`; // fallback
 
@@ -209,7 +219,8 @@ async function organizeProducts() {
             size: info.sub || "Custom",
             price: price,
             image: relativePath,
-            isPopular: false, 
+            isPopular: false,
+            available: true,
           });
         }
       }
@@ -231,12 +242,13 @@ export const categories = [
   { id: "Bouquet Artificial", label: "Bouquet Artificial" },
   { id: "Fresh Flowers", label: "Fresh Flowers" },
   { id: "Fresh Mix Artificial", label: "Fresh Mix Artificial" },
-  { id: "Bloom Box & Vas", label: "Bloom Box & Vas" },
-  { id: "Money Bucket", label: "Money Bucket" },
+  { id: "Bloom Box", label: "Bloom Box" },
+  { id: "Vas Arrangement", label: "Vas Arrangement" },
+  { id: "Money Bouquet", label: "Money Bouquet" },
   { id: "Wedding Arrangement", label: "Wedding Arrangement" },
-  { id: "Snack & Gift Bucket", label: "Snack & Gift Bucket" },
-  { id: "Bucket Pipe", label: "Bucket Pipe" },
-  { id: "Custom Bucket", label: "Custom Bucket" }
+  { id: "Snack Bouquet", label: "Snack Bouquet" },
+  { id: "Pipe Bouquet", label: "Pipe Bouquet" },
+  { id: "Custom Bouquet", label: "Custom Bouquet" }
 ];
 
 export const sizes = ${JSON.stringify(uniqueSizes, null, 2)};

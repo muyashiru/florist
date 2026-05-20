@@ -3,22 +3,26 @@ import { Link } from 'react-router-dom';
 const categories = [
   {
     name: 'Bouquet Artificial',
-    image: '/images/produk/bouquet-artificial/l/ba-l-001.jpg', // menggunakan foto asli jika ada
+    categoryId: 'Bouquet Artificial',
+    image: '/images/produk/bouquet-artificial/l/Bal_001_Harga 245k.webp',
     desc: 'Bunga cantik yang abadi',
   },
   {
     name: 'Fresh Flowers',
-    image: '/images/produk/bouquet-artificial/m/ba-m-001.jpg',
+    categoryId: 'Fresh Flowers',
+    image: '/images/produk/bouquet-fresh/m/Bfm_001_Harga 110k.webp',
     desc: 'Kesegaran bunga asli premium',
   },
   {
     name: 'Bloom Box',
-    image: '/images/produk/bouquet-artificial/s/ba-s-001.jpg',
+    categoryId: 'Bloom Box',
+    image: '/images/produk/bloom-box/Blboxartif_001_Harga 170K.webp',
     desc: 'Kado elegan dalam kemasan box',
   },
   {
-    name: 'Snack & Money Bucket',
-    image: '/images/produk/bouquet-artificial/xl/ba-xl-001.jpg',
+    name: 'Snack & Money Bouquet',
+    categoryId: 'Snack Bouquet',
+    image: '/images/produk/snack-bucket/BSnack_001_Harga 79K.webp',
     desc: 'Praktis, unik & berkesan',
   }
 ];
@@ -43,6 +47,7 @@ export default function CategoryShowcase() {
             <Link 
               key={idx} 
               to="/catalog"
+              state={{ selectedCategory: cat.categoryId }}
               className="group relative h-48 sm:h-56 md:h-80 rounded-xl md:rounded-2xl overflow-hidden shadow-sm"
             >
               {/* Overlay */}

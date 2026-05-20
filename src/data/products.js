@@ -2,4108 +2,3954 @@
 
 export const products = [
   {
-    "id": "Blboxartif_001",
-    "name": "Bloom Box & Vas Bloom Box Artificial 001",
-    "category": "Bloom Box & Vas",
-    "size": "Bloom Box Artificial",
+    "id": "BLBOXARTIF_001",
+    "name": "Bloom Box Artificial 001",
+    "category": "Bloom Box",
+    "size": "Artificial",
     "price": 170000,
-    "image": "/images/produk/bloom-box-vas/Blboxartif_001_Harga 170K.webp",
-    "isPopular": false
+    "image": "/images/produk/bloom-box/Blboxartif_001_Harga 170K.webp",
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Blboxartif_002",
-    "name": "Bloom Box & Vas Bloom Box Artificial 002",
-    "category": "Bloom Box & Vas",
-    "size": "Bloom Box Artificial",
+    "id": "BLBOXARTIF_002",
+    "name": "Bloom Box Artificial 002",
+    "category": "Bloom Box",
+    "size": "Artificial",
     "price": 275000,
-    "image": "/images/produk/bloom-box-vas/Blboxartif_002_Harga 275K.webp",
-    "isPopular": false
+    "image": "/images/produk/bloom-box/Blboxartif_002_Harga 275K.webp",
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Blboxartif_003",
-    "name": "Bloom Box & Vas Bloom Box Artificial 003",
-    "category": "Bloom Box & Vas",
-    "size": "Bloom Box Artificial",
+    "id": "BLBOXARTIF_003",
+    "name": "Bloom Box Artificial 003",
+    "category": "Bloom Box",
+    "size": "Artificial",
     "price": 265000,
-    "image": "/images/produk/bloom-box-vas/Blboxartif_003_Harga 265K.webp",
-    "isPopular": false
+    "image": "/images/produk/bloom-box/Blboxartif_003_Harga 265K.webp",
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Blboxartif_004",
-    "name": "Bloom Box & Vas Bloom Box Artificial 004",
-    "category": "Bloom Box & Vas",
-    "size": "Bloom Box Artificial",
+    "id": "BLBOXARTIF_004",
+    "name": "Bloom Box Artificial 004",
+    "category": "Bloom Box",
+    "size": "Artificial",
     "price": 399000,
-    "image": "/images/produk/bloom-box-vas/Blboxartif_004_Harga 399K.webp",
-    "isPopular": false
+    "image": "/images/produk/bloom-box/Blboxartif_004_Harga 399K.webp",
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "BLBoxArtif_005",
-    "name": "Bloom Box & Vas Bloom Box Artificial 005",
-    "category": "Bloom Box & Vas",
-    "size": "Bloom Box Artificial",
+    "id": "BLBOXARTIF_005",
+    "name": "Bloom Box Artificial 005",
+    "category": "Bloom Box",
+    "size": "Artificial",
     "price": 149000,
-    "image": "/images/produk/bloom-box-vas/BLBoxArtif_005_Harga 149K.webp",
-    "isPopular": false
+    "image": "/images/produk/bloom-box/BLBoxArtif_005_Harga 149K.webp",
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BLBOXARTIF_006",
-    "name": "Bloom Box & Vas Bloom Box Artificial 006",
-    "category": "Bloom Box & Vas",
-    "size": "Bloom Box Artificial",
+    "name": "Bloom Box Artificial 006",
+    "category": "Bloom Box",
+    "size": "Artificial",
     "price": 399000,
-    "image": "/images/produk/bloom-box-vas/BLBOXARTIF_006_Harga 399K.webp",
-    "isPopular": false
+    "image": "/images/produk/bloom-box/BLBOXARTIF_006_Harga 399K.webp",
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Blboxartif_007",
-    "name": "Bloom Box & Vas Bloom Box Artificial 007",
-    "category": "Bloom Box & Vas",
-    "size": "Bloom Box Artificial",
+    "id": "BLBOXARTIF_007",
+    "name": "Bloom Box Artificial 007",
+    "category": "Bloom Box",
+    "size": "Artificial",
     "price": 299000,
-    "image": "/images/produk/bloom-box-vas/Blboxartif_007_Harga 299K.webp",
-    "isPopular": false
+    "image": "/images/produk/bloom-box/Blboxartif_007_Harga 299K.webp",
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Blboxartif_007_1",
-    "name": "Bloom Box & Vas Bloom Box Artificial 007",
-    "category": "Bloom Box & Vas",
-    "size": "Bloom Box Artificial",
+    "id": "BLBOXARTIF_007_1",
+    "name": "Bloom Box Artificial 007",
+    "category": "Bloom Box",
+    "size": "Artificial",
     "price": 399000,
-    "image": "/images/produk/bloom-box-vas/Blboxartif_007_Harga 399K.webp",
-    "isPopular": false
+    "image": "/images/produk/bloom-box/Blboxartif_007_Harga 399K.webp",
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Blboxartif_008",
-    "name": "Bloom Box & Vas Bloom Box Artificial 008",
-    "category": "Bloom Box & Vas",
-    "size": "Bloom Box Artificial",
+    "id": "BLBOXARTIF_008",
+    "name": "Bloom Box Artificial 008",
+    "category": "Bloom Box",
+    "size": "Artificial",
     "price": 399000,
-    "image": "/images/produk/bloom-box-vas/Blboxartif_008_Harga 399K.webp",
-    "isPopular": false
+    "image": "/images/produk/bloom-box/Blboxartif_008_Harga 399K.webp",
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Blboxartif_009",
-    "name": "Bloom Box & Vas Bloom Box Artificial 009",
-    "category": "Bloom Box & Vas",
-    "size": "Bloom Box Artificial",
+    "id": "BLBOXARTIF_009",
+    "name": "Bloom Box Artificial 009",
+    "category": "Bloom Box",
+    "size": "Artificial",
     "price": 399000,
-    "image": "/images/produk/bloom-box-vas/Blboxartif_009_Harga 399K.webp",
-    "isPopular": false
+    "image": "/images/produk/bloom-box/Blboxartif_009_Harga 399K.webp",
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Blboxartif_010",
-    "name": "Bloom Box & Vas Bloom Box Artificial 010",
-    "category": "Bloom Box & Vas",
-    "size": "Bloom Box Artificial",
+    "id": "BLBOXARTIF_010",
+    "name": "Bloom Box Artificial 010",
+    "category": "Bloom Box",
+    "size": "Artificial",
     "price": 279000,
-    "image": "/images/produk/bloom-box-vas/Blboxartif_010_Harga 279K.webp",
-    "isPopular": false
+    "image": "/images/produk/bloom-box/Blboxartif_010_Harga 279K.webp",
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "BlBoxartif_011",
-    "name": "Bloom Box & Vas Bloom Box Artificial 011",
-    "category": "Bloom Box & Vas",
-    "size": "Bloom Box Artificial",
+    "id": "BLBOXARTIF_011",
+    "name": "Bloom Box Artificial 011",
+    "category": "Bloom Box",
+    "size": "Artificial",
     "price": 249000,
-    "image": "/images/produk/bloom-box-vas/BlBoxartif_011_Harga 249K.webp",
-    "isPopular": false
+    "image": "/images/produk/bloom-box/BlBoxartif_011_Harga 249K.webp",
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BLBOXARTIF_012",
-    "name": "Bloom Box & Vas Bloom Box Artificial 012",
-    "category": "Bloom Box & Vas",
-    "size": "Bloom Box Artificial",
+    "name": "Bloom Box Artificial 012",
+    "category": "Bloom Box",
+    "size": "Artificial",
     "price": 249000,
-    "image": "/images/produk/bloom-box-vas/BLBOXARTIF_012_Harga 249K.webp",
-    "isPopular": false
+    "image": "/images/produk/bloom-box/BLBOXARTIF_012_Harga 249K.webp",
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "BlboxArtif_013",
-    "name": "Bloom Box & Vas Bloom Box Artificial 013",
-    "category": "Bloom Box & Vas",
-    "size": "Bloom Box Artificial",
+    "id": "BLBOXARTIF_013",
+    "name": "Bloom Box Artificial 013",
+    "category": "Bloom Box",
+    "size": "Artificial",
     "price": 249000,
-    "image": "/images/produk/bloom-box-vas/BlboxArtif_013_Harga 249K.webp",
-    "isPopular": false
+    "image": "/images/produk/bloom-box/BlboxArtif_013_Harga 249K.webp",
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "BlboxArtif_014",
-    "name": "Bloom Box & Vas Bloom Box Artificial 014",
-    "category": "Bloom Box & Vas",
-    "size": "Bloom Box Artificial",
+    "id": "BLBOXARTIF_014",
+    "name": "Bloom Box Artificial 014",
+    "category": "Bloom Box",
+    "size": "Artificial",
     "price": 249000,
-    "image": "/images/produk/bloom-box-vas/BlboxArtif_014_Harga 249K.webp",
-    "isPopular": false
+    "image": "/images/produk/bloom-box/BlboxArtif_014_Harga 249K.webp",
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Blboxartif_015",
-    "name": "Bloom Box & Vas Bloom Box Artificial 015",
-    "category": "Bloom Box & Vas",
-    "size": "Bloom Box Artificial",
+    "id": "BLBOXARTIF_015",
+    "name": "Bloom Box Artificial 015",
+    "category": "Bloom Box",
+    "size": "Artificial",
     "price": 249000,
-    "image": "/images/produk/bloom-box-vas/Blboxartif_015_Harga 249K.webp",
-    "isPopular": false
+    "image": "/images/produk/bloom-box/Blboxartif_015_Harga 249K.webp",
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Blboxartif_016",
-    "name": "Bloom Box & Vas Bloom Box Artificial 016",
-    "category": "Bloom Box & Vas",
-    "size": "Bloom Box Artificial",
+    "id": "BLBOXARTIF_016",
+    "name": "Bloom Box Artificial 016",
+    "category": "Bloom Box",
+    "size": "Artificial",
     "price": 249000,
-    "image": "/images/produk/bloom-box-vas/Blboxartif_016_Harga 249K.webp",
-    "isPopular": false
+    "image": "/images/produk/bloom-box/Blboxartif_016_Harga 249K.webp",
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Blboxartif_017",
-    "name": "Bloom Box & Vas Bloom Box Artificial 017",
-    "category": "Bloom Box & Vas",
-    "size": "Bloom Box Artificial",
+    "id": "BLBOXARTIF_017",
+    "name": "Bloom Box Artificial 017",
+    "category": "Bloom Box",
+    "size": "Artificial",
     "price": 249000,
-    "image": "/images/produk/bloom-box-vas/Blboxartif_017_Harga 249K.webp",
-    "isPopular": false
+    "image": "/images/produk/bloom-box/Blboxartif_017_Harga 249K.webp",
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "BlBoxArtif_018",
-    "name": "Bloom Box & Vas Bloom Box Artificial 018",
-    "category": "Bloom Box & Vas",
-    "size": "Bloom Box Artificial",
+    "id": "BLBOXARTIF_018",
+    "name": "Bloom Box Artificial 018",
+    "category": "Bloom Box",
+    "size": "Artificial",
     "price": 179000,
-    "image": "/images/produk/bloom-box-vas/BlBoxArtif_018_Harga 179K.webp",
-    "isPopular": false
+    "image": "/images/produk/bloom-box/BlBoxArtif_018_Harga 179K.webp",
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Blboxartif_019",
-    "name": "Bloom Box & Vas Bloom Box Artificial 019",
-    "category": "Bloom Box & Vas",
-    "size": "Bloom Box Artificial",
+    "id": "BLBOXARTIF_019",
+    "name": "Bloom Box Artificial 019",
+    "category": "Bloom Box",
+    "size": "Artificial",
     "price": 149000,
-    "image": "/images/produk/bloom-box-vas/Blboxartif_019_Harga 149K.webp",
-    "isPopular": false
+    "image": "/images/produk/bloom-box/Blboxartif_019_Harga 149K.webp",
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Blboxartif_020",
-    "name": "Bloom Box & Vas Bloom Box Artificial 020",
-    "category": "Bloom Box & Vas",
-    "size": "Bloom Box Artificial",
+    "id": "BLBOXARTIF_020",
+    "name": "Bloom Box Artificial 020",
+    "category": "Bloom Box",
+    "size": "Artificial",
     "price": 149000,
-    "image": "/images/produk/bloom-box-vas/Blboxartif_020_Harga 149K.webp",
-    "isPopular": false
+    "image": "/images/produk/bloom-box/Blboxartif_020_Harga 149K.webp",
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Blboxartif_021",
-    "name": "Bloom Box & Vas Bloom Box Artificial 021",
-    "category": "Bloom Box & Vas",
-    "size": "Bloom Box Artificial",
+    "id": "BLBOXARTIF_021",
+    "name": "Bloom Box Artificial 021",
+    "category": "Bloom Box",
+    "size": "Artificial",
     "price": 149000,
-    "image": "/images/produk/bloom-box-vas/Blboxartif_021_Harga 149K.webp",
-    "isPopular": false
+    "image": "/images/produk/bloom-box/Blboxartif_021_Harga 149K.webp",
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Blboxartif_022",
-    "name": "Bloom Box & Vas Bloom Box Artificial 022",
-    "category": "Bloom Box & Vas",
-    "size": "Bloom Box Artificial",
+    "id": "BLBOXARTIF_022",
+    "name": "Bloom Box Artificial 022",
+    "category": "Bloom Box",
+    "size": "Artificial",
     "price": 149000,
-    "image": "/images/produk/bloom-box-vas/Blboxartif_022_Harga 149K.webp",
-    "isPopular": false
+    "image": "/images/produk/bloom-box/Blboxartif_022_Harga 149K.webp",
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Blboxfresh_001",
-    "name": "Bloom Box & Vas Bloom Box Fresh 001",
-    "category": "Bloom Box & Vas",
-    "size": "Bloom Box Fresh",
+    "id": "BLBOXFRESH_001",
+    "name": "Bloom Box Fresh 001",
+    "category": "Bloom Box",
+    "size": "Fresh",
     "price": 259000,
-    "image": "/images/produk/bloom-box-vas/Blboxfresh_001_Harga 259K.webp",
-    "isPopular": false
+    "image": "/images/produk/bloom-box/Blboxfresh_001_Harga 259K.webp",
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "VasKacaArtif_001",
-    "name": "Bloom Box & Vas Vas Kaca Artificial 001",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Kaca Artificial",
-    "price": 165000,
-    "image": "/images/produk/bloom-box-vas/VasKacaArtif_001_Harga 165K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasKacaArtif_002",
-    "name": "Bloom Box & Vas Vas Kaca Artificial 002",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Kaca Artificial",
-    "price": 149000,
-    "image": "/images/produk/bloom-box-vas/VasKacaArtif_002_Harga 149K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasKacaArtif_003",
-    "name": "Bloom Box & Vas Vas Kaca Artificial 003",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Kaca Artificial",
-    "price": 149000,
-    "image": "/images/produk/bloom-box-vas/VasKacaArtif_003_Harga 149K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasKacaArtif_004",
-    "name": "Bloom Box & Vas Vas Kaca Artificial 004",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Kaca Artificial",
-    "price": 149000,
-    "image": "/images/produk/bloom-box-vas/VasKacaArtif_004_Harga 149K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasKacaArtif_005",
-    "name": "Bloom Box & Vas Vas Kaca Artificial 005",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Kaca Artificial",
-    "price": 199000,
-    "image": "/images/produk/bloom-box-vas/VasKacaArtif_005_Harga 199K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasKacaArtif_006",
-    "name": "Bloom Box & Vas Vas Kaca Artificial 006",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Kaca Artificial",
-    "price": 199000,
-    "image": "/images/produk/bloom-box-vas/VasKacaArtif_006_Harga 199K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasKacaArtif_007",
-    "name": "Bloom Box & Vas Vas Kaca Artificial 007",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Kaca Artificial",
-    "price": 199000,
-    "image": "/images/produk/bloom-box-vas/VasKacaArtif_007_Harga 199K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasKacaArtif_008",
-    "name": "Bloom Box & Vas Vas Kaca Artificial 008",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Kaca Artificial",
-    "price": 199000,
-    "image": "/images/produk/bloom-box-vas/VasKacaArtif_008_Harga 199K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasKacaArtif_009",
-    "name": "Bloom Box & Vas Vas Kaca Artificial 009",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Kaca Artificial",
-    "price": 199000,
-    "image": "/images/produk/bloom-box-vas/VasKacaArtif_009_Harga 199K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasKacaArtif_010",
-    "name": "Bloom Box & Vas Vas Kaca Artificial 010",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Kaca Artificial",
-    "price": 209000,
-    "image": "/images/produk/bloom-box-vas/VasKacaArtif_010_Harga 209K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasKacaArtif_011",
-    "name": "Bloom Box & Vas Vas Kaca Artificial 011",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Kaca Artificial",
-    "price": 299000,
-    "image": "/images/produk/bloom-box-vas/VasKacaArtif_011_Harga 299K(1).webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasKacaArtif_011_1",
-    "name": "Bloom Box & Vas Vas Kaca Artificial 011",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Kaca Artificial",
-    "price": 299000,
-    "image": "/images/produk/bloom-box-vas/VasKacaArtif_011_Harga 299K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasKacaArtif_012",
-    "name": "Bloom Box & Vas Vas Kaca Artificial 012",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Kaca Artificial",
-    "price": 299000,
-    "image": "/images/produk/bloom-box-vas/VasKacaArtif_012_Harga 299K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasKacaArtif_013",
-    "name": "Bloom Box & Vas Vas Kaca Artificial 013",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Kaca Artificial",
-    "price": 349000,
-    "image": "/images/produk/bloom-box-vas/VasKacaArtif_013_Harga 349K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasKacaArtif_014",
-    "name": "Bloom Box & Vas Vas Kaca Artificial 014",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Kaca Artificial",
-    "price": 499000,
-    "image": "/images/produk/bloom-box-vas/VasKacaArtif_014_Harga 499K(1).webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasKacaArtif_014_1",
-    "name": "Bloom Box & Vas Vas Kaca Artificial 014",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Kaca Artificial",
-    "price": 499000,
-    "image": "/images/produk/bloom-box-vas/VasKacaArtif_014_Harga 499K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasKacaArtif_015",
-    "name": "Bloom Box & Vas Vas Kaca Artificial 015",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Kaca Artificial",
-    "price": 999000,
-    "image": "/images/produk/bloom-box-vas/VasKacaArtif_015_Harga 999K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasKacaArtif_016",
-    "name": "Bloom Box & Vas Vas Kaca Artificial 016",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Kaca Artificial",
-    "price": 999000,
-    "image": "/images/produk/bloom-box-vas/VasKacaArtif_016_Harga 999K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasKacaArtif_017",
-    "name": "Bloom Box & Vas Vas Kaca Artificial 017",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Kaca Artificial",
-    "price": 149000,
-    "image": "/images/produk/bloom-box-vas/VasKacaArtif_017_Harga 149K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasKacaFresh_001",
-    "name": "Bloom Box & Vas Vas Kaca Fresh 001",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Kaca Fresh",
-    "price": 239000,
-    "image": "/images/produk/bloom-box-vas/VasKacaFresh_001_Harga 239K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "Vaskacafresh_002",
-    "name": "Bloom Box & Vas Vas Kaca Fresh 002",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Kaca Fresh",
-    "price": 239000,
-    "image": "/images/produk/bloom-box-vas/Vaskacafresh_002_Harga 239K(1).webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasKacaFresh_002",
-    "name": "Bloom Box & Vas Vas Kaca Fresh 002",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Kaca Fresh",
-    "price": 239000,
-    "image": "/images/produk/bloom-box-vas/VasKacaFresh_002_Harga 239K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasKacaFresh_003",
-    "name": "Bloom Box & Vas Vas Kaca Fresh 003",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Kaca Fresh",
-    "price": 299000,
-    "image": "/images/produk/bloom-box-vas/VasKacaFresh_003_Harga 299K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasKacaFresh_004",
-    "name": "Bloom Box & Vas Vas Kaca Fresh 004",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Kaca Fresh",
-    "price": 385000,
-    "image": "/images/produk/bloom-box-vas/VasKacaFresh_004_Harga 385K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasPetiteArti_001",
-    "name": "Bloom Box & Vas Vas Petite Artificial 001",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Petite Artificial",
-    "price": 110000,
-    "image": "/images/produk/bloom-box-vas/VasPetiteArti_001_Harga 110K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasPetiteArti_002",
-    "name": "Bloom Box & Vas Vas Petite Artificial 002",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Petite Artificial",
-    "price": 125000,
-    "image": "/images/produk/bloom-box-vas/VasPetiteArti_002_Harga 125K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasPetite_003",
-    "name": "Bloom Box & Vas Vas Petite Artificial 003",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Petite Artificial",
-    "price": 110000,
-    "image": "/images/produk/bloom-box-vas/VasPetite_003_Harga 110K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasPetite_004",
-    "name": "Bloom Box & Vas Vas Petite Artificial 004",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Petite Artificial",
-    "price": 110000,
-    "image": "/images/produk/bloom-box-vas/VasPetite_004_Harga 110K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasPetite_005",
-    "name": "Bloom Box & Vas Vas Petite Artificial 005",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Petite Artificial",
-    "price": 110000,
-    "image": "/images/produk/bloom-box-vas/VasPetite_005_Harga 110K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "Vaspetite_006",
-    "name": "Bloom Box & Vas Vas Petite Artificial 006",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Petite Artificial",
-    "price": 110000,
-    "image": "/images/produk/bloom-box-vas/Vaspetite_006_Harga 110K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "Vaspetite_007",
-    "name": "Bloom Box & Vas Vas Petite Artificial 007",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Petite Artificial",
-    "price": 110000,
-    "image": "/images/produk/bloom-box-vas/Vaspetite_007_Harga 110K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasPlasticMelaminArtif_001",
-    "name": "Bloom Box & Vas Vas Plastic Melamin Artificial 001",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Plastic Melamin Artificial",
-    "price": 199000,
-    "image": "/images/produk/bloom-box-vas/VasPlasticMelaminArtif_001_Harga 199K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasPlasticMelaminArtif_002",
-    "name": "Bloom Box & Vas Vas Plastic Melamin Artificial 002",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Plastic Melamin Artificial",
-    "price": 275000,
-    "image": "/images/produk/bloom-box-vas/VasPlasticMelaminArtif_002_Harga 275K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasPlasticMelaminArtif_003",
-    "name": "Bloom Box & Vas Vas Plastic Melamin Artificial 003",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Plastic Melamin Artificial",
-    "price": 325000,
-    "image": "/images/produk/bloom-box-vas/VasPlasticMelaminArtif_003_Harga 325K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasPlasticMelaminArtif_004",
-    "name": "Bloom Box & Vas Vas Plastic Melamin Artificial 004",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Plastic Melamin Artificial",
-    "price": 220000,
-    "image": "/images/produk/bloom-box-vas/VasPlasticMelaminArtif_004_Harga 220K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasPlasticMelaminArtif_005",
-    "name": "Bloom Box & Vas Vas Plastic Melamin Artificial 005",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Plastic Melamin Artificial",
-    "price": 265000,
-    "image": "/images/produk/bloom-box-vas/VasPlasticMelaminArtif_005_Harga 265K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasPlasticMelaminArtif_006",
-    "name": "Bloom Box & Vas Vas Plastic Melamin Artificial 006",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Plastic Melamin Artificial",
-    "price": 250000,
-    "image": "/images/produk/bloom-box-vas/VasPlasticMelaminArtif_006_Harga 250K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasPlasticMelaminArtif_007",
-    "name": "Bloom Box & Vas Vas Plastic Melamin Artificial 007",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Plastic Melamin Artificial",
-    "price": 220000,
-    "image": "/images/produk/bloom-box-vas/VasPlasticMelaminArtif_007_Harga 220K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasPlasticMelaminArtif_008",
-    "name": "Bloom Box & Vas Vas Plastic Melamin Artificial 008",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Plastic Melamin Artificial",
-    "price": 235000,
-    "image": "/images/produk/bloom-box-vas/VasPlasticMelaminArtif_008_Harga 235K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasPlasticMelaminArtif_009",
-    "name": "Bloom Box & Vas Vas Plastic Melamin Artificial 009",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Plastic Melamin Artificial",
-    "price": 235000,
-    "image": "/images/produk/bloom-box-vas/VasPlasticMelaminArtif_009_Harga 235K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasPlasticMelaminArtif_010",
-    "name": "Bloom Box & Vas Vas Plastic Melamin Artificial 010",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Plastic Melamin Artificial",
-    "price": 235000,
-    "image": "/images/produk/bloom-box-vas/VasPlasticMelaminArtif_010_Harga 235K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasPlasticMelaminArtif_011",
-    "name": "Bloom Box & Vas Vas Plastic Melamin Artificial 011",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Plastic Melamin Artificial",
-    "price": 349000,
-    "image": "/images/produk/bloom-box-vas/VasPlasticMelaminArtif_011_Harga 349K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasPlasticMelaminArtif_012",
-    "name": "Bloom Box & Vas Vas Plastic Melamin Artificial 012",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Plastic Melamin Artificial",
-    "price": 325000,
-    "image": "/images/produk/bloom-box-vas/VasPlasticMelaminArtif_012_Harga 325K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasPlasticMelaminArtif_013",
-    "name": "Bloom Box & Vas Vas Plastic Melamin Artificial 013",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Plastic Melamin Artificial",
-    "price": 315000,
-    "image": "/images/produk/bloom-box-vas/VasPlasticMelaminArtif_013_Harga 315K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasPlasticMelaminArtif_014",
-    "name": "Bloom Box & Vas Vas Plastic Melamin Artificial 014",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Plastic Melamin Artificial",
-    "price": 299000,
-    "image": "/images/produk/bloom-box-vas/VasPlasticMelaminArtif_014_Harga 299K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasPlasticMelaminArtif_015",
-    "name": "Bloom Box & Vas Vas Plastic Melamin Artificial 015",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Plastic Melamin Artificial",
-    "price": 299000,
-    "image": "/images/produk/bloom-box-vas/VasPlasticMelaminArtif_015_Harga 299K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasPlasticMelaminArtif_016",
-    "name": "Bloom Box & Vas Vas Plastic Melamin Artificial 016",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Plastic Melamin Artificial",
-    "price": 289000,
-    "image": "/images/produk/bloom-box-vas/VasPlasticMelaminArtif_016_Harga 289K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasPlasticMelaminArtif_017",
-    "name": "Bloom Box & Vas Vas Plastic Melamin Artificial 017",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Plastic Melamin Artificial",
-    "price": 289000,
-    "image": "/images/produk/bloom-box-vas/VasPlasticMelaminArtif_017_Harga 289K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasPlasticMelaminArtif_018",
-    "name": "Bloom Box & Vas Vas Plastic Melamin Artificial 018",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Plastic Melamin Artificial",
-    "price": 279000,
-    "image": "/images/produk/bloom-box-vas/VasPlasticMelaminArtif_018_Harga 279K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasPlasticMelaminArtif_019",
-    "name": "Bloom Box & Vas Vas Plastic Melamin Artificial 019",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Plastic Melamin Artificial",
-    "price": 275000,
-    "image": "/images/produk/bloom-box-vas/VasPlasticMelaminArtif_019_Harga 275K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasPlasticMelaminArtif_020",
-    "name": "Bloom Box & Vas Vas Plastic Melamin Artificial 020",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Plastic Melamin Artificial",
-    "price": 249000,
-    "image": "/images/produk/bloom-box-vas/VasPlasticMelaminArtif_020_Harga 249K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasPlasticMelaminArtif_021",
-    "name": "Bloom Box & Vas Vas Plastic Melamin Artificial 021",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Plastic Melamin Artificial",
-    "price": 249000,
-    "image": "/images/produk/bloom-box-vas/VasPlasticMelaminArtif_021_Harga 249K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasPlasticMelaminArtif_022",
-    "name": "Bloom Box & Vas Vas Plastic Melamin Artificial 022",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Plastic Melamin Artificial",
-    "price": 245000,
-    "image": "/images/produk/bloom-box-vas/VasPlasticMelaminArtif_022_Harga 245K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasPlasticMelaminArtif_023",
-    "name": "Bloom Box & Vas Vas Plastic Melamin Artificial 023",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Plastic Melamin Artificial",
-    "price": 245000,
-    "image": "/images/produk/bloom-box-vas/VasPlasticMelaminArtif_023_Harga 245K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasPlasticMelaminArtif_024",
-    "name": "Bloom Box & Vas Vas Plastic Melamin Artificial 024",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Plastic Melamin Artificial",
-    "price": 235000,
-    "image": "/images/produk/bloom-box-vas/VasPlasticMelaminArtif_024_Harga 235K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasPlasticMelaminArtif_025",
-    "name": "Bloom Box & Vas Vas Plastic Melamin Artificial 025",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Plastic Melamin Artificial",
-    "price": 235000,
-    "image": "/images/produk/bloom-box-vas/VasPlasticMelaminArtif_025_Harga 235K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasPlasticMelaminArtif_026",
-    "name": "Bloom Box & Vas Vas Plastic Melamin Artificial 026",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Plastic Melamin Artificial",
-    "price": 229000,
-    "image": "/images/produk/bloom-box-vas/VasPlasticMelaminArtif_026_Harga 229K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasPlasticMelaminArtif_027",
-    "name": "Bloom Box & Vas Vas Plastic Melamin Artificial 027",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Plastic Melamin Artificial",
-    "price": 220000,
-    "image": "/images/produk/bloom-box-vas/VasPlasticMelaminArtif_027_Harga 220K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasPlasticMelaminArtif_028",
-    "name": "Bloom Box & Vas Vas Plastic Melamin Artificial 028",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Plastic Melamin Artificial",
-    "price": 220000,
-    "image": "/images/produk/bloom-box-vas/VasPlasticMelaminArtif_028_Harga 220K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasPlasticMelaminArtif_029",
-    "name": "Bloom Box & Vas Vas Plastic Melamin Artificial 029",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Plastic Melamin Artificial",
-    "price": 199000,
-    "image": "/images/produk/bloom-box-vas/VasPlasticMelaminArtif_029_Harga 199K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "VasPlasticMelaminArtif_030",
-    "name": "Bloom Box & Vas Vas Plastic Melamin Artificial 030",
-    "category": "Bloom Box & Vas",
-    "size": "Vas Plastic Melamin Artificial",
-    "price": 285000,
-    "image": "/images/produk/bloom-box-vas/VasPlasticMelaminArtif_030_Harga 285K.webp",
-    "isPopular": false
-  },
-  {
-    "id": "Bahs_001",
-    "name": "Bouquet Artificial Human Size 001",
+    "id": "BAHS_001",
+    "name": "Artificial Human Size 001",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 1250000,
     "image": "/images/produk/bouquet-artificial/human-size/Bahs_001_Harga 1250k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bahs_002",
-    "name": "Bouquet Artificial Human Size 002",
+    "id": "BAHS_002",
+    "name": "Artificial Human Size 002",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 650000,
     "image": "/images/produk/bouquet-artificial/human-size/Bahs_002_Harga 650k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bahs_003",
-    "name": "Bouquet Artificial Human Size 003",
+    "id": "BAHS_003",
+    "name": "Artificial Human Size 003",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 700000,
     "image": "/images/produk/bouquet-artificial/human-size/Bahs_003_Harga 700k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bahs_004",
-    "name": "Bouquet Artificial Human Size 004",
+    "id": "BAHS_004",
+    "name": "Artificial Human Size 004",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 700000,
     "image": "/images/produk/bouquet-artificial/human-size/Bahs_004_Harga 700k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bahs_005",
-    "name": "Bouquet Artificial Human Size 005",
+    "id": "BAHS_005",
+    "name": "Artificial Human Size 005",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 700000,
     "image": "/images/produk/bouquet-artificial/human-size/Bahs_005_Harga 700k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bahs_006",
-    "name": "Bouquet Artificial Human Size 006",
+    "id": "BAHS_006",
+    "name": "Artificial Human Size 006",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 650000,
     "image": "/images/produk/bouquet-artificial/human-size/Bahs_006_Harga 650k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bahs_007",
-    "name": "Bouquet Artificial Human Size 007",
+    "id": "BAHS_007",
+    "name": "Artificial Human Size 007",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 950000,
     "image": "/images/produk/bouquet-artificial/human-size/Bahs_007_Harga 950k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bahs_008",
-    "name": "Bouquet Artificial Human Size 008",
+    "id": "BAHS_008",
+    "name": "Artificial Human Size 008",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 750000,
     "image": "/images/produk/bouquet-artificial/human-size/Bahs_008_Harga 750k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bahs_009",
-    "name": "Bouquet Artificial Human Size 009",
+    "id": "BAHS_009",
+    "name": "Artificial Human Size 009",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 950000,
     "image": "/images/produk/bouquet-artificial/human-size/Bahs_009_Harga 950k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bahs_010",
-    "name": "Bouquet Artificial Human Size 010",
+    "id": "BAHS_010",
+    "name": "Artificial Human Size 010",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 1250000,
     "image": "/images/produk/bouquet-artificial/human-size/Bahs_010_Harga 1250k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bahs_011",
-    "name": "Bouquet Artificial Human Size 011",
+    "id": "BAHS_011",
+    "name": "Artificial Human Size 011",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 850000,
     "image": "/images/produk/bouquet-artificial/human-size/Bahs_011_Harga 850k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bahs_012",
-    "name": "Bouquet Artificial Human Size 012",
+    "id": "BAHS_012",
+    "name": "Artificial Human Size 012",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 600000,
     "image": "/images/produk/bouquet-artificial/human-size/Bahs_012_Harga 600k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bahs_013",
-    "name": "Bouquet Artificial Human Size 013",
+    "id": "BAHS_013",
+    "name": "Artificial Human Size 013",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 1250000,
     "image": "/images/produk/bouquet-artificial/human-size/Bahs_013_Harga 1250k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bahs_014",
-    "name": "Bouquet Artificial Human Size 014",
+    "id": "BAHS_014",
+    "name": "Artificial Human Size 014",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 800000,
     "image": "/images/produk/bouquet-artificial/human-size/Bahs_014_Harga 800k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bahs_015",
-    "name": "Bouquet Artificial Human Size 015",
+    "id": "BAHS_015",
+    "name": "Artificial Human Size 015",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 750000,
     "image": "/images/produk/bouquet-artificial/human-size/Bahs_015_Harga 750k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bahs_016",
-    "name": "Bouquet Artificial Human Size 016",
+    "id": "BAHS_016",
+    "name": "Artificial Human Size 016",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 900000,
     "image": "/images/produk/bouquet-artificial/human-size/Bahs_016_Harga 900k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bahs_017",
-    "name": "Bouquet Artificial Human Size 017",
+    "id": "BAHS_017",
+    "name": "Artificial Human Size 017",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 950000,
     "image": "/images/produk/bouquet-artificial/human-size/Bahs_017_Harga 950k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bahs_018",
-    "name": "Bouquet Artificial Human Size 018",
+    "id": "BAHS_018",
+    "name": "Artificial Human Size 018",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 750000,
     "image": "/images/produk/bouquet-artificial/human-size/Bahs_018_Harga 750k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bahs_019",
-    "name": "Bouquet Artificial Human Size 019",
+    "id": "BAHS_019",
+    "name": "Artificial Human Size 019",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 1250000,
     "image": "/images/produk/bouquet-artificial/human-size/Bahs_019_Harga 1250k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bahs_020",
-    "name": "Bouquet Artificial Human Size 020",
+    "id": "BAHS_020",
+    "name": "Artificial Human Size 020",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 1000000,
     "image": "/images/produk/bouquet-artificial/human-size/Bahs_020_Harga 1000k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bahs_021",
-    "name": "Bouquet Artificial Human Size 021",
+    "id": "BAHS_021",
+    "name": "Artificial Human Size 021",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 1250000,
     "image": "/images/produk/bouquet-artificial/human-size/Bahs_021_Harga 1250k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bahs_022",
-    "name": "Bouquet Artificial Human Size 022",
+    "id": "BAHS_022",
+    "name": "Artificial Human Size 022",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 950000,
     "image": "/images/produk/bouquet-artificial/human-size/Bahs_022_Harga 950k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_001",
-    "name": "Bouquet Artificial Large 001",
+    "id": "BAL_001",
+    "name": "Artificial Large 001",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 245000,
     "image": "/images/produk/bouquet-artificial/l/Bal_001_Harga 245k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_002",
-    "name": "Bouquet Artificial Large 002",
+    "id": "BAL_002",
+    "name": "Artificial Large 002",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 245000,
     "image": "/images/produk/bouquet-artificial/l/Bal_002_Harga 245k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_003",
-    "name": "Bouquet Artificial Large 003",
+    "id": "BAL_003",
+    "name": "Artificial Large 003",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 220000,
     "image": "/images/produk/bouquet-artificial/l/Bal_003_Harga 220k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_004",
-    "name": "Bouquet Artificial Large 004",
+    "id": "BAL_004",
+    "name": "Artificial Large 004",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 200000,
     "image": "/images/produk/bouquet-artificial/l/Bal_004_Harga 200k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_005",
-    "name": "Bouquet Artificial Large 005",
+    "id": "BAL_005",
+    "name": "Artificial Large 005",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 220000,
     "image": "/images/produk/bouquet-artificial/l/Bal_005_Harga 220k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_006",
-    "name": "Bouquet Artificial Large 006",
+    "id": "BAL_006",
+    "name": "Artificial Large 006",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 220000,
     "image": "/images/produk/bouquet-artificial/l/Bal_006_Harga 220k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_007",
-    "name": "Bouquet Artificial Large 007",
+    "id": "BAL_007",
+    "name": "Artificial Large 007",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
     "image": "/images/produk/bouquet-artificial/l/Bal_007_Harga 250k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_008",
-    "name": "Bouquet Artificial Large 008",
+    "id": "BAL_008",
+    "name": "Artificial Large 008",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 220000,
     "image": "/images/produk/bouquet-artificial/l/Bal_008_Harga 220k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_009",
-    "name": "Bouquet Artificial Large 009",
+    "id": "BAL_009",
+    "name": "Artificial Large 009",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
     "image": "/images/produk/bouquet-artificial/l/Bal_009_Harga 235k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_010",
-    "name": "Bouquet Artificial Large 010",
+    "id": "BAL_010",
+    "name": "Artificial Large 010",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
     "image": "/images/produk/bouquet-artificial/l/Bal_010_Harga 250k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_011",
-    "name": "Bouquet Artificial Large 011",
+    "id": "BAL_011",
+    "name": "Artificial Large 011",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
     "image": "/images/produk/bouquet-artificial/l/Bal_011_Harga 250k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_012",
-    "name": "Bouquet Artificial Large 012",
+    "id": "BAL_012",
+    "name": "Artificial Large 012",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 245000,
     "image": "/images/produk/bouquet-artificial/l/Bal_012_Harga 245k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_013",
-    "name": "Bouquet Artificial Large 013",
+    "id": "BAL_013",
+    "name": "Artificial Large 013",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
     "image": "/images/produk/bouquet-artificial/l/Bal_013_Harga 235k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_014",
-    "name": "Bouquet Artificial Large 014",
+    "id": "BAL_014",
+    "name": "Artificial Large 014",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 200000,
     "image": "/images/produk/bouquet-artificial/l/Bal_014_Harga 200k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_015",
-    "name": "Bouquet Artificial Large 015",
+    "id": "BAL_015",
+    "name": "Artificial Large 015",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
     "image": "/images/produk/bouquet-artificial/l/Bal_015_Harga 235k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_016",
-    "name": "Bouquet Artificial Large 016",
+    "id": "BAL_016",
+    "name": "Artificial Large 016",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
     "image": "/images/produk/bouquet-artificial/l/Bal_016_Harga 235k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_017",
-    "name": "Bouquet Artificial Large 017",
+    "id": "BAL_017",
+    "name": "Artificial Large 017",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
     "image": "/images/produk/bouquet-artificial/l/Bal_017_Harga 235k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_018",
-    "name": "Bouquet Artificial Large 018",
+    "id": "BAL_018",
+    "name": "Artificial Large 018",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 220000,
     "image": "/images/produk/bouquet-artificial/l/Bal_018_Harga 220k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_019",
-    "name": "Bouquet Artificial Large 019",
+    "id": "BAL_019",
+    "name": "Artificial Large 019",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
     "image": "/images/produk/bouquet-artificial/l/Bal_019_Harga 235k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_020",
-    "name": "Bouquet Artificial Large 020",
+    "id": "BAL_020",
+    "name": "Artificial Large 020",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
     "image": "/images/produk/bouquet-artificial/l/Bal_020_Harga 235k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_021",
-    "name": "Bouquet Artificial Large 021",
+    "id": "BAL_021",
+    "name": "Artificial Large 021",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
     "image": "/images/produk/bouquet-artificial/l/Bal_021_Harga 250k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_022",
-    "name": "Bouquet Artificial Large 022",
+    "id": "BAL_022",
+    "name": "Artificial Large 022",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
     "image": "/images/produk/bouquet-artificial/l/Bal_022_Harga 250k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_023",
-    "name": "Bouquet Artificial Large 023",
+    "id": "BAL_023",
+    "name": "Artificial Large 023",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 245000,
     "image": "/images/produk/bouquet-artificial/l/Bal_023_Harga 245k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_024",
-    "name": "Bouquet Artificial Large 024",
+    "id": "BAL_024",
+    "name": "Artificial Large 024",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 245000,
     "image": "/images/produk/bouquet-artificial/l/Bal_024_Harga 245k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_025",
-    "name": "Bouquet Artificial Large 025",
+    "id": "BAL_025",
+    "name": "Artificial Large 025",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
     "image": "/images/produk/bouquet-artificial/l/Bal_025_Harga 250k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_026",
-    "name": "Bouquet Artificial Large 026",
+    "id": "BAL_026",
+    "name": "Artificial Large 026",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 275000,
     "image": "/images/produk/bouquet-artificial/l/Bal_026_Harga 275k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_027",
-    "name": "Bouquet Artificial Large 027",
+    "id": "BAL_027",
+    "name": "Artificial Large 027",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
     "image": "/images/produk/bouquet-artificial/l/Bal_027_Harga 235k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_028",
-    "name": "Bouquet Artificial Large 028",
+    "id": "BAL_028",
+    "name": "Artificial Large 028",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
     "image": "/images/produk/bouquet-artificial/l/Bal_028_Harga 235k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_029",
-    "name": "Bouquet Artificial Large 029",
+    "id": "BAL_029",
+    "name": "Artificial Large 029",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
     "image": "/images/produk/bouquet-artificial/l/Bal_029_Harga 250k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_030",
-    "name": "Bouquet Artificial Large 030",
+    "id": "BAL_030",
+    "name": "Artificial Large 030",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
     "image": "/images/produk/bouquet-artificial/l/Bal_030_Harga 235k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_031",
-    "name": "Bouquet Artificial Large 031",
+    "id": "BAL_031",
+    "name": "Artificial Large 031",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
     "image": "/images/produk/bouquet-artificial/l/Bal_031_Harga 235k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_032",
-    "name": "Bouquet Artificial Large 032",
+    "id": "BAL_032",
+    "name": "Artificial Large 032",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 220000,
     "image": "/images/produk/bouquet-artificial/l/Bal_032_Harga 220k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_033",
-    "name": "Bouquet Artificial Large 033",
+    "id": "BAL_033",
+    "name": "Artificial Large 033",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
     "image": "/images/produk/bouquet-artificial/l/Bal_033_Harga 235k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_034",
-    "name": "Bouquet Artificial Large 034",
+    "id": "BAL_034",
+    "name": "Artificial Large 034",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 245000,
     "image": "/images/produk/bouquet-artificial/l/Bal_034_Harga 245k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_035",
-    "name": "Bouquet Artificial Large 035",
+    "id": "BAL_035",
+    "name": "Artificial Large 035",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 245000,
     "image": "/images/produk/bouquet-artificial/l/Bal_035_Harga 245k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_036",
-    "name": "Bouquet Artificial Large 036",
+    "id": "BAL_036",
+    "name": "Artificial Large 036",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
     "image": "/images/produk/bouquet-artificial/l/Bal_036_Harga 250k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_037",
-    "name": "Bouquet Artificial Large 037",
+    "id": "BAL_037",
+    "name": "Artificial Large 037",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 245000,
     "image": "/images/produk/bouquet-artificial/l/Bal_037_Harga 245k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_038",
-    "name": "Bouquet Artificial Large 038",
+    "id": "BAL_038",
+    "name": "Artificial Large 038",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 230000,
     "image": "/images/produk/bouquet-artificial/l/Bal_038_Harga 230k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_039",
-    "name": "Bouquet Artificial Large 039",
+    "id": "BAL_039",
+    "name": "Artificial Large 039",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 220000,
     "image": "/images/produk/bouquet-artificial/l/Bal_039_Harga 220k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_040",
-    "name": "Bouquet Artificial Large 040",
+    "id": "BAL_040",
+    "name": "Artificial Large 040",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 245000,
     "image": "/images/produk/bouquet-artificial/l/Bal_040_Harga 245k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_041",
-    "name": "Bouquet Artificial Large 041",
+    "id": "BAL_041",
+    "name": "Artificial Large 041",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
     "image": "/images/produk/bouquet-artificial/l/Bal_041_Harga 235k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_042",
-    "name": "Bouquet Artificial Large 042",
+    "id": "BAL_042",
+    "name": "Artificial Large 042",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
     "image": "/images/produk/bouquet-artificial/l/Bal_042_Harga 235k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_043",
-    "name": "Bouquet Artificial Large 043",
+    "id": "BAL_043",
+    "name": "Artificial Large 043",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 220000,
     "image": "/images/produk/bouquet-artificial/l/Bal_043_Harga 220k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_044",
-    "name": "Bouquet Artificial Large 044",
+    "id": "BAL_044",
+    "name": "Artificial Large 044",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 0,
     "image": "/images/produk/bouquet-artificial/l/Bal_044_Harga 250.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_045",
-    "name": "Bouquet Artificial Large 045",
+    "id": "BAL_045",
+    "name": "Artificial Large 045",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
     "image": "/images/produk/bouquet-artificial/l/Bal_045_Harga 250k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_046",
-    "name": "Bouquet Artificial Large 046",
+    "id": "BAL_046",
+    "name": "Artificial Large 046",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 245000,
     "image": "/images/produk/bouquet-artificial/l/Bal_046_Harga 245k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_047",
-    "name": "Bouquet Artificial Large 047",
+    "id": "BAL_047",
+    "name": "Artificial Large 047",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
     "image": "/images/produk/bouquet-artificial/l/Bal_047_Harga 250k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_048",
-    "name": "Bouquet Artificial Large 048",
+    "id": "BAL_048",
+    "name": "Artificial Large 048",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
     "image": "/images/produk/bouquet-artificial/l/Bal_048_Harga 235k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_049",
-    "name": "Bouquet Artificial Large 049",
+    "id": "BAL_049",
+    "name": "Artificial Large 049",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
     "image": "/images/produk/bouquet-artificial/l/Bal_049_Harga 235k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_050",
-    "name": "Bouquet Artificial Large 050",
+    "id": "BAL_050",
+    "name": "Artificial Large 050",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
     "image": "/images/produk/bouquet-artificial/l/Bal_050_Harga 235k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_051",
-    "name": "Bouquet Artificial Large 051",
+    "id": "BAL_051",
+    "name": "Artificial Large 051",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
     "image": "/images/produk/bouquet-artificial/l/Bal_051_Harga 235k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_052",
-    "name": "Bouquet Artificial Large 052",
+    "id": "BAL_052",
+    "name": "Artificial Large 052",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 220000,
     "image": "/images/produk/bouquet-artificial/l/Bal_052_Harga 220k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_053",
-    "name": "Bouquet Artificial Large 053",
+    "id": "BAL_053",
+    "name": "Artificial Large 053",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
     "image": "/images/produk/bouquet-artificial/l/Bal_053_Harga 235k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_054",
-    "name": "Bouquet Artificial Large 054",
+    "id": "BAL_054",
+    "name": "Artificial Large 054",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
     "image": "/images/produk/bouquet-artificial/l/Bal_054_Harga 235k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_055",
-    "name": "Bouquet Artificial Large 055",
+    "id": "BAL_055",
+    "name": "Artificial Large 055",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
     "image": "/images/produk/bouquet-artificial/l/Bal_055_Harga 235k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_056",
-    "name": "Bouquet Artificial Large 056",
+    "id": "BAL_056",
+    "name": "Artificial Large 056",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
     "image": "/images/produk/bouquet-artificial/l/Bal_056_Harga 235k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_057",
-    "name": "Bouquet Artificial Large 057",
+    "id": "BAL_057",
+    "name": "Artificial Large 057",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 220000,
     "image": "/images/produk/bouquet-artificial/l/Bal_057_Harga 220k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_058",
-    "name": "Bouquet Artificial Large 058",
+    "id": "BAL_058",
+    "name": "Artificial Large 058",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
     "image": "/images/produk/bouquet-artificial/l/Bal_058_Harga 235k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_059",
-    "name": "Bouquet Artificial Large 059",
+    "id": "BAL_059",
+    "name": "Artificial Large 059",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
     "image": "/images/produk/bouquet-artificial/l/Bal_059_Harga 235k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_060",
-    "name": "Bouquet Artificial Large 060",
+    "id": "BAL_060",
+    "name": "Artificial Large 060",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
     "image": "/images/produk/bouquet-artificial/l/Bal_060_Harga 250k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_061",
-    "name": "Bouquet Artificial Large 061",
+    "id": "BAL_061",
+    "name": "Artificial Large 061",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
     "image": "/images/produk/bouquet-artificial/l/Bal_061_Harga 235k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_062",
-    "name": "Bouquet Artificial Large 062",
+    "id": "BAL_062",
+    "name": "Artificial Large 062",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
     "image": "/images/produk/bouquet-artificial/l/Bal_062_Harga 235k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_063",
-    "name": "Bouquet Artificial Large 063",
+    "id": "BAL_063",
+    "name": "Artificial Large 063",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
     "image": "/images/produk/bouquet-artificial/l/Bal_063_Harga 250k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_064",
-    "name": "Bouquet Artificial Large 064",
+    "id": "BAL_064",
+    "name": "Artificial Large 064",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
     "image": "/images/produk/bouquet-artificial/l/Bal_064_Harga 250k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_065",
-    "name": "Bouquet Artificial Large 065",
+    "id": "BAL_065",
+    "name": "Artificial Large 065",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
     "image": "/images/produk/bouquet-artificial/l/Bal_065_Harga 250k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_066",
-    "name": "Bouquet Artificial Large 066",
+    "id": "BAL_066",
+    "name": "Artificial Large 066",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 0,
     "image": "/images/produk/bouquet-artificial/l/Bal_066_Harga 220.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_067",
-    "name": "Bouquet Artificial Large 067",
+    "id": "BAL_067",
+    "name": "Artificial Large 067",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
     "image": "/images/produk/bouquet-artificial/l/Bal_067_Harga 235k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_068",
-    "name": "Bouquet Artificial Large 068",
+    "id": "BAL_068",
+    "name": "Artificial Large 068",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
     "image": "/images/produk/bouquet-artificial/l/Bal_068_Harga 235k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_069",
-    "name": "Bouquet Artificial Large 069",
+    "id": "BAL_069",
+    "name": "Artificial Large 069",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
     "image": "/images/produk/bouquet-artificial/l/Bal_069_Harga 235k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_070",
-    "name": "Bouquet Artificial Large 070",
+    "id": "BAL_070",
+    "name": "Artificial Large 070",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
     "image": "/images/produk/bouquet-artificial/l/Bal_070_Harga 235k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_071",
-    "name": "Bouquet Artificial Large 071",
+    "id": "BAL_071",
+    "name": "Artificial Large 071",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
     "image": "/images/produk/bouquet-artificial/l/Bal_071_Harga 235k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_072",
-    "name": "Bouquet Artificial Large 072",
+    "id": "BAL_072",
+    "name": "Artificial Large 072",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 220000,
     "image": "/images/produk/bouquet-artificial/l/Bal_072_Harga 220k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_073",
-    "name": "Bouquet Artificial Large 073",
+    "id": "BAL_073",
+    "name": "Artificial Large 073",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 265000,
     "image": "/images/produk/bouquet-artificial/l/Bal_073_Harga 265k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_074",
-    "name": "Bouquet Artificial Large 074",
+    "id": "BAL_074",
+    "name": "Artificial Large 074",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 220000,
     "image": "/images/produk/bouquet-artificial/l/Bal_074_Harga 220k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_075",
-    "name": "Bouquet Artificial Large 075",
+    "id": "BAL_075",
+    "name": "Artificial Large 075",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
     "image": "/images/produk/bouquet-artificial/l/Bal_075_Harga 250k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_076",
-    "name": "Bouquet Artificial Large 076",
+    "id": "BAL_076",
+    "name": "Artificial Large 076",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 220000,
     "image": "/images/produk/bouquet-artificial/l/Bal_076_Harga 220k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_077",
-    "name": "Bouquet Artificial Large 077",
+    "id": "BAL_077",
+    "name": "Artificial Large 077",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
     "image": "/images/produk/bouquet-artificial/l/Bal_077_Harga 250k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_078",
-    "name": "Bouquet Artificial Large 078",
+    "id": "BAL_078",
+    "name": "Artificial Large 078",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
     "image": "/images/produk/bouquet-artificial/l/Bal_078_Harga 250k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_079",
-    "name": "Bouquet Artificial Large 079",
+    "id": "BAL_079",
+    "name": "Artificial Large 079",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 245000,
     "image": "/images/produk/bouquet-artificial/l/Bal_079_Harga 245k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_080",
-    "name": "Bouquet Artificial Large 080",
+    "id": "BAL_080",
+    "name": "Artificial Large 080",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 245000,
     "image": "/images/produk/bouquet-artificial/l/Bal_080_Harga 245k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_081",
-    "name": "Bouquet Artificial Large 081",
+    "id": "BAL_081",
+    "name": "Artificial Large 081",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
     "image": "/images/produk/bouquet-artificial/l/Bal_081_Harga 235k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_082",
-    "name": "Bouquet Artificial Large 082",
+    "id": "BAL_082",
+    "name": "Artificial Large 082",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
     "image": "/images/produk/bouquet-artificial/l/Bal_082_Harga 250k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_083",
-    "name": "Bouquet Artificial Large 083",
+    "id": "BAL_083",
+    "name": "Artificial Large 083",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
     "image": "/images/produk/bouquet-artificial/l/Bal_083_Harga 235k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_084",
-    "name": "Bouquet Artificial Large 084",
+    "id": "BAL_084",
+    "name": "Artificial Large 084",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 265000,
     "image": "/images/produk/bouquet-artificial/l/Bal_084_Harga 265k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_085",
-    "name": "Bouquet Artificial Large 085",
+    "id": "BAL_085",
+    "name": "Artificial Large 085",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
     "image": "/images/produk/bouquet-artificial/l/Bal_085_Harga 235k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_086",
-    "name": "Bouquet Artificial Large 086",
+    "id": "BAL_086",
+    "name": "Artificial Large 086",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 245000,
     "image": "/images/produk/bouquet-artificial/l/Bal_086_Harga 245k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_087",
-    "name": "Bouquet Artificial Large 087",
+    "id": "BAL_087",
+    "name": "Artificial Large 087",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 245000,
     "image": "/images/produk/bouquet-artificial/l/Bal_087_Harga 245k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_088",
-    "name": "Bouquet Artificial Large 088",
+    "id": "BAL_088",
+    "name": "Artificial Large 088",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
     "image": "/images/produk/bouquet-artificial/l/Bal_088_Harga 250k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_089",
-    "name": "Bouquet Artificial Large 089",
+    "id": "BAL_089",
+    "name": "Artificial Large 089",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
     "image": "/images/produk/bouquet-artificial/l/Bal_089_Harga 250k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_090",
-    "name": "Bouquet Artificial Large 090",
+    "id": "BAL_090",
+    "name": "Artificial Large 090",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
     "image": "/images/produk/bouquet-artificial/l/Bal_090_Harga 250k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_091",
-    "name": "Bouquet Artificial Large 091",
+    "id": "BAL_091",
+    "name": "Artificial Large 091",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
     "image": "/images/produk/bouquet-artificial/l/Bal_091_Harga 250k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_092",
-    "name": "Bouquet Artificial Large 092",
+    "id": "BAL_092",
+    "name": "Artificial Large 092",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 245000,
     "image": "/images/produk/bouquet-artificial/l/Bal_092_Harga 245k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bal_093",
-    "name": "Bouquet Artificial Large 093",
+    "id": "BAL_093",
+    "name": "Artificial Large 093",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
     "image": "/images/produk/bouquet-artificial/l/Bal_093_Harga 250k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_001",
-    "name": "Bouquet Artificial Medium 001",
+    "id": "BAM_001",
+    "name": "Artificial Medium 001",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 200000,
     "image": "/images/produk/bouquet-artificial/m/Bam_001_Harga 200k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_002",
-    "name": "Bouquet Artificial Medium 002",
+    "id": "BAM_002",
+    "name": "Artificial Medium 002",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 200000,
     "image": "/images/produk/bouquet-artificial/m/Bam_002_Harga 200k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_003",
-    "name": "Bouquet Artificial Medium 003",
+    "id": "BAM_003",
+    "name": "Artificial Medium 003",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 135000,
     "image": "/images/produk/bouquet-artificial/m/Bam_003_Harga 135k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_004",
-    "name": "Bouquet Artificial Medium 004",
+    "id": "BAM_004",
+    "name": "Artificial Medium 004",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 135000,
     "image": "/images/produk/bouquet-artificial/m/Bam_004_Harga 135k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_006",
-    "name": "Bouquet Artificial Medium 006",
+    "id": "BAM_006",
+    "name": "Artificial Medium 006",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 135000,
     "image": "/images/produk/bouquet-artificial/m/Bam_006_Harga 135k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_007",
-    "name": "Bouquet Artificial Medium 007",
+    "id": "BAM_007",
+    "name": "Artificial Medium 007",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
     "image": "/images/produk/bouquet-artificial/m/Bam_007_Harga 180k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_008",
-    "name": "Bouquet Artificial Medium 008",
+    "id": "BAM_008",
+    "name": "Artificial Medium 008",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
     "image": "/images/produk/bouquet-artificial/m/Bam_008_Harga 180k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_009",
-    "name": "Bouquet Artificial Medium 009",
+    "id": "BAM_009",
+    "name": "Artificial Medium 009",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
     "image": "/images/produk/bouquet-artificial/m/Bam_009_Harga 180k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_010",
-    "name": "Bouquet Artificial Medium 010",
+    "id": "BAM_010",
+    "name": "Artificial Medium 010",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
     "image": "/images/produk/bouquet-artificial/m/Bam_010_Harga 180k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_011",
-    "name": "Bouquet Artificial Medium 011",
+    "id": "BAM_011",
+    "name": "Artificial Medium 011",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 170000,
     "image": "/images/produk/bouquet-artificial/m/Bam_011_Harga 170k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_012",
-    "name": "Bouquet Artificial Medium 012",
+    "id": "BAM_012",
+    "name": "Artificial Medium 012",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
     "image": "/images/produk/bouquet-artificial/m/Bam_012_Harga 180k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_013",
-    "name": "Bouquet Artificial Medium 013",
+    "id": "BAM_013",
+    "name": "Artificial Medium 013",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 150000,
     "image": "/images/produk/bouquet-artificial/m/Bam_013_Harga 150k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_014",
-    "name": "Bouquet Artificial Medium 014",
+    "id": "BAM_014",
+    "name": "Artificial Medium 014",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 170000,
     "image": "/images/produk/bouquet-artificial/m/Bam_014_Harga 170k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_015",
-    "name": "Bouquet Artificial Medium 015",
+    "id": "BAM_015",
+    "name": "Artificial Medium 015",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 170000,
     "image": "/images/produk/bouquet-artificial/m/Bam_015_Harga 170k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_016",
-    "name": "Bouquet Artificial Medium 016",
+    "id": "BAM_016",
+    "name": "Artificial Medium 016",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 150000,
     "image": "/images/produk/bouquet-artificial/m/Bam_016_Harga 150k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_017",
-    "name": "Bouquet Artificial Medium 017",
+    "id": "BAM_017",
+    "name": "Artificial Medium 017",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 200000,
     "image": "/images/produk/bouquet-artificial/m/Bam_017_Harga 200k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_018",
-    "name": "Bouquet Artificial Medium 018",
+    "id": "BAM_018",
+    "name": "Artificial Medium 018",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
     "image": "/images/produk/bouquet-artificial/m/Bam_018_Harga 180k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_019",
-    "name": "Bouquet Artificial Medium 019",
+    "id": "BAM_019",
+    "name": "Artificial Medium 019",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 170000,
     "image": "/images/produk/bouquet-artificial/m/Bam_019_Harga 170k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_020",
-    "name": "Bouquet Artificial Medium 020",
+    "id": "BAM_020",
+    "name": "Artificial Medium 020",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 150000,
     "image": "/images/produk/bouquet-artificial/m/Bam_020_Harga 150k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_021",
-    "name": "Bouquet Artificial Medium 021",
+    "id": "BAM_021",
+    "name": "Artificial Medium 021",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
     "image": "/images/produk/bouquet-artificial/m/Bam_021_Harga 180k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_022",
-    "name": "Bouquet Artificial Medium 022",
+    "id": "BAM_022",
+    "name": "Artificial Medium 022",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
     "image": "/images/produk/bouquet-artificial/m/Bam_022_Harga 180k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_023",
-    "name": "Bouquet Artificial Medium 023",
+    "id": "BAM_023",
+    "name": "Artificial Medium 023",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 150000,
     "image": "/images/produk/bouquet-artificial/m/Bam_023_Harga 150k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_024",
-    "name": "Bouquet Artificial Medium 024",
+    "id": "BAM_024",
+    "name": "Artificial Medium 024",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
     "image": "/images/produk/bouquet-artificial/m/Bam_024_Harga 180k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_025",
-    "name": "Bouquet Artificial Medium 025",
+    "id": "BAM_025",
+    "name": "Artificial Medium 025",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 170000,
     "image": "/images/produk/bouquet-artificial/m/Bam_025_Harga 170k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_026",
-    "name": "Bouquet Artificial Medium 026",
+    "id": "BAM_026",
+    "name": "Artificial Medium 026",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
     "image": "/images/produk/bouquet-artificial/m/Bam_026_Harga 180k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_027",
-    "name": "Bouquet Artificial Medium 027",
+    "id": "BAM_027",
+    "name": "Artificial Medium 027",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
     "image": "/images/produk/bouquet-artificial/m/Bam_027_Harga 180k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_028",
-    "name": "Bouquet Artificial Medium 028",
+    "id": "BAM_028",
+    "name": "Artificial Medium 028",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 200000,
     "image": "/images/produk/bouquet-artificial/m/Bam_028_Harga 200k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_029",
-    "name": "Bouquet Artificial Medium 029",
+    "id": "BAM_029",
+    "name": "Artificial Medium 029",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 200000,
     "image": "/images/produk/bouquet-artificial/m/Bam_029_Harga 200k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_030",
-    "name": "Bouquet Artificial Medium 030",
+    "id": "BAM_030",
+    "name": "Artificial Medium 030",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
     "image": "/images/produk/bouquet-artificial/m/Bam_030_Harga 180k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_031",
-    "name": "Bouquet Artificial Medium 031",
+    "id": "BAM_031",
+    "name": "Artificial Medium 031",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 150000,
     "image": "/images/produk/bouquet-artificial/m/Bam_031_Harga 150k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_032",
-    "name": "Bouquet Artificial Medium 032",
+    "id": "BAM_032",
+    "name": "Artificial Medium 032",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 170000,
     "image": "/images/produk/bouquet-artificial/m/Bam_032_Harga 170k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_033",
-    "name": "Bouquet Artificial Medium 033",
+    "id": "BAM_033",
+    "name": "Artificial Medium 033",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 170000,
     "image": "/images/produk/bouquet-artificial/m/Bam_033_Harga 170k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_034",
-    "name": "Bouquet Artificial Medium 034",
+    "id": "BAM_034",
+    "name": "Artificial Medium 034",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
     "image": "/images/produk/bouquet-artificial/m/Bam_034_Harga 180k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_035",
-    "name": "Bouquet Artificial Medium 035",
+    "id": "BAM_035",
+    "name": "Artificial Medium 035",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 170000,
     "image": "/images/produk/bouquet-artificial/m/Bam_035_Harga 170k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_036",
-    "name": "Bouquet Artificial Medium 036",
+    "id": "BAM_036",
+    "name": "Artificial Medium 036",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 200000,
     "image": "/images/produk/bouquet-artificial/m/Bam_036_Harga 200k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_037",
-    "name": "Bouquet Artificial Medium 037",
+    "id": "BAM_037",
+    "name": "Artificial Medium 037",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 150000,
     "image": "/images/produk/bouquet-artificial/m/Bam_037_Harga 150k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_038",
-    "name": "Bouquet Artificial Medium 038",
+    "id": "BAM_038",
+    "name": "Artificial Medium 038",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 150000,
     "image": "/images/produk/bouquet-artificial/m/Bam_038_Harga 150k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_039",
-    "name": "Bouquet Artificial Medium 039",
+    "id": "BAM_039",
+    "name": "Artificial Medium 039",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 170000,
     "image": "/images/produk/bouquet-artificial/m/Bam_039_Harga 170k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_040",
-    "name": "Bouquet Artificial Medium 040",
+    "id": "BAM_040",
+    "name": "Artificial Medium 040",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
     "image": "/images/produk/bouquet-artificial/m/Bam_040_Harga 180k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_041",
-    "name": "Bouquet Artificial Medium 041",
+    "id": "BAM_041",
+    "name": "Artificial Medium 041",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
     "image": "/images/produk/bouquet-artificial/m/Bam_041_Harga 180k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_042",
-    "name": "Bouquet Artificial Medium 042",
+    "id": "BAM_042",
+    "name": "Artificial Medium 042",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 200000,
     "image": "/images/produk/bouquet-artificial/m/Bam_042_Harga 200k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_043",
-    "name": "Bouquet Artificial Medium 043",
+    "id": "BAM_043",
+    "name": "Artificial Medium 043",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 200000,
     "image": "/images/produk/bouquet-artificial/m/Bam_043_Harga 200k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_044",
-    "name": "Bouquet Artificial Medium 044",
+    "id": "BAM_044",
+    "name": "Artificial Medium 044",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 200000,
     "image": "/images/produk/bouquet-artificial/m/Bam_044_Harga 200k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_045",
-    "name": "Bouquet Artificial Medium 045",
+    "id": "BAM_045",
+    "name": "Artificial Medium 045",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 170000,
     "image": "/images/produk/bouquet-artificial/m/Bam_045_Harga 170k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_046",
-    "name": "Bouquet Artificial Medium 046",
+    "id": "BAM_046",
+    "name": "Artificial Medium 046",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 135000,
     "image": "/images/produk/bouquet-artificial/m/Bam_046_Harga 135k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_047",
-    "name": "Bouquet Artificial Medium 047",
+    "id": "BAM_047",
+    "name": "Artificial Medium 047",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
     "image": "/images/produk/bouquet-artificial/m/Bam_047_Harga 180k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_048",
-    "name": "Bouquet Artificial Medium 048",
+    "id": "BAM_048",
+    "name": "Artificial Medium 048",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
     "image": "/images/produk/bouquet-artificial/m/Bam_048_Harga 180k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_049",
-    "name": "Bouquet Artificial Medium 049",
+    "id": "BAM_049",
+    "name": "Artificial Medium 049",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 170000,
     "image": "/images/produk/bouquet-artificial/m/Bam_049_Harga 170k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_050",
-    "name": "Bouquet Artificial Medium 050",
+    "id": "BAM_050",
+    "name": "Artificial Medium 050",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
     "image": "/images/produk/bouquet-artificial/m/Bam_050_Harga 180k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_051",
-    "name": "Bouquet Artificial Medium 051",
+    "id": "BAM_051",
+    "name": "Artificial Medium 051",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 150000,
     "image": "/images/produk/bouquet-artificial/m/Bam_051_Harga 150k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_052",
-    "name": "Bouquet Artificial Medium 052",
+    "id": "BAM_052",
+    "name": "Artificial Medium 052",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 170000,
     "image": "/images/produk/bouquet-artificial/m/Bam_052_Harga 170k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_053",
-    "name": "Bouquet Artificial Medium 053",
+    "id": "BAM_053",
+    "name": "Artificial Medium 053",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 170000,
     "image": "/images/produk/bouquet-artificial/m/Bam_053_Harga 170k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_054",
-    "name": "Bouquet Artificial Medium 054",
+    "id": "BAM_054",
+    "name": "Artificial Medium 054",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
     "image": "/images/produk/bouquet-artificial/m/Bam_054_Harga 180k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_055",
-    "name": "Bouquet Artificial Medium 055",
+    "id": "BAM_055",
+    "name": "Artificial Medium 055",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 150000,
     "image": "/images/produk/bouquet-artificial/m/Bam_055_Harga 150k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_056",
-    "name": "Bouquet Artificial Medium 056",
+    "id": "BAM_056",
+    "name": "Artificial Medium 056",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 170000,
     "image": "/images/produk/bouquet-artificial/m/Bam_056_Harga 170k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_057",
-    "name": "Bouquet Artificial Medium 057",
+    "id": "BAM_057",
+    "name": "Artificial Medium 057",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
     "image": "/images/produk/bouquet-artificial/m/Bam_057_Harga 180k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_058",
-    "name": "Bouquet Artificial Medium 058",
+    "id": "BAM_058",
+    "name": "Artificial Medium 058",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 170000,
     "image": "/images/produk/bouquet-artificial/m/Bam_058_Harga 170k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_059",
-    "name": "Bouquet Artificial Medium 059",
+    "id": "BAM_059",
+    "name": "Artificial Medium 059",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 150000,
     "image": "/images/produk/bouquet-artificial/m/Bam_059_Harga 150k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_060",
-    "name": "Bouquet Artificial Medium 060",
+    "id": "BAM_060",
+    "name": "Artificial Medium 060",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 135000,
     "image": "/images/produk/bouquet-artificial/m/Bam_060_Harga 135k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_061",
-    "name": "Bouquet Artificial Medium 061",
+    "id": "BAM_061",
+    "name": "Artificial Medium 061",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
     "image": "/images/produk/bouquet-artificial/m/Bam_061_Harga 180k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_062",
-    "name": "Bouquet Artificial Medium 062",
+    "id": "BAM_062",
+    "name": "Artificial Medium 062",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 150000,
     "image": "/images/produk/bouquet-artificial/m/Bam_062_Harga 150k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_063",
-    "name": "Bouquet Artificial Medium 063",
+    "id": "BAM_063",
+    "name": "Artificial Medium 063",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 170000,
     "image": "/images/produk/bouquet-artificial/m/Bam_063_Harga 170k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_064",
-    "name": "Bouquet Artificial Medium 064",
+    "id": "BAM_064",
+    "name": "Artificial Medium 064",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
     "image": "/images/produk/bouquet-artificial/m/Bam_064_Harga 180k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_065",
-    "name": "Bouquet Artificial Medium 065",
+    "id": "BAM_065",
+    "name": "Artificial Medium 065",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 150000,
     "image": "/images/produk/bouquet-artificial/m/Bam_065_Harga 150k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_066",
-    "name": "Bouquet Artificial Medium 066",
+    "id": "BAM_066",
+    "name": "Artificial Medium 066",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
     "image": "/images/produk/bouquet-artificial/m/Bam_066_Harga 180k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_067",
-    "name": "Bouquet Artificial Medium 067",
+    "id": "BAM_067",
+    "name": "Artificial Medium 067",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 150000,
     "image": "/images/produk/bouquet-artificial/m/Bam_067_Harga 150k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_068",
-    "name": "Bouquet Artificial Medium 068",
+    "id": "BAM_068",
+    "name": "Artificial Medium 068",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 170000,
     "image": "/images/produk/bouquet-artificial/m/Bam_068_Harga 170k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_069",
-    "name": "Bouquet Artificial Medium 069",
+    "id": "BAM_069",
+    "name": "Artificial Medium 069",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
     "image": "/images/produk/bouquet-artificial/m/Bam_069_Harga 180k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_070",
-    "name": "Bouquet Artificial Medium 070",
+    "id": "BAM_070",
+    "name": "Artificial Medium 070",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 170000,
     "image": "/images/produk/bouquet-artificial/m/Bam_070_Harga 170k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_071",
-    "name": "Bouquet Artificial Medium 071",
+    "id": "BAM_071",
+    "name": "Artificial Medium 071",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 150000,
     "image": "/images/produk/bouquet-artificial/m/Bam_071_Harga 150k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_072",
-    "name": "Bouquet Artificial Medium 072",
+    "id": "BAM_072",
+    "name": "Artificial Medium 072",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 170000,
     "image": "/images/produk/bouquet-artificial/m/Bam_072_Harga 170k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_073",
-    "name": "Bouquet Artificial Medium 073",
+    "id": "BAM_073",
+    "name": "Artificial Medium 073",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
     "image": "/images/produk/bouquet-artificial/m/Bam_073_Harga 180k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_074",
-    "name": "Bouquet Artificial Medium 074",
+    "id": "BAM_074",
+    "name": "Artificial Medium 074",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
     "image": "/images/produk/bouquet-artificial/m/Bam_074_Harga 180k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_075",
-    "name": "Bouquet Artificial Medium 075",
+    "id": "BAM_075",
+    "name": "Artificial Medium 075",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 135000,
     "image": "/images/produk/bouquet-artificial/m/Bam_075_Harga 135k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_076",
-    "name": "Bouquet Artificial Medium 076",
+    "id": "BAM_076",
+    "name": "Artificial Medium 076",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 200000,
     "image": "/images/produk/bouquet-artificial/m/Bam_076_Harga 200k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_077",
-    "name": "Bouquet Artificial Medium 077",
+    "id": "BAM_077",
+    "name": "Artificial Medium 077",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 170000,
     "image": "/images/produk/bouquet-artificial/m/Bam_077_Harga 170k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_078",
-    "name": "Bouquet Artificial Medium 078",
+    "id": "BAM_078",
+    "name": "Artificial Medium 078",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 150000,
     "image": "/images/produk/bouquet-artificial/m/Bam_078_Harga 150k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_079",
-    "name": "Bouquet Artificial Medium 079",
+    "id": "BAM_079",
+    "name": "Artificial Medium 079",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 135000,
     "image": "/images/produk/bouquet-artificial/m/Bam_079_Harga 135k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_080",
-    "name": "Bouquet Artificial Medium 080",
+    "id": "BAM_080",
+    "name": "Artificial Medium 080",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
     "image": "/images/produk/bouquet-artificial/m/Bam_080_Harga 180k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_081",
-    "name": "Bouquet Artificial Medium 081",
+    "id": "BAM_081",
+    "name": "Artificial Medium 081",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
     "image": "/images/produk/bouquet-artificial/m/Bam_081_Harga 180k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_082",
-    "name": "Bouquet Artificial Medium 082",
+    "id": "BAM_082",
+    "name": "Artificial Medium 082",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
     "image": "/images/produk/bouquet-artificial/m/Bam_082_Harga 180k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_083",
-    "name": "Bouquet Artificial Medium 083",
+    "id": "BAM_083",
+    "name": "Artificial Medium 083",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 200000,
     "image": "/images/produk/bouquet-artificial/m/Bam_083_Harga 200k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_084",
-    "name": "Bouquet Artificial Medium 084",
+    "id": "BAM_084",
+    "name": "Artificial Medium 084",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
     "image": "/images/produk/bouquet-artificial/m/Bam_084_Harga 180k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_085",
-    "name": "Bouquet Artificial Medium 085",
+    "id": "BAM_085",
+    "name": "Artificial Medium 085",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 200000,
     "image": "/images/produk/bouquet-artificial/m/Bam_085_Harga 200k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_086",
-    "name": "Bouquet Artificial Medium 086",
+    "id": "BAM_086",
+    "name": "Artificial Medium 086",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
     "image": "/images/produk/bouquet-artificial/m/Bam_086_Harga 180k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_087",
-    "name": "Bouquet Artificial Medium 087",
+    "id": "BAM_087",
+    "name": "Artificial Medium 087",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 150000,
     "image": "/images/produk/bouquet-artificial/m/Bam_087_Harga 150k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_088",
-    "name": "Bouquet Artificial Medium 088",
+    "id": "BAM_088",
+    "name": "Artificial Medium 088",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 200000,
     "image": "/images/produk/bouquet-artificial/m/Bam_088_Harga 200k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_089",
-    "name": "Bouquet Artificial Medium 089",
+    "id": "BAM_089",
+    "name": "Artificial Medium 089",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 200000,
     "image": "/images/produk/bouquet-artificial/m/Bam_089_Harga 200k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_090",
-    "name": "Bouquet Artificial Medium 090",
+    "id": "BAM_090",
+    "name": "Artificial Medium 090",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
     "image": "/images/produk/bouquet-artificial/m/Bam_090_Harga 180k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_091",
-    "name": "Bouquet Artificial Medium 091",
+    "id": "BAM_091",
+    "name": "Artificial Medium 091",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
     "image": "/images/produk/bouquet-artificial/m/Bam_091_Harga 180k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_092",
-    "name": "Bouquet Artificial Medium 092",
+    "id": "BAM_092",
+    "name": "Artificial Medium 092",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
     "image": "/images/produk/bouquet-artificial/m/Bam_092_Harga 180k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_093",
-    "name": "Bouquet Artificial Medium 093",
+    "id": "BAM_093",
+    "name": "Artificial Medium 093",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 200000,
     "image": "/images/produk/bouquet-artificial/m/Bam_093_Harga 200k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bam_094",
-    "name": "Bouquet Artificial Medium 094",
+    "id": "BAM_094",
+    "name": "Artificial Medium 094",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
     "image": "/images/produk/bouquet-artificial/m/Bam_094_Harga 180k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bap_001",
-    "name": "Bouquet Artificial Petite 001",
+    "id": "BAP_001",
+    "name": "Artificial Petite 001",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 35000,
     "image": "/images/produk/bouquet-artificial/petite/Bap_001_Harga 35k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bap_002",
-    "name": "Bouquet Artificial Petite 002",
+    "id": "BAP_002",
+    "name": "Artificial Petite 002",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 35000,
     "image": "/images/produk/bouquet-artificial/petite/Bap_002_Harga 35k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bap_003",
-    "name": "Bouquet Artificial Petite 003",
+    "id": "BAP_003",
+    "name": "Artificial Petite 003",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 35000,
     "image": "/images/produk/bouquet-artificial/petite/Bap_003_Harga 35k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bap_004",
-    "name": "Bouquet Artificial Petite 004",
+    "id": "BAP_004",
+    "name": "Artificial Petite 004",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 35000,
     "image": "/images/produk/bouquet-artificial/petite/Bap_004_Harga 35k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bap_005",
-    "name": "Bouquet Artificial Petite 005",
+    "id": "BAP_005",
+    "name": "Artificial Petite 005",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 35000,
     "image": "/images/produk/bouquet-artificial/petite/Bap_005_Harga 35k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bap_006",
-    "name": "Bouquet Artificial Petite 006",
+    "id": "BAP_006",
+    "name": "Artificial Petite 006",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 35000,
     "image": "/images/produk/bouquet-artificial/petite/Bap_006_Harga 35k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bap_007",
-    "name": "Bouquet Artificial Petite 007",
+    "id": "BAP_007",
+    "name": "Artificial Petite 007",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 35000,
     "image": "/images/produk/bouquet-artificial/petite/Bap_007_Harga 35k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bap_008",
-    "name": "Bouquet Artificial Petite 008",
+    "id": "BAP_008",
+    "name": "Artificial Petite 008",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 50000,
     "image": "/images/produk/bouquet-artificial/petite/Bap_008_Harga 50k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bap_009",
-    "name": "Bouquet Artificial Petite 009",
+    "id": "BAP_009",
+    "name": "Artificial Petite 009",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 35000,
     "image": "/images/produk/bouquet-artificial/petite/Bap_009_Harga 35k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bap_010",
-    "name": "Bouquet Artificial Petite 010",
+    "id": "BAP_010",
+    "name": "Artificial Petite 010",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 50000,
     "image": "/images/produk/bouquet-artificial/petite/Bap_010_Harga 50k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bap_011",
-    "name": "Bouquet Artificial Petite 011",
+    "id": "BAP_011",
+    "name": "Artificial Petite 011",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 50000,
     "image": "/images/produk/bouquet-artificial/petite/Bap_011_Harga 50k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bap_012",
-    "name": "Bouquet Artificial Petite 012",
+    "id": "BAP_012",
+    "name": "Artificial Petite 012",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 50000,
     "image": "/images/produk/bouquet-artificial/petite/Bap_012_Harga 50k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bap_013",
-    "name": "Bouquet Artificial Petite 013",
+    "id": "BAP_013",
+    "name": "Artificial Petite 013",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 35000,
     "image": "/images/produk/bouquet-artificial/petite/Bap_013_Harga 35k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bap_014",
-    "name": "Bouquet Artificial Petite 014",
+    "id": "BAP_014",
+    "name": "Artificial Petite 014",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 35000,
     "image": "/images/produk/bouquet-artificial/petite/Bap_014_Harga 35k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bap_015",
-    "name": "Bouquet Artificial Petite 015",
+    "id": "BAP_015",
+    "name": "Artificial Petite 015",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 50000,
     "image": "/images/produk/bouquet-artificial/petite/Bap_015_Harga 50k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bap_016",
-    "name": "Bouquet Artificial Petite 016",
+    "id": "BAP_016",
+    "name": "Artificial Petite 016",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 35000,
     "image": "/images/produk/bouquet-artificial/petite/Bap_016_Harga 35k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bap_017",
-    "name": "Bouquet Artificial Petite 017",
+    "id": "BAP_017",
+    "name": "Artificial Petite 017",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 35000,
     "image": "/images/produk/bouquet-artificial/petite/Bap_017_Harga 35k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bap_018",
-    "name": "Bouquet Artificial Petite 018",
+    "id": "BAP_018",
+    "name": "Artificial Petite 018",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 65000,
     "image": "/images/produk/bouquet-artificial/petite/Bap_018_Harga 65k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bap_019",
-    "name": "Bouquet Artificial Petite 019",
+    "id": "BAP_019",
+    "name": "Artificial Petite 019",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 65000,
     "image": "/images/produk/bouquet-artificial/petite/Bap_019_Harga 65k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bap_020",
-    "name": "Bouquet Artificial Petite 020",
+    "id": "BAP_020",
+    "name": "Artificial Petite 020",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 50000,
     "image": "/images/produk/bouquet-artificial/petite/Bap_020_Harga 50k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bap_021",
-    "name": "Bouquet Artificial Petite 021",
+    "id": "BAP_021",
+    "name": "Artificial Petite 021",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 65000,
     "image": "/images/produk/bouquet-artificial/petite/Bap_021_Harga 65k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bap_022",
-    "name": "Bouquet Artificial Petite 022",
+    "id": "BAP_022",
+    "name": "Artificial Petite 022",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 65000,
     "image": "/images/produk/bouquet-artificial/petite/Bap_022_Harga 65k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bap_023",
-    "name": "Bouquet Artificial Petite 023",
+    "id": "BAP_023",
+    "name": "Artificial Petite 023",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 65000,
     "image": "/images/produk/bouquet-artificial/petite/Bap_023_Harga 65k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bas_001",
-    "name": "Bouquet Artificial Small 001",
+    "id": "BAS_001",
+    "name": "Artificial Small 001",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 85000,
     "image": "/images/produk/bouquet-artificial/s/Bas_001_Harga 85k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bas_002",
-    "name": "Bouquet Artificial Small 002",
+    "id": "BAS_002",
+    "name": "Artificial Small 002",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 85000,
     "image": "/images/produk/bouquet-artificial/s/Bas_002_Harga 85k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bas_003",
-    "name": "Bouquet Artificial Small 003",
+    "id": "BAS_003",
+    "name": "Artificial Small 003",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 85000,
     "image": "/images/produk/bouquet-artificial/s/Bas_003_Harga 85k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bas_004",
-    "name": "Bouquet Artificial Small 004",
+    "id": "BAS_004",
+    "name": "Artificial Small 004",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 85000,
     "image": "/images/produk/bouquet-artificial/s/Bas_004_Harga 85k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bas_005",
-    "name": "Bouquet Artificial Small 005",
+    "id": "BAS_005",
+    "name": "Artificial Small 005",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 85000,
     "image": "/images/produk/bouquet-artificial/s/Bas_005_Harga 85k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bas_006",
-    "name": "Bouquet Artificial Small 006",
+    "id": "BAS_006",
+    "name": "Artificial Small 006",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 85000,
     "image": "/images/produk/bouquet-artificial/s/Bas_006_Harga 85k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bas_007",
-    "name": "Bouquet Artificial Small 007",
+    "id": "BAS_007",
+    "name": "Artificial Small 007",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 85000,
     "image": "/images/produk/bouquet-artificial/s/Bas_007_Harga 85k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bas_008",
-    "name": "Bouquet Artificial Small 008",
+    "id": "BAS_008",
+    "name": "Artificial Small 008",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 85000,
     "image": "/images/produk/bouquet-artificial/s/Bas_008_Harga 85k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bas_009",
-    "name": "Bouquet Artificial Small 009",
+    "id": "BAS_009",
+    "name": "Artificial Small 009",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 85000,
     "image": "/images/produk/bouquet-artificial/s/Bas_009_Harga 85k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bas_010",
-    "name": "Bouquet Artificial Small 010",
+    "id": "BAS_010",
+    "name": "Artificial Small 010",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 100000,
     "image": "/images/produk/bouquet-artificial/s/Bas_010_Harga 100k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bas_011",
-    "name": "Bouquet Artificial Small 011",
+    "id": "BAS_011",
+    "name": "Artificial Small 011",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 85000,
     "image": "/images/produk/bouquet-artificial/s/Bas_011_Harga 85k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bas_012",
-    "name": "Bouquet Artificial Small 012",
+    "id": "BAS_012",
+    "name": "Artificial Small 012",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 85000,
     "image": "/images/produk/bouquet-artificial/s/Bas_012_Harga 85k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bas_013",
-    "name": "Bouquet Artificial Small 013",
+    "id": "BAS_013",
+    "name": "Artificial Small 013",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 85000,
     "image": "/images/produk/bouquet-artificial/s/Bas_013_Harga 85k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bas_014",
-    "name": "Bouquet Artificial Small 014",
+    "id": "BAS_014",
+    "name": "Artificial Small 014",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 85000,
     "image": "/images/produk/bouquet-artificial/s/Bas_014_Harga 85k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bas_015",
-    "name": "Bouquet Artificial Small 015",
+    "id": "BAS_015",
+    "name": "Artificial Small 015",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 85000,
     "image": "/images/produk/bouquet-artificial/s/Bas_015_Harga 85k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bas_016",
-    "name": "Bouquet Artificial Small 016",
+    "id": "BAS_016",
+    "name": "Artificial Small 016",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 100000,
     "image": "/images/produk/bouquet-artificial/s/Bas_016_Harga 100k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bas_017",
-    "name": "Bouquet Artificial Small 017",
+    "id": "BAS_017",
+    "name": "Artificial Small 017",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 100000,
     "image": "/images/produk/bouquet-artificial/s/Bas_017_Harga 100k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bas_018",
-    "name": "Bouquet Artificial Small 018",
+    "id": "BAS_018",
+    "name": "Artificial Small 018",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 85000,
     "image": "/images/produk/bouquet-artificial/s/Bas_018_Harga 85k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bas_019",
-    "name": "Bouquet Artificial Small 019",
+    "id": "BAS_019",
+    "name": "Artificial Small 019",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 100000,
     "image": "/images/produk/bouquet-artificial/s/Bas_019_Harga 100k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bas_020",
-    "name": "Bouquet Artificial Small 020",
+    "id": "BAS_020",
+    "name": "Artificial Small 020",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 100000,
     "image": "/images/produk/bouquet-artificial/s/Bas_020_Harga 100k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bas_021",
-    "name": "Bouquet Artificial Small 021",
+    "id": "BAS_021",
+    "name": "Artificial Small 021",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 85000,
     "image": "/images/produk/bouquet-artificial/s/Bas_021_Harga 85k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bas_022",
-    "name": "Bouquet Artificial Small 022",
+    "id": "BAS_022",
+    "name": "Artificial Small 022",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 100000,
     "image": "/images/produk/bouquet-artificial/s/Bas_022_Harga 100k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bas_023",
-    "name": "Bouquet Artificial Small 023",
+    "id": "BAS_023",
+    "name": "Artificial Small 023",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 100000,
     "image": "/images/produk/bouquet-artificial/s/Bas_023_Harga 100k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bas_024",
-    "name": "Bouquet Artificial Small 024",
+    "id": "BAS_024",
+    "name": "Artificial Small 024",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 100000,
     "image": "/images/produk/bouquet-artificial/s/Bas_024_Harga 100k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bas_025",
-    "name": "Bouquet Artificial Small 025",
+    "id": "BAS_025",
+    "name": "Artificial Small 025",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 85000,
     "image": "/images/produk/bouquet-artificial/s/Bas_025_Harga 85k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bas_026",
-    "name": "Bouquet Artificial Small 026",
+    "id": "BAS_026",
+    "name": "Artificial Small 026",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 100000,
     "image": "/images/produk/bouquet-artificial/s/Bas_026_Harga 100k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bas_027",
-    "name": "Bouquet Artificial Small 027",
+    "id": "BAS_027",
+    "name": "Artificial Small 027",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 100000,
     "image": "/images/produk/bouquet-artificial/s/Bas_027_Harga 100k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bas_028",
-    "name": "Bouquet Artificial Small 028",
+    "id": "BAS_028",
+    "name": "Artificial Small 028",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 100000,
     "image": "/images/produk/bouquet-artificial/s/Bas_028_Harga 100k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bas_029",
-    "name": "Bouquet Artificial Small 029",
+    "id": "BAS_029",
+    "name": "Artificial Small 029",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 100000,
     "image": "/images/produk/bouquet-artificial/s/Bas_029_Harga 100k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bas_030",
-    "name": "Bouquet Artificial Small 030",
+    "id": "BAS_030",
+    "name": "Artificial Small 030",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 100000,
     "image": "/images/produk/bouquet-artificial/s/Bas_030_Harga 100k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_001",
-    "name": "Bouquet Artificial XL 001",
+    "id": "BAXL_001",
+    "name": "Artificial XL 001",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_001_Harga 350k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_002",
-    "name": "Bouquet Artificial XL 002",
+    "id": "BAXL_002",
+    "name": "Artificial XL 002",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_002_Harga 350k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_003",
-    "name": "Bouquet Artificial XL 003",
+    "id": "BAXL_003",
+    "name": "Artificial XL 003",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 325000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_003_Harga 325k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_004",
-    "name": "Bouquet Artificial XL 004",
+    "id": "BAXL_004",
+    "name": "Artificial XL 004",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_004_Harga 350k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_005",
-    "name": "Bouquet Artificial XL 005",
+    "id": "BAXL_005",
+    "name": "Artificial XL 005",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_005_Harga 350k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_006",
-    "name": "Bouquet Artificial XL 006",
+    "id": "BAXL_006",
+    "name": "Artificial XL 006",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_006_Harga 350k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_007",
-    "name": "Bouquet Artificial XL 007",
+    "id": "BAXL_007",
+    "name": "Artificial XL 007",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_007_Harga 350k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_008",
-    "name": "Bouquet Artificial XL 008",
+    "id": "BAXL_008",
+    "name": "Artificial XL 008",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_008_Harga 350k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_009",
-    "name": "Bouquet Artificial XL 009",
+    "id": "BAXL_009",
+    "name": "Artificial XL 009",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 325000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_009_Harga 325k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_010",
-    "name": "Bouquet Artificial XL 010",
+    "id": "BAXL_010",
+    "name": "Artificial XL 010",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 325000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_010_Harga 325k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_011",
-    "name": "Bouquet Artificial XL 011",
+    "id": "BAXL_011",
+    "name": "Artificial XL 011",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_011_Harga 350k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_012",
-    "name": "Bouquet Artificial XL 012",
+    "id": "BAXL_012",
+    "name": "Artificial XL 012",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_012_Harga 350k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_013",
-    "name": "Bouquet Artificial XL 013",
+    "id": "BAXL_013",
+    "name": "Artificial XL 013",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_013_Harga 350k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_014",
-    "name": "Bouquet Artificial XL 014",
+    "id": "BAXL_014",
+    "name": "Artificial XL 014",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 300000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_014_Harga 300k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_015",
-    "name": "Bouquet Artificial XL 015",
+    "id": "BAXL_015",
+    "name": "Artificial XL 015",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_015_Harga 350k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_016",
-    "name": "Bouquet Artificial XL 016",
+    "id": "BAXL_016",
+    "name": "Artificial XL 016",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 300000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_016_Harga 300k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_017",
-    "name": "Bouquet Artificial XL 017",
+    "id": "BAXL_017",
+    "name": "Artificial XL 017",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 325000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_017_Harga 325k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_018",
-    "name": "Bouquet Artificial XL 018",
+    "id": "BAXL_018",
+    "name": "Artificial XL 018",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 300000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_018_Harga 300k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_019",
-    "name": "Bouquet Artificial XL 019",
+    "id": "BAXL_019",
+    "name": "Artificial XL 019",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 325000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_019_Harga 325k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_020",
-    "name": "Bouquet Artificial XL 020",
+    "id": "BAXL_020",
+    "name": "Artificial XL 020",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_020_Harga 350k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_021",
-    "name": "Bouquet Artificial XL 021",
+    "id": "BAXL_021",
+    "name": "Artificial XL 021",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 325000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_021_Harga 325k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_022",
-    "name": "Bouquet Artificial XL 022",
+    "id": "BAXL_022",
+    "name": "Artificial XL 022",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 300000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_022_Harga 300k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_023",
-    "name": "Bouquet Artificial XL 023",
+    "id": "BAXL_023",
+    "name": "Artificial XL 023",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 325000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_023_Harga 325k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_024",
-    "name": "Bouquet Artificial XL 024",
+    "id": "BAXL_024",
+    "name": "Artificial XL 024",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_024_Harga 350k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_025",
-    "name": "Bouquet Artificial XL 025",
+    "id": "BAXL_025",
+    "name": "Artificial XL 025",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 325000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_025_Harga 325k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_026",
-    "name": "Bouquet Artificial XL 026",
+    "id": "BAXL_026",
+    "name": "Artificial XL 026",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_026_Harga 350k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_027",
-    "name": "Bouquet Artificial XL 027",
+    "id": "BAXL_027",
+    "name": "Artificial XL 027",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_027_Harga 350k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_028",
-    "name": "Bouquet Artificial XL 028",
+    "id": "BAXL_028",
+    "name": "Artificial XL 028",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 325000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_028_Harga 325k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_029",
-    "name": "Bouquet Artificial XL 029",
+    "id": "BAXL_029",
+    "name": "Artificial XL 029",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 325000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_029_Harga 325k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_030",
-    "name": "Bouquet Artificial XL 030",
+    "id": "BAXL_030",
+    "name": "Artificial XL 030",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_030_Harga 350k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_031",
-    "name": "Bouquet Artificial XL 031",
+    "id": "BAXL_031",
+    "name": "Artificial XL 031",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_031_Harga 350k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_032",
-    "name": "Bouquet Artificial XL 032",
+    "id": "BAXL_032",
+    "name": "Artificial XL 032",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 300000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_032_Harga 300k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_033",
-    "name": "Bouquet Artificial XL 033",
+    "id": "BAXL_033",
+    "name": "Artificial XL 033",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_033_Harga 350k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_036",
-    "name": "Bouquet Artificial XL 036",
+    "id": "BAXL_036",
+    "name": "Artificial XL 036",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_036_Harga 350k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_037",
-    "name": "Bouquet Artificial XL 037",
+    "id": "BAXL_037",
+    "name": "Artificial XL 037",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 325000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_037_Harga 325k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_038",
-    "name": "Bouquet Artificial XL 038",
+    "id": "BAXL_038",
+    "name": "Artificial XL 038",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 325000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_038_Harga 325k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_039",
-    "name": "Bouquet Artificial XL 039",
+    "id": "BAXL_039",
+    "name": "Artificial XL 039",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 280000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_039_Harga 280k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_040",
-    "name": "Bouquet Artificial XL 040",
+    "id": "BAXL_040",
+    "name": "Artificial XL 040",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_040_Harga 350k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_041",
-    "name": "Bouquet Artificial XL 041",
+    "id": "BAXL_041",
+    "name": "Artificial XL 041",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 300000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_041_Harga 300k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_042",
-    "name": "Bouquet Artificial XL 042",
+    "id": "BAXL_042",
+    "name": "Artificial XL 042",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_042_Harga 350k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_043",
-    "name": "Bouquet Artificial XL 043",
+    "id": "BAXL_043",
+    "name": "Artificial XL 043",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 325000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_043_Harga 325k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_044",
-    "name": "Bouquet Artificial XL 044",
+    "id": "BAXL_044",
+    "name": "Artificial XL 044",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 300000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_044_Harga 300k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_045",
-    "name": "Bouquet Artificial XL 045",
+    "id": "BAXL_045",
+    "name": "Artificial XL 045",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 325000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_045_Harga 325k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_046",
-    "name": "Bouquet Artificial XL 046",
+    "id": "BAXL_046",
+    "name": "Artificial XL 046",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 325000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_046_Harga 325k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_047",
-    "name": "Bouquet Artificial XL 047",
+    "id": "BAXL_047",
+    "name": "Artificial XL 047",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_047_Harga 350k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_048",
-    "name": "Bouquet Artificial XL 048",
+    "id": "BAXL_048",
+    "name": "Artificial XL 048",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_048_Harga 350k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_049",
-    "name": "Bouquet Artificial XL 049",
+    "id": "BAXL_049",
+    "name": "Artificial XL 049",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 300000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_049_Harga 300k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_050",
-    "name": "Bouquet Artificial XL 050",
+    "id": "BAXL_050",
+    "name": "Artificial XL 050",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 325000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_050_Harga 325k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_051",
-    "name": "Bouquet Artificial XL 051",
+    "id": "BAXL_051",
+    "name": "Artificial XL 051",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 325000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_051_Harga 325k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_052",
-    "name": "Bouquet Artificial XL 052",
+    "id": "BAXL_052",
+    "name": "Artificial XL 052",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_052_Harga 350k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_053",
-    "name": "Bouquet Artificial XL 053",
+    "id": "BAXL_053",
+    "name": "Artificial XL 053",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 300000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_053_Harga 300k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_054",
-    "name": "Bouquet Artificial XL 054",
+    "id": "BAXL_054",
+    "name": "Artificial XL 054",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 290000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_054_Harga 290k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_055",
-    "name": "Bouquet Artificial XL 055",
+    "id": "BAXL_055",
+    "name": "Artificial XL 055",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_055_Harga 350k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_056",
-    "name": "Bouquet Artificial XL 056",
+    "id": "BAXL_056",
+    "name": "Artificial XL 056",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_056_Harga 350k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_057",
-    "name": "Bouquet Artificial XL 057",
+    "id": "BAXL_057",
+    "name": "Artificial XL 057",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 325000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_057_Harga 325k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_058",
-    "name": "Bouquet Artificial XL 058",
+    "id": "BAXL_058",
+    "name": "Artificial XL 058",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 325000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_058_Harga 325k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_059",
-    "name": "Bouquet Artificial XL 059",
+    "id": "BAXL_059",
+    "name": "Artificial XL 059",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 325000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_059_Harga 325k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxl_060",
-    "name": "Bouquet Artificial XL 060",
+    "id": "BAXL_060",
+    "name": "Artificial XL 060",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 300000,
     "image": "/images/produk/bouquet-artificial/xl/Baxl_060_Harga 300k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_001",
-    "name": "Bouquet Artificial XXL 001",
+    "id": "BAXXL_001",
+    "name": "Artificial XXL 001",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_001_Harga 450k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_002",
-    "name": "Bouquet Artificial XXL 002",
+    "id": "BAXXL_002",
+    "name": "Artificial XXL 002",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 600000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_002_Harga 600k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_003",
-    "name": "Bouquet Artificial XXL 003",
+    "id": "BAXXL_003",
+    "name": "Artificial XXL 003",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 550000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_003_Harga 550k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_004",
-    "name": "Bouquet Artificial XXL 004",
+    "id": "BAXXL_004",
+    "name": "Artificial XXL 004",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_004_Harga 450k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_005",
-    "name": "Bouquet Artificial XXL 005",
+    "id": "BAXXL_005",
+    "name": "Artificial XXL 005",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 550000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_005_Harga 550k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_006",
-    "name": "Bouquet Artificial XXL 006",
+    "id": "BAXXL_006",
+    "name": "Artificial XXL 006",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_006_Harga 450k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_007",
-    "name": "Bouquet Artificial XXL 007",
+    "id": "BAXXL_007",
+    "name": "Artificial XXL 007",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 425000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_007_Harga 425k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_008",
-    "name": "Bouquet Artificial XXL 008",
+    "id": "BAXXL_008",
+    "name": "Artificial XXL 008",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_008_Harga 450k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_009",
-    "name": "Bouquet Artificial XXL 009",
+    "id": "BAXXL_009",
+    "name": "Artificial XXL 009",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_009_Harga 450k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_010",
-    "name": "Bouquet Artificial XXL 010",
+    "id": "BAXXL_010",
+    "name": "Artificial XXL 010",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_010_Harga 450k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_011",
-    "name": "Bouquet Artificial XXL 011",
+    "id": "BAXXL_011",
+    "name": "Artificial XXL 011",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_011_Harga 450k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_012",
-    "name": "Bouquet Artificial XXL 012",
+    "id": "BAXXL_012",
+    "name": "Artificial XXL 012",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_012_Harga 450k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_013",
-    "name": "Bouquet Artificial XXL 013",
+    "id": "BAXXL_013",
+    "name": "Artificial XXL 013",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 425000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_013_Harga 425k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_014",
-    "name": "Bouquet Artificial XXL 014",
+    "id": "BAXXL_014",
+    "name": "Artificial XXL 014",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_014_Harga 450k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_015",
-    "name": "Bouquet Artificial XXL 015",
+    "id": "BAXXL_015",
+    "name": "Artificial XXL 015",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 550000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_015_Harga 550k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_016",
-    "name": "Bouquet Artificial XXL 016",
+    "id": "BAXXL_016",
+    "name": "Artificial XXL 016",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 425000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_016_Harga 425k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_017",
-    "name": "Bouquet Artificial XXL 017",
+    "id": "BAXXL_017",
+    "name": "Artificial XXL 017",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_017_Harga 450k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_018",
-    "name": "Bouquet Artificial XXL 018",
+    "id": "BAXXL_018",
+    "name": "Artificial XXL 018",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_018_Harga 450k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_019",
-    "name": "Bouquet Artificial XXL 019",
+    "id": "BAXXL_019",
+    "name": "Artificial XXL 019",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 425000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_019_Harga 425k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_020",
-    "name": "Bouquet Artificial XXL 020",
+    "id": "BAXXL_020",
+    "name": "Artificial XXL 020",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 425000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_020_Harga 425k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_021",
-    "name": "Bouquet Artificial XXL 021",
+    "id": "BAXXL_021",
+    "name": "Artificial XXL 021",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 550000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_021_Harga 550k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_022",
-    "name": "Bouquet Artificial XXL 022",
+    "id": "BAXXL_022",
+    "name": "Artificial XXL 022",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 425000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_022_Harga 425k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_023",
-    "name": "Bouquet Artificial XXL 023",
+    "id": "BAXXL_023",
+    "name": "Artificial XXL 023",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 425000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_023_Harga 425k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_024",
-    "name": "Bouquet Artificial XXL 024",
+    "id": "BAXXL_024",
+    "name": "Artificial XXL 024",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 550000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_024_Harga 550k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_025",
-    "name": "Bouquet Artificial XXL 025",
+    "id": "BAXXL_025",
+    "name": "Artificial XXL 025",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 550000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_025_Harga 550k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_026",
-    "name": "Bouquet Artificial XXL 026",
+    "id": "BAXXL_026",
+    "name": "Artificial XXL 026",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_026_Harga 450k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_027",
-    "name": "Bouquet Artificial XXL 027",
+    "id": "BAXXL_027",
+    "name": "Artificial XXL 027",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_027_Harga 450k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_028",
-    "name": "Bouquet Artificial XXL 028",
+    "id": "BAXXL_028",
+    "name": "Artificial XXL 028",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_028_Harga 450k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_029",
-    "name": "Bouquet Artificial XXL 029",
+    "id": "BAXXL_029",
+    "name": "Artificial XXL 029",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_029_Harga 450k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_030",
-    "name": "Bouquet Artificial XXL 030",
+    "id": "BAXXL_030",
+    "name": "Artificial XXL 030",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_030_Harga 450k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_031",
-    "name": "Bouquet Artificial XXL 031",
+    "id": "BAXXL_031",
+    "name": "Artificial XXL 031",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 425000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_031_Harga 425k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_032",
-    "name": "Bouquet Artificial XXL 032",
+    "id": "BAXXL_032",
+    "name": "Artificial XXL 032",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 425000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_032_Harga 425k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_033",
-    "name": "Bouquet Artificial XXL 033",
+    "id": "BAXXL_033",
+    "name": "Artificial XXL 033",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 400000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_033_Harga 400k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_034",
-    "name": "Bouquet Artificial XXL 034",
+    "id": "BAXXL_034",
+    "name": "Artificial XXL 034",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 425000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_034_Harga 425k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_035",
-    "name": "Bouquet Artificial XXL 035",
+    "id": "BAXXL_035",
+    "name": "Artificial XXL 035",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_035_Harga 450k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_036",
-    "name": "Bouquet Artificial XXL 036",
+    "id": "BAXXL_036",
+    "name": "Artificial XXL 036",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_036_Harga 450k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_037",
-    "name": "Bouquet Artificial XXL 037",
+    "id": "BAXXL_037",
+    "name": "Artificial XXL 037",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 425000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_037_Harga 425k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_038",
-    "name": "Bouquet Artificial XXL 038",
+    "id": "BAXXL_038",
+    "name": "Artificial XXL 038",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 425000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_038_Harga 425k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_039",
-    "name": "Bouquet Artificial XXL 039",
+    "id": "BAXXL_039",
+    "name": "Artificial XXL 039",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_039_Harga 450k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_040",
-    "name": "Bouquet Artificial XXL 040",
+    "id": "BAXXL_040",
+    "name": "Artificial XXL 040",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_040_Harga 450k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_041",
-    "name": "Bouquet Artificial XXL 041",
+    "id": "BAXXL_041",
+    "name": "Artificial XXL 041",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 400000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_041_Harga 400k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_042",
-    "name": "Bouquet Artificial XXL 042",
+    "id": "BAXXL_042",
+    "name": "Artificial XXL 042",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 550000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_042_Harga 550k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_043",
-    "name": "Bouquet Artificial XXL 043",
+    "id": "BAXXL_043",
+    "name": "Artificial XXL 043",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 400000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_043_Harga 400k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_044",
-    "name": "Bouquet Artificial XXL 044",
+    "id": "BAXXL_044",
+    "name": "Artificial XXL 044",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_044_Harga 450k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_045",
-    "name": "Bouquet Artificial XXL 045",
+    "id": "BAXXL_045",
+    "name": "Artificial XXL 045",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 425000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_045_Harga 425k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_046",
-    "name": "Bouquet Artificial XXL 046",
+    "id": "BAXXL_046",
+    "name": "Artificial XXL 046",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 550000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_046_Harga 550k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_047",
-    "name": "Bouquet Artificial XXL 047",
+    "id": "BAXXL_047",
+    "name": "Artificial XXL 047",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 550000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_047_Harga 550k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_048",
-    "name": "Bouquet Artificial XXL 048",
+    "id": "BAXXL_048",
+    "name": "Artificial XXL 048",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 550000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_048_Harga 550k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_049",
-    "name": "Bouquet Artificial XXL 049",
+    "id": "BAXXL_049",
+    "name": "Artificial XXL 049",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 500000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_049_Harga 500k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_050",
-    "name": "Bouquet Artificial XXL 050",
+    "id": "BAXXL_050",
+    "name": "Artificial XXL 050",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 600000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_050_Harga 600k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_051",
-    "name": "Bouquet Artificial XXL 051",
+    "id": "BAXXL_051",
+    "name": "Artificial XXL 051",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 550000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_051_Harga 550k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Baxxl_052",
-    "name": "Bouquet Artificial XXL 052",
+    "id": "BAXXL_052",
+    "name": "Artificial XXL 052",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 500000,
     "image": "/images/produk/bouquet-artificial/xxl/Baxxl_052_Harga 500k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BFHS_001",
@@ -4112,223 +3958,248 @@ export const products = [
     "size": "Human Size",
     "price": 499000,
     "image": "/images/produk/bouquet-fresh/human-size/BFHS_001_Harga 499K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfl_001",
+    "id": "BFL_001",
     "name": "Fresh Flowers Large 001",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 175000,
     "image": "/images/produk/bouquet-fresh/l/Bfl_001_Harga 175k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfl_002",
+    "id": "BFL_002",
     "name": "Fresh Flowers Large 002",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 150000,
     "image": "/images/produk/bouquet-fresh/l/Bfl_002_Harga 150k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfl_003",
+    "id": "BFL_003",
     "name": "Fresh Flowers Large 003",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 160000,
     "image": "/images/produk/bouquet-fresh/l/Bfl_003_Harga 160k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfl_004",
+    "id": "BFL_004",
     "name": "Fresh Flowers Large 004",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 170000,
     "image": "/images/produk/bouquet-fresh/l/Bfl_004_Harga 170k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfl_005",
+    "id": "BFL_005",
     "name": "Fresh Flowers Large 005",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 150000,
     "image": "/images/produk/bouquet-fresh/l/Bfl_005_Harga 150k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfl_006",
+    "id": "BFL_006",
     "name": "Fresh Flowers Large 006",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 150000,
     "image": "/images/produk/bouquet-fresh/l/Bfl_006_Harga 150k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfl_007",
+    "id": "BFL_007",
     "name": "Fresh Flowers Large 007",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 170000,
     "image": "/images/produk/bouquet-fresh/l/Bfl_007_Harga 170k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfl_008",
+    "id": "BFL_008",
     "name": "Fresh Flowers Large 008",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 150000,
     "image": "/images/produk/bouquet-fresh/l/Bfl_008_Harga 150k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfl_009",
+    "id": "BFL_009",
     "name": "Fresh Flowers Large 009",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 175000,
     "image": "/images/produk/bouquet-fresh/l/Bfl_009_Harga 175K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfl_010",
+    "id": "BFL_010",
     "name": "Fresh Flowers Large 010",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 170000,
     "image": "/images/produk/bouquet-fresh/l/Bfl_010_Harga 170k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfl_011",
+    "id": "BFL_011",
     "name": "Fresh Flowers Large 011",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 175000,
     "image": "/images/produk/bouquet-fresh/l/Bfl_011_Harga 175k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfl_012",
+    "id": "BFL_012",
     "name": "Fresh Flowers Large 012",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 180000,
     "image": "/images/produk/bouquet-fresh/l/Bfl_012_Harga 180k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfl_013",
+    "id": "BFL_013",
     "name": "Fresh Flowers Large 013",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 150000,
     "image": "/images/produk/bouquet-fresh/l/Bfl_013_Harga 150k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfl_014",
+    "id": "BFL_014",
     "name": "Fresh Flowers Large 014",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 170000,
     "image": "/images/produk/bouquet-fresh/l/Bfl_014_Harga 170k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfl_015",
+    "id": "BFL_015",
     "name": "Fresh Flowers Large 015",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 165000,
     "image": "/images/produk/bouquet-fresh/l/Bfl_015_Harga 165k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfl_016",
+    "id": "BFL_016",
     "name": "Fresh Flowers Large 016",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 180000,
     "image": "/images/produk/bouquet-fresh/l/Bfl_016_Harga 180k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfl_017",
+    "id": "BFL_017",
     "name": "Fresh Flowers Large 017",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 150000,
     "image": "/images/produk/bouquet-fresh/l/Bfl_017_Harga 150k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfl_018",
+    "id": "BFL_018",
     "name": "Fresh Flowers Large 018",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 150000,
     "image": "/images/produk/bouquet-fresh/l/Bfl_018_Harga 150k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfl_019",
+    "id": "BFL_019",
     "name": "Fresh Flowers Large 019",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 170000,
     "image": "/images/produk/bouquet-fresh/l/Bfl_019_Harga 170k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfl_020",
+    "id": "BFL_020",
     "name": "Fresh Flowers Large 020",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 150000,
     "image": "/images/produk/bouquet-fresh/l/Bfl_020_Harga 150k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfl_021",
+    "id": "BFL_021",
     "name": "Fresh Flowers Large 021",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 175000,
     "image": "/images/produk/bouquet-fresh/l/Bfl_021_Harga 175k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfl_022",
+    "id": "BFL_022",
     "name": "Fresh Flowers Large 022",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 150000,
     "image": "/images/produk/bouquet-fresh/l/Bfl_022_Harga 150k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfl_023",
+    "id": "BFL_023",
     "name": "Fresh Flowers Large 023",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 210000,
     "image": "/images/produk/bouquet-fresh/l/Bfl_023_Harga 210k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfl_024",
+    "id": "BFL_024",
     "name": "Fresh Flowers Large 024",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 170000,
     "image": "/images/produk/bouquet-fresh/l/Bfl_024_Harga 170k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BFL_025",
@@ -4337,7 +4208,8 @@ export const products = [
     "size": "Large",
     "price": 149000,
     "image": "/images/produk/bouquet-fresh/l/BFL_025_Harga 149K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BFL_026",
@@ -4346,7 +4218,8 @@ export const products = [
     "size": "Large",
     "price": 149000,
     "image": "/images/produk/bouquet-fresh/l/BFL_026_Harga 149K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BFL_027",
@@ -4355,16 +4228,18 @@ export const products = [
     "size": "Large",
     "price": 149000,
     "image": "/images/produk/bouquet-fresh/l/BFL_027_Harga 149K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfl_028",
+    "id": "BFL_028",
     "name": "Fresh Flowers Large 028",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 169000,
     "image": "/images/produk/bouquet-fresh/l/Bfl_028_Harga 169K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BFL_029",
@@ -4373,7 +4248,8 @@ export const products = [
     "size": "Large",
     "price": 179000,
     "image": "/images/produk/bouquet-fresh/l/BFL_029_Harga 179K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BFL_030",
@@ -4382,205 +4258,228 @@ export const products = [
     "size": "Large",
     "price": 179000,
     "image": "/images/produk/bouquet-fresh/l/BFL_030_Harga 179K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfm_001",
+    "id": "BFM_001",
     "name": "Fresh Flowers Medium 001",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 110000,
     "image": "/images/produk/bouquet-fresh/m/Bfm_001_Harga 110k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfm_002",
+    "id": "BFM_002",
     "name": "Fresh Flowers Medium 002",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 100000,
     "image": "/images/produk/bouquet-fresh/m/Bfm_002_Harga 100k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfm_003",
+    "id": "BFM_003",
     "name": "Fresh Flowers Medium 003",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 120000,
     "image": "/images/produk/bouquet-fresh/m/Bfm_003_Harga 120k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfm_004",
+    "id": "BFM_004",
     "name": "Fresh Flowers Medium 004",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 125000,
     "image": "/images/produk/bouquet-fresh/m/Bfm_004_Harga 125k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfm_005",
+    "id": "BFM_005",
     "name": "Fresh Flowers Medium 005",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 120000,
     "image": "/images/produk/bouquet-fresh/m/Bfm_005_Harga 120k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfm_006",
+    "id": "BFM_006",
     "name": "Fresh Flowers Medium 006",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 100000,
     "image": "/images/produk/bouquet-fresh/m/Bfm_006_Harga 100k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfm_007",
+    "id": "BFM_007",
     "name": "Fresh Flowers Medium 007",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 125000,
     "image": "/images/produk/bouquet-fresh/m/Bfm_007_Harga 125k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfm_008",
+    "id": "BFM_008",
     "name": "Fresh Flowers Medium 008",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 100000,
     "image": "/images/produk/bouquet-fresh/m/Bfm_008_Harga 100k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfm_009",
+    "id": "BFM_009",
     "name": "Fresh Flowers Medium 009",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 130000,
     "image": "/images/produk/bouquet-fresh/m/Bfm_009_Harga 130k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfm_010",
+    "id": "BFM_010",
     "name": "Fresh Flowers Medium 010",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 120000,
     "image": "/images/produk/bouquet-fresh/m/Bfm_010_Harga 120k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfm_011",
+    "id": "BFM_011",
     "name": "Fresh Flowers Medium 011",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 120000,
     "image": "/images/produk/bouquet-fresh/m/Bfm_011_Harga 120k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfm_012",
+    "id": "BFM_012",
     "name": "Fresh Flowers Medium 012",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 120000,
     "image": "/images/produk/bouquet-fresh/m/Bfm_012_Harga 120k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfm_013",
+    "id": "BFM_013",
     "name": "Fresh Flowers Medium 013",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 110000,
     "image": "/images/produk/bouquet-fresh/m/Bfm_013_Harga 110k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfm_014",
+    "id": "BFM_014",
     "name": "Fresh Flowers Medium 014",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 115000,
     "image": "/images/produk/bouquet-fresh/m/Bfm_014_Harga 115k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfm_015",
+    "id": "BFM_015",
     "name": "Fresh Flowers Medium 015",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 145000,
     "image": "/images/produk/bouquet-fresh/m/Bfm_015_Harga 145k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfm_016",
+    "id": "BFM_016",
     "name": "Fresh Flowers Medium 016",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 100000,
     "image": "/images/produk/bouquet-fresh/m/Bfm_016_Harga 100k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfm_017",
+    "id": "BFM_017",
     "name": "Fresh Flowers Medium 017",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 120000,
     "image": "/images/produk/bouquet-fresh/m/Bfm_017_Harga 120k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfm_018",
+    "id": "BFM_018",
     "name": "Fresh Flowers Medium 018",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 120000,
     "image": "/images/produk/bouquet-fresh/m/Bfm_018_Harga 120k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfm_019",
+    "id": "BFM_019",
     "name": "Fresh Flowers Medium 019",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 135000,
     "image": "/images/produk/bouquet-fresh/m/Bfm_019_Harga 135k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfm_020",
+    "id": "BFM_020",
     "name": "Fresh Flowers Medium 020",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 135000,
     "image": "/images/produk/bouquet-fresh/m/Bfm_020_Harga 135k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfm_021",
+    "id": "BFM_021",
     "name": "Fresh Flowers Medium 021",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 120000,
     "image": "/images/produk/bouquet-fresh/m/Bfm_021_Harga 120k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfm_022",
+    "id": "BFM_022",
     "name": "Fresh Flowers Medium 022",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 130000,
     "image": "/images/produk/bouquet-fresh/m/Bfm_022_Harga 130k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BFM_023",
@@ -4589,7 +4488,8 @@ export const products = [
     "size": "Medium",
     "price": 99000,
     "image": "/images/produk/bouquet-fresh/m/BFM_023_Harga 99K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BFM_024",
@@ -4598,7 +4498,8 @@ export const products = [
     "size": "Medium",
     "price": 99000,
     "image": "/images/produk/bouquet-fresh/m/BFM_024_Harga 99K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BFM_025",
@@ -4607,16 +4508,18 @@ export const products = [
     "size": "Medium",
     "price": 109000,
     "image": "/images/produk/bouquet-fresh/m/BFM_025_Harga 109K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfm_026",
+    "id": "BFM_026",
     "name": "Fresh Flowers Medium 026",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 110000,
     "image": "/images/produk/bouquet-fresh/m/Bfm_026_Harga 110K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BFM_027",
@@ -4625,7 +4528,8 @@ export const products = [
     "size": "Medium",
     "price": 125000,
     "image": "/images/produk/bouquet-fresh/m/BFM_027_Harga 125K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BFM_028",
@@ -4634,25 +4538,28 @@ export const products = [
     "size": "Medium",
     "price": 125000,
     "image": "/images/produk/bouquet-fresh/m/BFM_028_Harga 125K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfp_001",
+    "id": "BFP_001",
     "name": "Fresh Flowers Premium 001",
     "category": "Fresh Flowers",
     "size": "Premium",
     "price": 250000,
     "image": "/images/produk/bouquet-fresh/premium/Bfp_001_Harga 250k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfp_002",
+    "id": "BFP_002",
     "name": "Fresh Flowers Premium 002",
     "category": "Fresh Flowers",
     "size": "Premium",
     "price": 850000,
     "image": "/images/produk/bouquet-fresh/premium/Bfp_002_Harga 850k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BFP_003",
@@ -4661,16 +4568,8 @@ export const products = [
     "size": "Premium",
     "price": 280000,
     "image": "/images/produk/bouquet-fresh/premium/BFP_003_Harga 280K(1).webp",
-    "isPopular": false
-  },
-  {
-    "id": "Bfp_003",
-    "name": "Fresh Flowers Premium 003",
-    "category": "Fresh Flowers",
-    "size": "Premium",
-    "price": 280000,
-    "image": "/images/produk/bouquet-fresh/premium/Bfp_003_Harga 280k(2).webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BFP_003_1",
@@ -4678,44 +4577,59 @@ export const products = [
     "category": "Fresh Flowers",
     "size": "Premium",
     "price": 280000,
-    "image": "/images/produk/bouquet-fresh/premium/BFP_003_Harga 280K.webp",
-    "isPopular": false
+    "image": "/images/produk/bouquet-fresh/premium/Bfp_003_Harga 280k(2).webp",
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfp_004",
+    "id": "BFP_003_2",
+    "name": "Fresh Flowers Premium 003",
+    "category": "Fresh Flowers",
+    "size": "Premium",
+    "price": 280000,
+    "image": "/images/produk/bouquet-fresh/premium/BFP_003_Harga 280K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "BFP_004",
     "name": "Fresh Flowers Premium 004",
     "category": "Fresh Flowers",
     "size": "Premium",
     "price": 450000,
     "image": "/images/produk/bouquet-fresh/premium/Bfp_004_Harga 450k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfp_005",
+    "id": "BFP_005",
     "name": "Fresh Flowers Premium 005",
     "category": "Fresh Flowers",
     "size": "Premium",
     "price": 300000,
     "image": "/images/produk/bouquet-fresh/premium/Bfp_005_Harga 300k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfp_006",
+    "id": "BFP_006",
     "name": "Fresh Flowers Premium 006",
     "category": "Fresh Flowers",
     "size": "Premium",
     "price": 550000,
     "image": "/images/produk/bouquet-fresh/premium/Bfp_006_Harga 550k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfp_007",
+    "id": "BFP_007",
     "name": "Fresh Flowers Premium 007",
     "category": "Fresh Flowers",
     "size": "Premium",
     "price": 250000,
     "image": "/images/produk/bouquet-fresh/premium/Bfp_007_Harga 250k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BFP_008",
@@ -4724,7 +4638,8 @@ export const products = [
     "size": "Premium",
     "price": 299000,
     "image": "/images/produk/bouquet-fresh/premium/BFP_008_Harga 299K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BFP_009",
@@ -4733,7 +4648,8 @@ export const products = [
     "size": "Premium",
     "price": 220000,
     "image": "/images/produk/bouquet-fresh/premium/BFP_009_Harga 220K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BFP_010",
@@ -4742,7 +4658,8 @@ export const products = [
     "size": "Premium",
     "price": 250000,
     "image": "/images/produk/bouquet-fresh/premium/BFP_010_Harga 250K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BFP_011",
@@ -4751,7 +4668,8 @@ export const products = [
     "size": "Premium",
     "price": 150000,
     "image": "/images/produk/bouquet-fresh/premium/BFP_011_Harga 150K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BFP_012",
@@ -4760,7 +4678,8 @@ export const products = [
     "size": "Premium",
     "price": 199000,
     "image": "/images/produk/bouquet-fresh/premium/BFP_012_Harga 199K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BFP_013",
@@ -4769,7 +4688,8 @@ export const products = [
     "size": "Premium",
     "price": 119000,
     "image": "/images/produk/bouquet-fresh/premium/BFP_013_Harga 119K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BFP_014",
@@ -4778,7 +4698,8 @@ export const products = [
     "size": "Premium",
     "price": 169000,
     "image": "/images/produk/bouquet-fresh/premium/BFP_014_Harga 169K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BFP_015",
@@ -4787,7 +4708,8 @@ export const products = [
     "size": "Premium",
     "price": 199000,
     "image": "/images/produk/bouquet-fresh/premium/BFP_015_Harga 199K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BFP_016",
@@ -4796,7 +4718,8 @@ export const products = [
     "size": "Premium",
     "price": 459000,
     "image": "/images/produk/bouquet-fresh/premium/BFP_016_Harga 459K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BFP_017",
@@ -4805,7 +4728,8 @@ export const products = [
     "size": "Premium",
     "price": 450000,
     "image": "/images/produk/bouquet-fresh/premium/BFP_017_Harga 450K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BFP_018",
@@ -4814,7 +4738,8 @@ export const products = [
     "size": "Premium",
     "price": 399000,
     "image": "/images/produk/bouquet-fresh/premium/BFP_018_Harga 399K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BFP_019",
@@ -4823,7 +4748,8 @@ export const products = [
     "size": "Premium",
     "price": 350000,
     "image": "/images/produk/bouquet-fresh/premium/BFP_019_Harga 350K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BFP_020",
@@ -4832,7 +4758,8 @@ export const products = [
     "size": "Premium",
     "price": 299000,
     "image": "/images/produk/bouquet-fresh/premium/BFP_020_Harga 299K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BFP_021",
@@ -4841,7 +4768,8 @@ export const products = [
     "size": "Premium",
     "price": 299000,
     "image": "/images/produk/bouquet-fresh/premium/BFP_021_Harga 299K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BFP_022",
@@ -4850,7 +4778,8 @@ export const products = [
     "size": "Premium",
     "price": 249000,
     "image": "/images/produk/bouquet-fresh/premium/BFP_022_Harga 249K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BFP_023",
@@ -4859,7 +4788,8 @@ export const products = [
     "size": "Premium",
     "price": 249000,
     "image": "/images/produk/bouquet-fresh/premium/BFP_023_Harga 249K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BFP_024",
@@ -4868,7 +4798,8 @@ export const products = [
     "size": "Premium",
     "price": 249000,
     "image": "/images/produk/bouquet-fresh/premium/BFP_024_Harga 249K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BFP_025",
@@ -4877,205 +4808,228 @@ export const products = [
     "size": "Premium",
     "price": 249000,
     "image": "/images/produk/bouquet-fresh/premium/BFP_025_Harga 249K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfs_001",
+    "id": "BFS_001",
     "name": "Fresh Flowers Small 001",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 85000,
     "image": "/images/produk/bouquet-fresh/s/Bfs_001_Harga 85k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfs_002",
+    "id": "BFS_002",
     "name": "Fresh Flowers Small 002",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 65000,
     "image": "/images/produk/bouquet-fresh/s/Bfs_002_Harga 65k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfs_003",
+    "id": "BFS_003",
     "name": "Fresh Flowers Small 003",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 75000,
     "image": "/images/produk/bouquet-fresh/s/Bfs_003_Harga 75k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfs_004",
+    "id": "BFS_004",
     "name": "Fresh Flowers Small 004",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 70000,
     "image": "/images/produk/bouquet-fresh/s/Bfs_004_Harga 70k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfs_005",
+    "id": "BFS_005",
     "name": "Fresh Flowers Small 005",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 25000,
     "image": "/images/produk/bouquet-fresh/s/Bfs_005_Harga 25k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfs_006",
+    "id": "BFS_006",
     "name": "Fresh Flowers Small 006",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 65000,
     "image": "/images/produk/bouquet-fresh/s/Bfs_006_Harga 65k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfs_007",
+    "id": "BFS_007",
     "name": "Fresh Flowers Small 007",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 95000,
     "image": "/images/produk/bouquet-fresh/s/Bfs_007_Harga 95k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfs_008",
+    "id": "BFS_008",
     "name": "Fresh Flowers Small 008",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 65000,
     "image": "/images/produk/bouquet-fresh/s/Bfs_008_Harga 65k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfs_009",
+    "id": "BFS_009",
     "name": "Fresh Flowers Small 009",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 75000,
     "image": "/images/produk/bouquet-fresh/s/Bfs_009_Harga 75k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfs_010",
+    "id": "BFS_010",
     "name": "Fresh Flowers Small 010",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 60000,
     "image": "/images/produk/bouquet-fresh/s/Bfs_010_Harga 60k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfs_011",
+    "id": "BFS_011",
     "name": "Fresh Flowers Small 011",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 75000,
     "image": "/images/produk/bouquet-fresh/s/Bfs_011_Harga 75k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfs_012",
+    "id": "BFS_012",
     "name": "Fresh Flowers Small 012",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 65000,
     "image": "/images/produk/bouquet-fresh/s/Bfs_012_Harga 65k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfs_013",
+    "id": "BFS_013",
     "name": "Fresh Flowers Small 013",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 50000,
     "image": "/images/produk/bouquet-fresh/s/Bfs_013_Harga 50k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfs_014",
+    "id": "BFS_014",
     "name": "Fresh Flowers Small 014",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 30000,
     "image": "/images/produk/bouquet-fresh/s/Bfs_014_Harga 30k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfs_015",
+    "id": "BFS_015",
     "name": "Fresh Flowers Small 015",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 50000,
     "image": "/images/produk/bouquet-fresh/s/Bfs_015_Harga 50k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfs_016",
+    "id": "BFS_016",
     "name": "Fresh Flowers Small 016",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 95000,
     "image": "/images/produk/bouquet-fresh/s/Bfs_016_Harga 95k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfs_017",
+    "id": "BFS_017",
     "name": "Fresh Flowers Small 017",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 85000,
     "image": "/images/produk/bouquet-fresh/s/Bfs_017_Harga 85k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfs_018",
+    "id": "BFS_018",
     "name": "Fresh Flowers Small 018",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 65000,
     "image": "/images/produk/bouquet-fresh/s/Bfs_018_Harga 65k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfs_019",
+    "id": "BFS_019",
     "name": "Fresh Flowers Small 019",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 50000,
     "image": "/images/produk/bouquet-fresh/s/Bfs_019_Harga 50k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfs_020",
+    "id": "BFS_020",
     "name": "Fresh Flowers Small 020",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 49000,
     "image": "/images/produk/bouquet-fresh/s/Bfs_020_Harga 49K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfs_021",
+    "id": "BFS_021",
     "name": "Fresh Flowers Small 021",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 49000,
     "image": "/images/produk/bouquet-fresh/s/Bfs_021_Harga 49K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfs_022",
+    "id": "BFS_022",
     "name": "Fresh Flowers Small 022",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 55000,
     "image": "/images/produk/bouquet-fresh/s/Bfs_022_Harga 55K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BSF_001",
@@ -5084,7 +5038,8 @@ export const products = [
     "size": "Single Flower",
     "price": 12500,
     "image": "/images/produk/bouquet-fresh/single/BSF_001_Harga 12,5K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BSF_002",
@@ -5093,7 +5048,8 @@ export const products = [
     "size": "Single Flower",
     "price": 12000,
     "image": "/images/produk/bouquet-fresh/single/BSF_002_Harga 12K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BSF_003",
@@ -5102,7 +5058,8 @@ export const products = [
     "size": "Single Flower",
     "price": 15000,
     "image": "/images/produk/bouquet-fresh/single/BSF_003_Harga 15K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BSF_004",
@@ -5111,142 +5068,158 @@ export const products = [
     "size": "Single Flower",
     "price": 20000,
     "image": "/images/produk/bouquet-fresh/single/BSF_004_Harga 20K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfxl_001",
+    "id": "BFXL_001",
     "name": "Fresh Flowers XL 001",
     "category": "Fresh Flowers",
     "size": "XL",
     "price": 235000,
     "image": "/images/produk/bouquet-fresh/xl/Bfxl_001_Harga 235k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfxl_002",
+    "id": "BFXL_002",
     "name": "Fresh Flowers XL 002",
     "category": "Fresh Flowers",
     "size": "XL",
     "price": 235000,
     "image": "/images/produk/bouquet-fresh/xl/Bfxl_002_Harga 235k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfxl_003",
+    "id": "BFXL_003",
     "name": "Fresh Flowers XL 003",
     "category": "Fresh Flowers",
     "size": "XL",
     "price": 275000,
     "image": "/images/produk/bouquet-fresh/xl/Bfxl_003_Harga 275k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfxl_004",
+    "id": "BFXL_004",
     "name": "Fresh Flowers XL 004",
     "category": "Fresh Flowers",
     "size": "XL",
     "price": 200000,
     "image": "/images/produk/bouquet-fresh/xl/Bfxl_004_Harga 200k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfxl_005",
+    "id": "BFXL_005",
     "name": "Fresh Flowers XL 005",
     "category": "Fresh Flowers",
     "size": "XL",
     "price": 225000,
     "image": "/images/produk/bouquet-fresh/xl/Bfxl_005_Harga 225k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfxl_006",
+    "id": "BFXL_006",
     "name": "Fresh Flowers XL 006",
     "category": "Fresh Flowers",
     "size": "XL",
     "price": 275000,
     "image": "/images/produk/bouquet-fresh/xl/Bfxl_006_Harga 275k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfxl_007",
+    "id": "BFXL_007",
     "name": "Fresh Flowers XL 007",
     "category": "Fresh Flowers",
     "size": "XL",
     "price": 250000,
     "image": "/images/produk/bouquet-fresh/xl/Bfxl_007_Harga 250k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfxl_008",
+    "id": "BFXL_008",
     "name": "Fresh Flowers XL 008",
     "category": "Fresh Flowers",
     "size": "XL",
     "price": 220000,
     "image": "/images/produk/bouquet-fresh/xl/Bfxl_008_Harga 220k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfxl_009",
+    "id": "BFXL_009",
     "name": "Fresh Flowers XL 009",
     "category": "Fresh Flowers",
     "size": "XL",
     "price": 220000,
     "image": "/images/produk/bouquet-fresh/xl/Bfxl_009_Harga 220k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfxl_010",
+    "id": "BFXL_010",
     "name": "Fresh Flowers XL 010",
     "category": "Fresh Flowers",
     "size": "XL",
     "price": 220000,
     "image": "/images/produk/bouquet-fresh/xl/Bfxl_010_Harga 220k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfxl_011",
+    "id": "BFXL_011",
     "name": "Fresh Flowers XL 011",
     "category": "Fresh Flowers",
     "size": "XL",
     "price": 250000,
     "image": "/images/produk/bouquet-fresh/xl/Bfxl_011_Harga 250k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfxl_012",
+    "id": "BFXL_012",
     "name": "Fresh Flowers XL 012",
     "category": "Fresh Flowers",
     "size": "XL",
     "price": 235000,
     "image": "/images/produk/bouquet-fresh/xl/Bfxl_012_Harga 235k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfxl_013",
+    "id": "BFXL_013",
     "name": "Fresh Flowers XL 013",
     "category": "Fresh Flowers",
     "size": "XL",
     "price": 250000,
     "image": "/images/produk/bouquet-fresh/xl/Bfxl_013_Harga 250k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfxl_014",
+    "id": "BFXL_014",
     "name": "Fresh Flowers XL 014",
     "category": "Fresh Flowers",
     "size": "XL",
     "price": 250000,
     "image": "/images/produk/bouquet-fresh/xl/Bfxl_014_Harga 250k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfxl_015",
+    "id": "BFXL_015",
     "name": "Fresh Flowers XL 015",
     "category": "Fresh Flowers",
     "size": "XL",
     "price": 245000,
     "image": "/images/produk/bouquet-fresh/xl/Bfxl_015_Harga 245k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BFXL_016",
@@ -5255,7 +5228,8 @@ export const products = [
     "size": "XL",
     "price": 275000,
     "image": "/images/produk/bouquet-fresh/xl/BFXL_016_Harga 275K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BFXL_017",
@@ -5264,7 +5238,8 @@ export const products = [
     "size": "XL",
     "price": 399000,
     "image": "/images/produk/bouquet-fresh/xl/BFXL_017_Harga 399K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BFXL_018",
@@ -5273,7 +5248,8 @@ export const products = [
     "size": "XL",
     "price": 235000,
     "image": "/images/produk/bouquet-fresh/xl/BFXL_018_Harga 235K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BFXL_019",
@@ -5282,7 +5258,8 @@ export const products = [
     "size": "XL",
     "price": 265000,
     "image": "/images/produk/bouquet-fresh/xl/BFXL_019_Harga 265K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BFXL_020",
@@ -5291,43 +5268,48 @@ export const products = [
     "size": "XL",
     "price": 229000,
     "image": "/images/produk/bouquet-fresh/xl/BFXL_020_Harga 229K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfxl_021",
+    "id": "BFXL_021",
     "name": "Fresh Flowers XL 021",
     "category": "Fresh Flowers",
     "size": "XL",
     "price": 220000,
     "image": "/images/produk/bouquet-fresh/xl/Bfxl_021_Harga 220k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfmal_001",
+    "id": "BFMAL_001",
     "name": "Fresh Mix Artificial Large 001",
     "category": "Fresh Mix Artificial",
     "size": "Large",
     "price": 200000,
     "image": "/images/produk/bouquet-mix/l/Bfmal_001_Harga 200k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfmal_002",
+    "id": "BFMAL_002",
     "name": "Fresh Mix Artificial Large 002",
     "category": "Fresh Mix Artificial",
     "size": "Large",
     "price": 185000,
     "image": "/images/produk/bouquet-mix/l/Bfmal_002_Harga 185k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfmal_003",
+    "id": "BFMAL_003",
     "name": "Fresh Mix Artificial Large 003",
     "category": "Fresh Mix Artificial",
     "size": "Large",
     "price": 170000,
     "image": "/images/produk/bouquet-mix/l/Bfmal_003_Harga 170k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BFMAL_004",
@@ -5336,7 +5318,8 @@ export const products = [
     "size": "Large",
     "price": 189000,
     "image": "/images/produk/bouquet-mix/l/BFMAL_004_Harga 189K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BFMAM_005",
@@ -5345,61 +5328,68 @@ export const products = [
     "size": "Medium",
     "price": 145000,
     "image": "/images/produk/bouquet-mix/m/BFMAM_005_Harga 145K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfmam_006",
+    "id": "BFMAM_006",
     "name": "Fresh Mix Artificial Medium 006",
     "category": "Fresh Mix Artificial",
     "size": "Medium",
     "price": 135000,
     "image": "/images/produk/bouquet-mix/m/Bfmam_006_Harga 135k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfmam_007",
+    "id": "BFMAM_007",
     "name": "Fresh Mix Artificial Medium 007",
     "category": "Fresh Mix Artificial",
     "size": "Medium",
     "price": 135000,
     "image": "/images/produk/bouquet-mix/m/Bfmam_007_Harga 135k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfmam_008",
+    "id": "BFMAM_008",
     "name": "Fresh Mix Artificial Medium 008",
     "category": "Fresh Mix Artificial",
     "size": "Medium",
     "price": 135000,
     "image": "/images/produk/bouquet-mix/m/Bfmam_008_Harga 135k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfmam_009",
+    "id": "BFMAM_009",
     "name": "Fresh Mix Artificial Medium 009",
     "category": "Fresh Mix Artificial",
     "size": "Medium",
     "price": 125000,
     "image": "/images/produk/bouquet-mix/m/Bfmam_009_Harga 125k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfmam_010",
+    "id": "BFMAM_010",
     "name": "Fresh Mix Artificial Medium 010",
     "category": "Fresh Mix Artificial",
     "size": "Medium",
     "price": 125000,
     "image": "/images/produk/bouquet-mix/m/Bfmam_010_Harga 125k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfmam_011",
+    "id": "BFMAM_011",
     "name": "Fresh Mix Artificial Medium 011",
     "category": "Fresh Mix Artificial",
     "size": "Medium",
     "price": 135000,
     "image": "/images/produk/bouquet-mix/m/Bfmam_011_Harga 135k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BFMAXL_012",
@@ -5408,1429 +5398,2198 @@ export const products = [
     "size": "XL",
     "price": 285000,
     "image": "/images/produk/bouquet-mix/xl/BFMAXL_012_Harga 285K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfmaxl_013",
+    "id": "BFMAXL_013",
     "name": "Fresh Mix Artificial XL 013",
     "category": "Fresh Mix Artificial",
     "size": "XL",
     "price": 275000,
     "image": "/images/produk/bouquet-mix/xl/Bfmaxl_013_Harga 275k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bfmaxl_014",
+    "id": "BFMAXL_014",
     "name": "Fresh Mix Artificial XL 014",
     "category": "Fresh Mix Artificial",
     "size": "XL",
     "price": 250000,
     "image": "/images/produk/bouquet-mix/xl/Bfmaxl_014_Harga 250k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "bfmaxl_015",
+    "id": "BFMAXL_015",
     "name": "Fresh Mix Artificial XL 015",
     "category": "Fresh Mix Artificial",
     "size": "XL",
     "price": 350000,
     "image": "/images/produk/bouquet-mix/xl/bfmaxl_015_Harga 350K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bpipe_001",
-    "name": "Bucket Pipe 001",
-    "category": "Bucket Pipe",
+    "id": "BPIPE_001",
+    "name": "Pipe Bouquet 001",
+    "category": "Pipe Bouquet",
     "size": "Custom",
     "price": 120000,
     "image": "/images/produk/bucket-pipe/Bpipe_001_Harga 120K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BPIPE_002",
-    "name": "Bucket Pipe 002",
-    "category": "Bucket Pipe",
+    "name": "Pipe Bouquet 002",
+    "category": "Pipe Bouquet",
     "size": "Custom",
     "price": 165000,
     "image": "/images/produk/bucket-pipe/BPIPE_002_Harga 165K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "BPipe_003",
-    "name": "Bucket Pipe 003",
-    "category": "Bucket Pipe",
+    "id": "BPIPE_003",
+    "name": "Pipe Bouquet 003",
+    "category": "Pipe Bouquet",
     "size": "Custom",
     "price": 165000,
     "image": "/images/produk/bucket-pipe/BPipe_003_Harga 165K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bpipe_004",
-    "name": "Bucket Pipe 004",
-    "category": "Bucket Pipe",
+    "id": "BPIPE_004",
+    "name": "Pipe Bouquet 004",
+    "category": "Pipe Bouquet",
     "size": "Custom",
     "price": 165000,
     "image": "/images/produk/bucket-pipe/Bpipe_004_Harga 165K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bpipe_005",
-    "name": "Bucket Pipe 005",
-    "category": "Bucket Pipe",
+    "id": "BPIPE_005",
+    "name": "Pipe Bouquet 005",
+    "category": "Pipe Bouquet",
     "size": "Custom",
     "price": 165000,
     "image": "/images/produk/bucket-pipe/Bpipe_005_Harga 165K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bpipe_006",
-    "name": "Bucket Pipe 006",
-    "category": "Bucket Pipe",
+    "id": "BPIPE_006",
+    "name": "Pipe Bouquet 006",
+    "category": "Pipe Bouquet",
     "size": "Custom",
     "price": 120000,
     "image": "/images/produk/bucket-pipe/Bpipe_006_Harga 120K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bpipe_007",
-    "name": "Bucket Pipe 007",
-    "category": "Bucket Pipe",
+    "id": "BPIPE_007",
+    "name": "Pipe Bouquet 007",
+    "category": "Pipe Bouquet",
     "size": "Custom",
     "price": 89000,
     "image": "/images/produk/bucket-pipe/Bpipe_007_Harga 89K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bpipe_008",
-    "name": "Bucket Pipe 008",
-    "category": "Bucket Pipe",
+    "id": "BPIPE_008",
+    "name": "Pipe Bouquet 008",
+    "category": "Pipe Bouquet",
     "size": "Custom",
     "price": 89000,
     "image": "/images/produk/bucket-pipe/Bpipe_008_Harga 89K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "BCSayur_001",
-    "name": "Custom Bucket Sayur 001",
-    "category": "Custom Bucket",
+    "id": "BCSAYUR_001",
+    "name": "Custom Bouquet Sayur 001",
+    "category": "Custom Bouquet",
     "size": "Sayur",
     "price": 200000,
     "image": "/images/produk/custom-bucket/BCSayur_001_Harga 200K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "BDried_001",
-    "name": "Custom Bucket Dried 001",
-    "category": "Custom Bucket",
+    "id": "BDRIED_001",
+    "name": "Custom Bouquet Dried 001",
+    "category": "Custom Bouquet",
     "size": "Dried",
     "price": 95000,
     "image": "/images/produk/custom-bucket/BDried_001_Harga 95k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "BDried_002",
-    "name": "Custom Bucket Dried 002",
-    "category": "Custom Bucket",
+    "id": "BDRIED_002",
+    "name": "Custom Bouquet Dried 002",
+    "category": "Custom Bouquet",
     "size": "Dried",
     "price": 499000,
     "image": "/images/produk/custom-bucket/BDried_002_Harga 499K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "BDried_003",
-    "name": "Custom Bucket Dried 003",
-    "category": "Custom Bucket",
+    "id": "BDRIED_003",
+    "name": "Custom Bouquet Dried 003",
+    "category": "Custom Bouquet",
     "size": "Dried",
     "price": 129000,
     "image": "/images/produk/custom-bucket/BDried_003_Harga 129K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bdried_004",
-    "name": "Custom Bucket Dried 004",
-    "category": "Custom Bucket",
+    "id": "BDRIED_004",
+    "name": "Custom Bouquet Dried 004",
+    "category": "Custom Bouquet",
     "size": "Dried",
     "price": 89000,
     "image": "/images/produk/custom-bucket/Bdried_004_Harga 89K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bdried_005",
-    "name": "Custom Bucket Dried 005",
-    "category": "Custom Bucket",
+    "id": "BDRIED_005",
+    "name": "Custom Bouquet Dried 005",
+    "category": "Custom Bouquet",
     "size": "Dried",
     "price": 95000,
     "image": "/images/produk/custom-bucket/Bdried_005_Harga 95k.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "BGradArtif_001",
-    "name": "Custom Bucket Graduation Artificial 001",
-    "category": "Custom Bucket",
+    "id": "BGRADARTIF_001",
+    "name": "Custom Bouquet Graduation Artificial 001",
+    "category": "Custom Bouquet",
     "size": "Graduation Artificial",
     "price": 250000,
     "image": "/images/produk/custom-bucket/BGradArtif_001_Harga 250K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BGRADARTIF_002",
-    "name": "Custom Bucket Graduation Artificial 002",
-    "category": "Custom Bucket",
+    "name": "Custom Bouquet Graduation Artificial 002",
+    "category": "Custom Bouquet",
     "size": "Graduation Artificial",
     "price": 449000,
     "image": "/images/produk/custom-bucket/BGRADARTIF_002_Harga 449K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BGRADARTIF_003",
-    "name": "Custom Bucket Graduation Artificial 003",
-    "category": "Custom Bucket",
+    "name": "Custom Bouquet Graduation Artificial 003",
+    "category": "Custom Bouquet",
     "size": "Graduation Artificial",
     "price": 275000,
     "image": "/images/produk/custom-bucket/BGRADARTIF_003_Harga 275K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BGRADARTIF_004",
-    "name": "Custom Bucket Graduation Artificial 004",
-    "category": "Custom Bucket",
+    "name": "Custom Bouquet Graduation Artificial 004",
+    "category": "Custom Bouquet",
     "size": "Graduation Artificial",
     "price": 255000,
     "image": "/images/produk/custom-bucket/BGRADARTIF_004_Harga 255K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BGRADARTIF_005",
-    "name": "Custom Bucket Graduation Artificial 005",
-    "category": "Custom Bucket",
+    "name": "Custom Bouquet Graduation Artificial 005",
+    "category": "Custom Bouquet",
     "size": "Graduation Artificial",
     "price": 249000,
     "image": "/images/produk/custom-bucket/BGRADARTIF_005_Harga 249K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BGRADARTIF_006",
-    "name": "Custom Bucket Graduation Artificial 006",
-    "category": "Custom Bucket",
+    "name": "Custom Bouquet Graduation Artificial 006",
+    "category": "Custom Bouquet",
     "size": "Graduation Artificial",
     "price": 249000,
     "image": "/images/produk/custom-bucket/BGRADARTIF_006_Harga 249K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BGRADARTIF_007",
-    "name": "Custom Bucket Graduation Artificial 007",
-    "category": "Custom Bucket",
+    "name": "Custom Bouquet Graduation Artificial 007",
+    "category": "Custom Bouquet",
     "size": "Graduation Artificial",
     "price": 249000,
     "image": "/images/produk/custom-bucket/BGRADARTIF_007_Harga 249K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "BGRADArtif_008",
-    "name": "Custom Bucket Graduation Artificial 008",
-    "category": "Custom Bucket",
+    "id": "BGRADARTIF_008",
+    "name": "Custom Bouquet Graduation Artificial 008",
+    "category": "Custom Bouquet",
     "size": "Graduation Artificial",
     "price": 249000,
     "image": "/images/produk/custom-bucket/BGRADArtif_008_Harga 249K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BGRADARTIF_009",
-    "name": "Custom Bucket Graduation Artificial 009",
-    "category": "Custom Bucket",
+    "name": "Custom Bouquet Graduation Artificial 009",
+    "category": "Custom Bouquet",
     "size": "Graduation Artificial",
     "price": 205000,
     "image": "/images/produk/custom-bucket/BGRADARTIF_009_Harga 205K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "BGradArtif_010",
-    "name": "Custom Bucket Graduation Artificial 010",
-    "category": "Custom Bucket",
+    "id": "BGRADARTIF_010",
+    "name": "Custom Bouquet Graduation Artificial 010",
+    "category": "Custom Bouquet",
     "size": "Graduation Artificial",
     "price": 179000,
     "image": "/images/produk/custom-bucket/BGradArtif_010_Harga 179K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "BGradArtif_011",
-    "name": "Custom Bucket Graduation Artificial 011",
-    "category": "Custom Bucket",
+    "id": "BGRADARTIF_011",
+    "name": "Custom Bouquet Graduation Artificial 011",
+    "category": "Custom Bouquet",
     "size": "Graduation Artificial",
     "price": 155000,
     "image": "/images/produk/custom-bucket/BGradArtif_011_Harga 155K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BGRADARTIF_012",
-    "name": "Custom Bucket Graduation Artificial 012",
-    "category": "Custom Bucket",
+    "name": "Custom Bouquet Graduation Artificial 012",
+    "category": "Custom Bouquet",
     "size": "Graduation Artificial",
     "price": 129000,
     "image": "/images/produk/custom-bucket/BGRADARTIF_012_Harga 129K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "BGRADartif_013",
-    "name": "Custom Bucket Graduation Artificial 013",
-    "category": "Custom Bucket",
+    "id": "BGRADARTIF_013",
+    "name": "Custom Bouquet Graduation Artificial 013",
+    "category": "Custom Bouquet",
     "size": "Graduation Artificial",
     "price": 0,
     "image": "/images/produk/custom-bucket/BGRADartif_013_Harga (ask for more info).webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bgradfresh_014",
-    "name": "Custom Bucket Graduation Fresh 014",
-    "category": "Custom Bucket",
+    "id": "BGRADFRESH_014",
+    "name": "Custom Bouquet Graduation Fresh 014",
+    "category": "Custom Bouquet",
     "size": "Graduation Fresh",
     "price": 249000,
     "image": "/images/produk/custom-bucket/Bgradfresh_014_Harga 249K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BGRADFRESH_015",
-    "name": "Custom Bucket Graduation Fresh 015",
-    "category": "Custom Bucket",
+    "name": "Custom Bouquet Graduation Fresh 015",
+    "category": "Custom Bouquet",
     "size": "Graduation Fresh",
     "price": 275000,
     "image": "/images/produk/custom-bucket/BGRADFRESH_015_Harga 275K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bgradsnack_016",
-    "name": "Custom Bucket Graduation Snack 016",
-    "category": "Custom Bucket",
+    "id": "BGRADSNACK_016",
+    "name": "Custom Bouquet Graduation Snack 016",
+    "category": "Custom Bouquet",
     "size": "Graduation Snack",
     "price": 149000,
     "image": "/images/produk/custom-bucket/Bgradsnack_016_Harga 149K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BLEGO_001",
-    "name": "Custom Bucket Lego 001",
-    "category": "Custom Bucket",
+    "name": "Custom Bouquet Lego 001",
+    "category": "Custom Bouquet",
     "size": "Lego",
     "price": 0,
     "image": "/images/produk/custom-bucket/BLEGO_001_Harga custom (ask admin for more info).webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BLEGO_002",
-    "name": "Custom Bucket Lego 002",
-    "category": "Custom Bucket",
+    "name": "Custom Bouquet Lego 002",
+    "category": "Custom Bouquet",
     "size": "Lego",
     "price": 125000,
     "image": "/images/produk/custom-bucket/BLEGO_002_Harga 125K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BLEGO_003",
-    "name": "Custom Bucket Lego 003",
-    "category": "Custom Bucket",
+    "name": "Custom Bouquet Lego 003",
+    "category": "Custom Bouquet",
     "size": "Lego",
     "price": 135000,
     "image": "/images/produk/custom-bucket/BLEGO_003_Harga 135K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BLEGO_004",
-    "name": "Custom Bucket Lego 004",
-    "category": "Custom Bucket",
+    "name": "Custom Bouquet Lego 004",
+    "category": "Custom Bouquet",
     "size": "Lego",
     "price": 149000,
     "image": "/images/produk/custom-bucket/BLEGO_004_Harga 149K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bphotoartif_001",
-    "name": "Custom Bucket Photo 001",
-    "category": "Custom Bucket",
+    "id": "BPHOTOARTIF_001",
+    "name": "Custom Bouquet Photo 001",
+    "category": "Custom Bouquet",
     "size": "Photo",
     "price": 179000,
     "image": "/images/produk/custom-bucket/Bphotoartif_001_Harga 179K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bphotoartif_002",
-    "name": "Custom Bucket Photo 002",
-    "category": "Custom Bucket",
+    "id": "BPHOTOARTIF_002",
+    "name": "Custom Bouquet Photo 002",
+    "category": "Custom Bouquet",
     "size": "Photo",
     "price": 249000,
     "image": "/images/produk/custom-bucket/Bphotoartif_002_Harga 249K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BPHOTOARTIF_003",
-    "name": "Custom Bucket Photo 003",
-    "category": "Custom Bucket",
+    "name": "Custom Bouquet Photo 003",
+    "category": "Custom Bouquet",
     "size": "Photo",
     "price": 199000,
     "image": "/images/produk/custom-bucket/BPHOTOARTIF_003_Harga 199K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bphotoartif_004",
-    "name": "Custom Bucket Photo 004",
-    "category": "Custom Bucket",
+    "id": "BPHOTOARTIF_004",
+    "name": "Custom Bouquet Photo 004",
+    "category": "Custom Bouquet",
     "size": "Photo",
     "price": 199000,
     "image": "/images/produk/custom-bucket/Bphotoartif_004_Harga 199K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bphotoartif_005",
-    "name": "Custom Bucket Photo 005",
-    "category": "Custom Bucket",
+    "id": "BPHOTOARTIF_005",
+    "name": "Custom Bouquet Photo 005",
+    "category": "Custom Bouquet",
     "size": "Photo",
     "price": 189000,
     "image": "/images/produk/custom-bucket/Bphotoartif_005_Harga 189K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "BphotoArtif_006",
-    "name": "Custom Bucket Photo 006",
-    "category": "Custom Bucket",
+    "id": "BPHOTOARTIF_006",
+    "name": "Custom Bouquet Photo 006",
+    "category": "Custom Bouquet",
     "size": "Photo",
     "price": 175000,
     "image": "/images/produk/custom-bucket/BphotoArtif_006_Harga 175K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "BrokokArtif_001",
-    "name": "Custom Bucket Rokok 001",
-    "category": "Custom Bucket",
+    "id": "BROKOKARTIF_001",
+    "name": "Custom Bouquet Rokok 001",
+    "category": "Custom Bouquet",
     "size": "Rokok",
     "price": 335000,
     "image": "/images/produk/custom-bucket/BrokokArtif_001_Harga 335K(sudah inc rokok).webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Brokokartif_002",
-    "name": "Custom Bucket Rokok 002",
-    "category": "Custom Bucket",
+    "id": "BROKOKARTIF_002",
+    "name": "Custom Bouquet Rokok 002",
+    "category": "Custom Bouquet",
     "size": "Rokok",
     "price": 259000,
     "image": "/images/produk/custom-bucket/Brokokartif_002_Harga 259K (exclude rokok).webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Brokokartif_003",
-    "name": "Custom Bucket Rokok 003",
-    "category": "Custom Bucket",
+    "id": "BROKOKARTIF_003",
+    "name": "Custom Bouquet Rokok 003",
+    "category": "Custom Bouquet",
     "size": "Rokok",
     "price": 65000,
     "image": "/images/produk/custom-bucket/Brokokartif_003_Harga 65K (fee only).webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "BrokokArtif_004",
-    "name": "Custom Bucket Rokok 004",
-    "category": "Custom Bucket",
+    "id": "BROKOKARTIF_004",
+    "name": "Custom Bouquet Rokok 004",
+    "category": "Custom Bouquet",
     "size": "Rokok",
     "price": 60000,
     "image": "/images/produk/custom-bucket/BrokokArtif_004_Harga 60K ( fee only ).webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "BrokokArtif_005",
-    "name": "Custom Bucket Rokok 005",
-    "category": "Custom Bucket",
+    "id": "BROKOKARTIF_005",
+    "name": "Custom Bouquet Rokok 005",
+    "category": "Custom Bouquet",
     "size": "Rokok",
     "price": 219000,
     "image": "/images/produk/custom-bucket/BrokokArtif_005_Harga 219K(exclude rokok).webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Giftcustom_001",
-    "name": "Custom Bucket Gift Custom 001",
-    "category": "Custom Bucket",
+    "id": "GIFTCUSTOM_001",
+    "name": "Custom Bouquet Gift Custom 001",
+    "category": "Custom Bouquet",
     "size": "Gift Custom",
     "price": 0,
     "image": "/images/produk/custom-bucket/Giftcustom_001_Harga (ask admin for more info).webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Giftcustom_002",
-    "name": "Custom Bucket Gift Custom 002",
-    "category": "Custom Bucket",
+    "id": "GIFTCUSTOM_002",
+    "name": "Custom Bouquet Gift Custom 002",
+    "category": "Custom Bouquet",
     "size": "Gift Custom",
     "price": 0,
     "image": "/images/produk/custom-bucket/Giftcustom_002_Harga (ask for more info).webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Giftcustom_003",
-    "name": "Custom Bucket Gift Custom 003",
-    "category": "Custom Bucket",
+    "id": "GIFTCUSTOM_003",
+    "name": "Custom Bouquet Gift Custom 003",
+    "category": "Custom Bouquet",
     "size": "Gift Custom",
     "price": 0,
     "image": "/images/produk/custom-bucket/Giftcustom_003_Harga (ask for more info).webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Giftcustom_004",
-    "name": "Custom Bucket Gift Custom 004",
-    "category": "Custom Bucket",
+    "id": "GIFTCUSTOM_004",
+    "name": "Custom Bouquet Gift Custom 004",
+    "category": "Custom Bouquet",
     "size": "Gift Custom",
     "price": 0,
     "image": "/images/produk/custom-bucket/Giftcustom_004_Harga (Ask for more info).webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Giftcustom_005",
-    "name": "Custom Bucket Gift Custom 005",
-    "category": "Custom Bucket",
+    "id": "GIFTCUSTOM_005",
+    "name": "Custom Bouquet Gift Custom 005",
+    "category": "Custom Bouquet",
     "size": "Gift Custom",
     "price": 79000,
     "image": "/images/produk/custom-bucket/Giftcustom_005_Harga 79K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Giftcustom_006",
-    "name": "Custom Bucket Gift Custom 006",
-    "category": "Custom Bucket",
+    "id": "GIFTCUSTOM_006",
+    "name": "Custom Bouquet Gift Custom 006",
+    "category": "Custom Bouquet",
     "size": "Gift Custom",
     "price": 79000,
     "image": "/images/produk/custom-bucket/Giftcustom_006_Harga 79K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "GiftCustom_007",
-    "name": "Custom Bucket Gift Custom 007",
-    "category": "Custom Bucket",
+    "id": "GIFTCUSTOM_007",
+    "name": "Custom Bouquet Gift Custom 007",
+    "category": "Custom Bouquet",
     "size": "Gift Custom",
     "price": 79000,
     "image": "/images/produk/custom-bucket/GiftCustom_007_Harga 79K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Giftcustom_008",
-    "name": "Custom Bucket Gift Custom 008",
-    "category": "Custom Bucket",
+    "id": "GIFTCUSTOM_008",
+    "name": "Custom Bouquet Gift Custom 008",
+    "category": "Custom Bouquet",
     "size": "Gift Custom",
     "price": 120000,
     "image": "/images/produk/custom-bucket/Giftcustom_008_Harga 120K (fee only).webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Giftcustom_009",
-    "name": "Custom Bucket Gift Custom 009",
-    "category": "Custom Bucket",
+    "id": "GIFTCUSTOM_009",
+    "name": "Custom Bouquet Gift Custom 009",
+    "category": "Custom Bouquet",
     "size": "Gift Custom",
     "price": 135000,
     "image": "/images/produk/custom-bucket/Giftcustom_009_Harga 135K (fee only).webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Giftcustom_010",
-    "name": "Custom Bucket Gift Custom 010",
-    "category": "Custom Bucket",
+    "id": "GIFTCUSTOM_010",
+    "name": "Custom Bouquet Gift Custom 010",
+    "category": "Custom Bouquet",
     "size": "Gift Custom",
     "price": 149000,
     "image": "/images/produk/custom-bucket/Giftcustom_010_Harga 149K(1).webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Giftcustom_010_1",
-    "name": "Custom Bucket Gift Custom 010",
-    "category": "Custom Bucket",
+    "id": "GIFTCUSTOM_010_1",
+    "name": "Custom Bouquet Gift Custom 010",
+    "category": "Custom Bouquet",
     "size": "Gift Custom",
     "price": 149000,
     "image": "/images/produk/custom-bucket/Giftcustom_010_Harga 149K(2).webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Giftcustom_010_2",
-    "name": "Custom Bucket Gift Custom 010",
-    "category": "Custom Bucket",
+    "id": "GIFTCUSTOM_010_2",
+    "name": "Custom Bouquet Gift Custom 010",
+    "category": "Custom Bouquet",
     "size": "Gift Custom",
     "price": 149000,
     "image": "/images/produk/custom-bucket/Giftcustom_010_Harga 149K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Giftcustom_011",
-    "name": "Custom Bucket Gift Custom 011",
-    "category": "Custom Bucket",
+    "id": "GIFTCUSTOM_011",
+    "name": "Custom Bouquet Gift Custom 011",
+    "category": "Custom Bouquet",
     "size": "Gift Custom",
     "price": 179000,
     "image": "/images/produk/custom-bucket/Giftcustom_011_Harga 179K (fee only).webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "GiftCustom_012",
-    "name": "Custom Bucket Gift Custom 012",
-    "category": "Custom Bucket",
+    "id": "GIFTCUSTOM_012",
+    "name": "Custom Bouquet Gift Custom 012",
+    "category": "Custom Bouquet",
     "size": "Gift Custom",
     "price": 179000,
     "image": "/images/produk/custom-bucket/GiftCustom_012_Harga 179K(custom).webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Giftcustom_013",
-    "name": "Custom Bucket Gift Custom 013",
-    "category": "Custom Bucket",
+    "id": "GIFTCUSTOM_013",
+    "name": "Custom Bouquet Gift Custom 013",
+    "category": "Custom Bouquet",
     "size": "Gift Custom",
     "price": 260000,
     "image": "/images/produk/custom-bucket/Giftcustom_013_Harga 260K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MB60lbr_001",
-    "name": "Money Bucket Custom 001",
-    "category": "Money Bucket",
+    "id": "MB60LBR_001",
+    "name": "Money Bouquet Custom 001",
+    "category": "Money Bouquet",
     "size": "Custom",
     "price": 350000,
     "image": "/images/produk/money-bucket/MB60lbr_001_Harga 350K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA10lbr_010",
-    "name": "Money Bucket Artificial 010",
-    "category": "Money Bucket",
+    "id": "MBA10LBR_010",
+    "name": "Money Bouquet Artificial 010",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 70000,
     "image": "/images/produk/money-bucket/MBA10lbr_010_Harga 70K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA10lbr_011",
-    "name": "Money Bucket Artificial 011",
-    "category": "Money Bucket",
+    "id": "MBA10LBR_011",
+    "name": "Money Bouquet Artificial 011",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 75000,
     "image": "/images/produk/money-bucket/MBA10lbr_011_Harga 75K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA10lbr_012",
-    "name": "Money Bucket Artificial 012",
-    "category": "Money Bucket",
+    "id": "MBA10LBR_012",
+    "name": "Money Bouquet Artificial 012",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 75000,
     "image": "/images/produk/money-bucket/MBA10lbr_012_Harga 75K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA10lbr_013",
-    "name": "Money Bucket Artificial 013",
-    "category": "Money Bucket",
+    "id": "MBA10LBR_013",
+    "name": "Money Bouquet Artificial 013",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 75000,
     "image": "/images/produk/money-bucket/MBA10lbr_013_Harga 75K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA10lbr_014",
-    "name": "Money Bucket Artificial 014",
-    "category": "Money Bucket",
+    "id": "MBA10LBR_014",
+    "name": "Money Bouquet Artificial 014",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 85000,
     "image": "/images/produk/money-bucket/MBA10lbr_014_Harga 85K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA10lbr_015",
-    "name": "Money Bucket Artificial 015",
-    "category": "Money Bucket",
+    "id": "MBA10LBR_015",
+    "name": "Money Bouquet Artificial 015",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 85000,
     "image": "/images/produk/money-bucket/MBA10lbr_015_Harga 85K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA10lbr_016",
-    "name": "Money Bucket Artificial 016",
-    "category": "Money Bucket",
+    "id": "MBA10LBR_016",
+    "name": "Money Bouquet Artificial 016",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 85000,
     "image": "/images/produk/money-bucket/MBA10lbr_016_Harga 85K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA10lbr_017",
-    "name": "Money Bucket Artificial 017",
-    "category": "Money Bucket",
+    "id": "MBA10LBR_017",
+    "name": "Money Bouquet Artificial 017",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 85000,
     "image": "/images/produk/money-bucket/MBA10lbr_017_Harga 85K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA10lbr_018",
-    "name": "Money Bucket Artificial 018",
-    "category": "Money Bucket",
+    "id": "MBA10LBR_018",
+    "name": "Money Bouquet Artificial 018",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 85000,
     "image": "/images/produk/money-bucket/MBA10lbr_018_Harga 85K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA10lbr_019",
-    "name": "Money Bucket Artificial 019",
-    "category": "Money Bucket",
+    "id": "MBA10LBR_019",
+    "name": "Money Bouquet Artificial 019",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 105000,
     "image": "/images/produk/money-bucket/MBA10lbr_019_Harga 105K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA10lbr_020",
-    "name": "Money Bucket Artificial 020",
-    "category": "Money Bucket",
+    "id": "MBA10LBR_020",
+    "name": "Money Bouquet Artificial 020",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 105000,
     "image": "/images/produk/money-bucket/MBA10lbr_020_Harga 105K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA10lbr_021",
-    "name": "Money Bucket Artificial 021",
-    "category": "Money Bucket",
+    "id": "MBA10LBR_021",
+    "name": "Money Bouquet Artificial 021",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 125000,
     "image": "/images/produk/money-bucket/MBA10lbr_021_Harga 125K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA10lbr_022",
-    "name": "Money Bucket Artificial 022",
-    "category": "Money Bucket",
+    "id": "MBA10LBR_022",
+    "name": "Money Bouquet Artificial 022",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 165000,
     "image": "/images/produk/money-bucket/MBA10lbr_022_Harga 165K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA10lbr_023",
-    "name": "Money Bucket Artificial 023",
-    "category": "Money Bucket",
+    "id": "MBA10LBR_023",
+    "name": "Money Bouquet Artificial 023",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 199000,
     "image": "/images/produk/money-bucket/MBA10lbr_023_Harga 199K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA10lbr_024",
-    "name": "Money Bucket Artificial 024",
-    "category": "Money Bucket",
+    "id": "MBA10LBR_024",
+    "name": "Money Bouquet Artificial 024",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 199000,
     "image": "/images/produk/money-bucket/MBA10lbr_024_Harga 199K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA10Lbr_025",
-    "name": "Money Bucket Artificial 025",
-    "category": "Money Bucket",
+    "id": "MBA10LBR_025",
+    "name": "Money Bouquet Artificial 025",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 269000,
     "image": "/images/produk/money-bucket/MBA10Lbr_025_Harga 269K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA10lbr_026",
-    "name": "Money Bucket Artificial 026",
-    "category": "Money Bucket",
+    "id": "MBA10LBR_026",
+    "name": "Money Bouquet Artificial 026",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 299000,
     "image": "/images/produk/money-bucket/MBA10lbr_026_Harga 299K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA10lbr_027",
-    "name": "Money Bucket Artificial 027",
-    "category": "Money Bucket",
+    "id": "MBA10LBR_027",
+    "name": "Money Bouquet Artificial 027",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 349000,
     "image": "/images/produk/money-bucket/MBA10lbr_027_Harga 349K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA15lbr_028",
-    "name": "Money Bucket Artificial 028",
-    "category": "Money Bucket",
+    "id": "MBA15LBR_028",
+    "name": "Money Bouquet Artificial 028",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 115000,
     "image": "/images/produk/money-bucket/MBA15lbr_028_Harga 115K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA15lbr_029",
-    "name": "Money Bucket Artificial 029",
-    "category": "Money Bucket",
+    "id": "MBA15LBR_029",
+    "name": "Money Bouquet Artificial 029",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 175000,
     "image": "/images/produk/money-bucket/MBA15lbr_029_Harga 175K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA15lbr_030",
-    "name": "Money Bucket Artificial 030",
-    "category": "Money Bucket",
+    "id": "MBA15LBR_030",
+    "name": "Money Bouquet Artificial 030",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 199000,
     "image": "/images/produk/money-bucket/MBA15lbr_030_Harga 199K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA15lbr_031",
-    "name": "Money Bucket Artificial 031",
-    "category": "Money Bucket",
+    "id": "MBA15LBR_031",
+    "name": "Money Bouquet Artificial 031",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 299000,
     "image": "/images/produk/money-bucket/MBA15lbr_031_Harga 299K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA15lbr_033",
-    "name": "Money Bucket Artificial 033",
-    "category": "Money Bucket",
+    "id": "MBA15LBR_033",
+    "name": "Money Bouquet Artificial 033",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 339000,
     "image": "/images/produk/money-bucket/MBA15lbr_033_Harga 339K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA15lbr_034",
-    "name": "Money Bucket Artificial 034",
-    "category": "Money Bucket",
+    "id": "MBA15LBR_034",
+    "name": "Money Bouquet Artificial 034",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 125000,
     "image": "/images/produk/money-bucket/MBA15lbr_034_HARGA 125K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA15lbr_035",
-    "name": "Money Bucket Artificial 035",
-    "category": "Money Bucket",
+    "id": "MBA15LBR_035",
+    "name": "Money Bouquet Artificial 035",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 99000,
     "image": "/images/produk/money-bucket/MBA15lbr_035_Harga 99K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA20lbr_032",
-    "name": "Money Bucket Artificial 032",
-    "category": "Money Bucket",
+    "id": "MBA20LBR_032",
+    "name": "Money Bouquet Artificial 032",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 125000,
     "image": "/images/produk/money-bucket/MBA20lbr_032_Harga 125K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA20lbr_036",
-    "name": "Money Bucket Artificial 036",
-    "category": "Money Bucket",
+    "id": "MBA20LBR_036",
+    "name": "Money Bouquet Artificial 036",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 135000,
     "image": "/images/produk/money-bucket/MBA20lbr_036_Harga 135K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA20lbr_037",
-    "name": "Money Bucket Artificial 037",
-    "category": "Money Bucket",
+    "id": "MBA20LBR_037",
+    "name": "Money Bouquet Artificial 037",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 135000,
     "image": "/images/produk/money-bucket/MBA20lbr_037_Harga 135K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA20lbr_038",
-    "name": "Money Bucket Artificial 038",
-    "category": "Money Bucket",
+    "id": "MBA20LBR_038",
+    "name": "Money Bouquet Artificial 038",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 149000,
     "image": "/images/produk/money-bucket/MBA20lbr_038_Harga 149K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA20lbr_039",
-    "name": "Money Bucket Artificial 039",
-    "category": "Money Bucket",
+    "id": "MBA20LBR_039",
+    "name": "Money Bouquet Artificial 039",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 149000,
     "image": "/images/produk/money-bucket/MBA20lbr_039_Harga 149K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA20lbr_040",
-    "name": "Money Bucket Artificial 040",
-    "category": "Money Bucket",
+    "id": "MBA20LBR_040",
+    "name": "Money Bouquet Artificial 040",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 149000,
     "image": "/images/produk/money-bucket/MBA20lbr_040_Harga 149K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA20lbr_041",
-    "name": "Money Bucket Artificial 041",
-    "category": "Money Bucket",
+    "id": "MBA20LBR_041",
+    "name": "Money Bouquet Artificial 041",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 165000,
     "image": "/images/produk/money-bucket/MBA20lbr_041_Harga 165K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Mba20lbr_042",
-    "name": "Money Bucket Artificial 042",
-    "category": "Money Bucket",
+    "id": "MBA20LBR_042",
+    "name": "Money Bouquet Artificial 042",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 169000,
     "image": "/images/produk/money-bucket/Mba20lbr_042_Harga 169K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA20lbr_043",
-    "name": "Money Bucket Artificial 043",
-    "category": "Money Bucket",
+    "id": "MBA20LBR_043",
+    "name": "Money Bouquet Artificial 043",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 359000,
     "image": "/images/produk/money-bucket/MBA20lbr_043_Harga 359K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA25lbr_044",
-    "name": "Money Bucket Artificial 044",
-    "category": "Money Bucket",
+    "id": "MBA25LBR_044",
+    "name": "Money Bouquet Artificial 044",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 155000,
     "image": "/images/produk/money-bucket/MBA25lbr_044_Harga 155K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA30lbr_045",
-    "name": "Money Bucket Artificial 045",
-    "category": "Money Bucket",
+    "id": "MBA30LBR_045",
+    "name": "Money Bouquet Artificial 045",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 215000,
     "image": "/images/produk/money-bucket/MBA30lbr_045_Harga 215K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA30lbr_046",
-    "name": "Money Bucket Artificial 046",
-    "category": "Money Bucket",
+    "id": "MBA30LBR_046",
+    "name": "Money Bouquet Artificial 046",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 235000,
     "image": "/images/produk/money-bucket/MBA30lbr_046_Harga 235K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA30lbr_047",
-    "name": "Money Bucket Artificial 047",
-    "category": "Money Bucket",
+    "id": "MBA30LBR_047",
+    "name": "Money Bouquet Artificial 047",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 399000,
     "image": "/images/produk/money-bucket/MBA30lbr_047_Harga 399K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA3lbr_002",
-    "name": "Money Bucket Artificial 002",
-    "category": "Money Bucket",
+    "id": "MBA3LBR_002",
+    "name": "Money Bouquet Artificial 002",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 50000,
     "image": "/images/produk/money-bucket/MBA3lbr_002_Harga 50K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA3lbr_003",
-    "name": "Money Bucket Artificial 003",
-    "category": "Money Bucket",
+    "id": "MBA3LBR_003",
+    "name": "Money Bouquet Artificial 003",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 185000,
     "image": "/images/produk/money-bucket/MBA3lbr_003_Harga 185K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA40lbr_048",
-    "name": "Money Bucket Artificial 048",
-    "category": "Money Bucket",
+    "id": "MBA40LBR_048",
+    "name": "Money Bouquet Artificial 048",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 265000,
     "image": "/images/produk/money-bucket/MBA40lbr_048_Harga 265K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA40lbr_049",
-    "name": "Money Bucket Artificial 049",
-    "category": "Money Bucket",
+    "id": "MBA40LBR_049",
+    "name": "Money Bouquet Artificial 049",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 265000,
     "image": "/images/produk/money-bucket/MBA40lbr_049_Harga 265K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA40lbr_050",
-    "name": "Money Bucket Artificial 050",
-    "category": "Money Bucket",
+    "id": "MBA40LBR_050",
+    "name": "Money Bouquet Artificial 050",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 285000,
     "image": "/images/produk/money-bucket/MBA40lbr_050_Harga 285K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA5lbr_004",
-    "name": "Money Bucket Artificial 004",
-    "category": "Money Bucket",
+    "id": "MBA5LBR_004",
+    "name": "Money Bouquet Artificial 004",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 55000,
     "image": "/images/produk/money-bucket/MBA5lbr_004_Harga 55K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA6lbr_005",
-    "name": "Money Bucket Artificial 005",
-    "category": "Money Bucket",
+    "id": "MBA6LBR_005",
+    "name": "Money Bouquet Artificial 005",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 305000,
     "image": "/images/produk/money-bucket/MBA6lbr_005_Harga 305K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA7lbr_006",
-    "name": "Money Bucket Artificial 006",
-    "category": "Money Bucket",
+    "id": "MBA7LBR_006",
+    "name": "Money Bouquet Artificial 006",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 149000,
     "image": "/images/produk/money-bucket/MBA7lbr_006_Harga 149K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA7lbr_007",
-    "name": "Money Bucket Artificial 007",
-    "category": "Money Bucket",
+    "id": "MBA7LBR_007",
+    "name": "Money Bouquet Artificial 007",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 199000,
     "image": "/images/produk/money-bucket/MBA7lbr_007_Harga 199K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA8lbr_008",
-    "name": "Money Bucket Artificial 008",
-    "category": "Money Bucket",
+    "id": "MBA8LBR_008",
+    "name": "Money Bouquet Artificial 008",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 175000,
     "image": "/images/produk/money-bucket/MBA8lbr_008_Harga 175K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBA9lbr_009",
-    "name": "Money Bucket Artificial 009",
-    "category": "Money Bucket",
+    "id": "MBA9LBR_009",
+    "name": "Money Bouquet Artificial 009",
+    "category": "Money Bouquet",
     "size": "Artificial",
     "price": 65000,
     "image": "/images/produk/money-bucket/MBA9lbr_009_Harga 65K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBD15lbr_051",
-    "name": "Money Bucket Dried 051",
-    "category": "Money Bucket",
+    "id": "MBD15LBR_051",
+    "name": "Money Bouquet Dried 051",
+    "category": "Money Bouquet",
     "size": "Dried",
     "price": 125000,
     "image": "/images/produk/money-bucket/MBD15lbr_051_Harga 125K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBD30lbr_052",
-    "name": "Money Bucket Dried 052",
-    "category": "Money Bucket",
+    "id": "MBD30LBR_052",
+    "name": "Money Bouquet Dried 052",
+    "category": "Money Bouquet",
     "size": "Dried",
     "price": 235000,
     "image": "/images/produk/money-bucket/MBD30lbr_052_Harga 235K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBD30lbr_053",
-    "name": "Money Bucket Dried 053",
-    "category": "Money Bucket",
+    "id": "MBD30LBR_053",
+    "name": "Money Bouquet Dried 053",
+    "category": "Money Bouquet",
     "size": "Dried",
     "price": 235000,
     "image": "/images/produk/money-bucket/MBD30lbr_053_Harga 235K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBD30lbr_054",
-    "name": "Money Bucket Dried 054",
-    "category": "Money Bucket",
+    "id": "MBD30LBR_054",
+    "name": "Money Bouquet Dried 054",
+    "category": "Money Bouquet",
     "size": "Dried",
     "price": 265000,
     "image": "/images/produk/money-bucket/MBD30lbr_054_Harga 265K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBD35lbr_055",
-    "name": "Money Bucket Dried 055",
-    "category": "Money Bucket",
+    "id": "MBD35LBR_055",
+    "name": "Money Bouquet Dried 055",
+    "category": "Money Bouquet",
     "size": "Dried",
     "price": 265000,
     "image": "/images/produk/money-bucket/MBD35lbr_055_Harga 265K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBF10lbr_056",
-    "name": "Money Bucket Fresh 056",
-    "category": "Money Bucket",
+    "id": "MBF10LBR_056",
+    "name": "Money Bouquet Fresh 056",
+    "category": "Money Bouquet",
     "size": "Fresh",
     "price": 149000,
     "image": "/images/produk/money-bucket/MBF10lbr_056_Harga 149K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBF15lbr_057",
-    "name": "Money Bucket Fresh 057",
-    "category": "Money Bucket",
+    "id": "MBF15LBR_057",
+    "name": "Money Bouquet Fresh 057",
+    "category": "Money Bouquet",
     "size": "Fresh",
     "price": 199000,
     "image": "/images/produk/money-bucket/MBF15lbr_057_Harga 199K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "MBF30lbr_058",
-    "name": "Money Bucket Fresh 058",
-    "category": "Money Bucket",
+    "id": "MBF30LBR_058",
+    "name": "Money Bouquet Fresh 058",
+    "category": "Money Bouquet",
     "size": "Fresh",
     "price": 289000,
     "image": "/images/produk/money-bucket/MBF30lbr_058_Harga 289K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "BSnack_001",
-    "name": "Snack & Gift Bucket Snack 001",
-    "category": "Snack & Gift Bucket",
+    "id": "BSNACK_001",
+    "name": "Snack Bouquet 001",
+    "category": "Snack Bouquet",
     "size": "Snack",
     "price": 79000,
     "image": "/images/produk/snack-bucket/BSnack_001_Harga 79K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "BSnack_002",
-    "name": "Snack & Gift Bucket Snack 002",
-    "category": "Snack & Gift Bucket",
+    "id": "BSNACK_002",
+    "name": "Snack Bouquet 002",
+    "category": "Snack Bouquet",
     "size": "Snack",
     "price": 399000,
     "image": "/images/produk/snack-bucket/BSnack_002_Harga 399K (fresh flowers).webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bsnack_003",
-    "name": "Snack & Gift Bucket Snack 003",
-    "category": "Snack & Gift Bucket",
+    "id": "BSNACK_003",
+    "name": "Snack Bouquet 003",
+    "category": "Snack Bouquet",
     "size": "Snack",
     "price": 399000,
     "image": "/images/produk/snack-bucket/Bsnack_003_Harga 399K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BSNACK_004",
-    "name": "Snack & Gift Bucket Snack 004",
-    "category": "Snack & Gift Bucket",
+    "name": "Snack Bouquet 004",
+    "category": "Snack Bouquet",
     "size": "Snack",
     "price": 305000,
     "image": "/images/produk/snack-bucket/BSNACK_004_Harga 305K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bsnack_005",
-    "name": "Snack & Gift Bucket Snack 005",
-    "category": "Snack & Gift Bucket",
+    "id": "BSNACK_005",
+    "name": "Snack Bouquet 005",
+    "category": "Snack Bouquet",
     "size": "Snack",
     "price": 269000,
     "image": "/images/produk/snack-bucket/Bsnack_005_Harga 269K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "BSnack_006",
-    "name": "Snack & Gift Bucket Snack 006",
-    "category": "Snack & Gift Bucket",
+    "id": "BSNACK_006",
+    "name": "Snack Bouquet 006",
+    "category": "Snack Bouquet",
     "size": "Snack",
     "price": 229000,
     "image": "/images/produk/snack-bucket/BSnack_006_Harga 229K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BSNACK_007",
-    "name": "Snack & Gift Bucket Snack 007",
-    "category": "Snack & Gift Bucket",
+    "name": "Snack Bouquet 007",
+    "category": "Snack Bouquet",
     "size": "Snack",
     "price": 225000,
     "image": "/images/produk/snack-bucket/BSNACK_007_Harga 225K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "BSnack_008",
-    "name": "Snack & Gift Bucket Snack 008",
-    "category": "Snack & Gift Bucket",
+    "id": "BSNACK_008",
+    "name": "Snack Bouquet 008",
+    "category": "Snack Bouquet",
     "size": "Snack",
     "price": 199000,
     "image": "/images/produk/snack-bucket/BSnack_008_Harga 199K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bsnack_009",
-    "name": "Snack & Gift Bucket Snack 009",
-    "category": "Snack & Gift Bucket",
+    "id": "BSNACK_009",
+    "name": "Snack Bouquet 009",
+    "category": "Snack Bouquet",
     "size": "Snack",
     "price": 175000,
     "image": "/images/produk/snack-bucket/Bsnack_009_Harga 175K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BSNACK_010",
-    "name": "Snack & Gift Bucket Snack 010",
-    "category": "Snack & Gift Bucket",
+    "name": "Snack Bouquet 010",
+    "category": "Snack Bouquet",
     "size": "Snack",
     "price": 169000,
     "image": "/images/produk/snack-bucket/BSNACK_010_Harga 169K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "BSnack_011",
-    "name": "Snack & Gift Bucket Snack 011",
-    "category": "Snack & Gift Bucket",
+    "id": "BSNACK_011",
+    "name": "Snack Bouquet 011",
+    "category": "Snack Bouquet",
     "size": "Snack",
     "price": 165000,
     "image": "/images/produk/snack-bucket/BSnack_011_Harga 165K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "BSnack_012",
-    "name": "Snack & Gift Bucket Snack 012",
-    "category": "Snack & Gift Bucket",
+    "id": "BSNACK_012",
+    "name": "Snack Bouquet 012",
+    "category": "Snack Bouquet",
     "size": "Snack",
     "price": 159000,
     "image": "/images/produk/snack-bucket/BSnack_012_Harga 159K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bsnack_013",
-    "name": "Snack & Gift Bucket Snack 013",
-    "category": "Snack & Gift Bucket",
+    "id": "BSNACK_013",
+    "name": "Snack Bouquet 013",
+    "category": "Snack Bouquet",
     "size": "Snack",
     "price": 149000,
     "image": "/images/produk/snack-bucket/Bsnack_013_Harga 149K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bsnack_014",
-    "name": "Snack & Gift Bucket Snack 014",
-    "category": "Snack & Gift Bucket",
+    "id": "BSNACK_014",
+    "name": "Snack Bouquet 014",
+    "category": "Snack Bouquet",
     "size": "Snack",
     "price": 149000,
     "image": "/images/produk/snack-bucket/Bsnack_014_Harga 149K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bsnack_015",
-    "name": "Snack & Gift Bucket Snack 015",
-    "category": "Snack & Gift Bucket",
+    "id": "BSNACK_015",
+    "name": "Snack Bouquet 015",
+    "category": "Snack Bouquet",
     "size": "Snack",
     "price": 135000,
     "image": "/images/produk/snack-bucket/Bsnack_015_Harga 135K (sudah include snack).webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "BSnack_016",
-    "name": "Snack & Gift Bucket Snack 016",
-    "category": "Snack & Gift Bucket",
+    "id": "BSNACK_016",
+    "name": "Snack Bouquet 016",
+    "category": "Snack Bouquet",
     "size": "Snack",
     "price": 129000,
     "image": "/images/produk/snack-bucket/BSnack_016_Harga 129K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "BSnack_017",
-    "name": "Snack & Gift Bucket Snack 017",
-    "category": "Snack & Gift Bucket",
+    "id": "BSNACK_017",
+    "name": "Snack Bouquet 017",
+    "category": "Snack Bouquet",
     "size": "Snack",
     "price": 129000,
     "image": "/images/produk/snack-bucket/BSnack_017_Harga 129K (sudah inc snack).webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bsnack_018",
-    "name": "Snack & Gift Bucket Snack 018",
-    "category": "Snack & Gift Bucket",
+    "id": "BSNACK_018",
+    "name": "Snack Bouquet 018",
+    "category": "Snack Bouquet",
     "size": "Snack",
     "price": 125000,
     "image": "/images/produk/snack-bucket/Bsnack_018_Harga 125K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BSNACK_019",
-    "name": "Snack & Gift Bucket Snack 019",
-    "category": "Snack & Gift Bucket",
+    "name": "Snack Bouquet 019",
+    "category": "Snack Bouquet",
     "size": "Snack",
     "price": 99000,
     "image": "/images/produk/snack-bucket/BSNACK_019_Harga 99K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "BSNACK_020",
-    "name": "Snack & Gift Bucket Snack 020",
-    "category": "Snack & Gift Bucket",
+    "name": "Snack Bouquet 020",
+    "category": "Snack Bouquet",
     "size": "Snack",
     "price": 99000,
     "image": "/images/produk/snack-bucket/BSNACK_020_Harga 99K (Fresh).webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "BSnack_021",
-    "name": "Snack & Gift Bucket Snack 021",
-    "category": "Snack & Gift Bucket",
+    "id": "BSNACK_021",
+    "name": "Snack Bouquet 021",
+    "category": "Snack Bouquet",
     "size": "Snack",
     "price": 129000,
     "image": "/images/produk/snack-bucket/BSnack_021_Harga 129K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bsnack_022",
-    "name": "Snack & Gift Bucket Snack 022",
-    "category": "Snack & Gift Bucket",
+    "id": "BSNACK_022",
+    "name": "Snack Bouquet 022",
+    "category": "Snack Bouquet",
     "size": "Snack",
     "price": 99000,
     "image": "/images/produk/snack-bucket/Bsnack_022_Harga 99K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "BSnack_023",
-    "name": "Snack & Gift Bucket Snack 023",
-    "category": "Snack & Gift Bucket",
+    "id": "BSNACK_023",
+    "name": "Snack Bouquet 023",
+    "category": "Snack Bouquet",
     "size": "Snack",
     "price": 89000,
     "image": "/images/produk/snack-bucket/BSnack_023_Harga 89K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bsnack_024",
-    "name": "Snack & Gift Bucket Snack 024",
-    "category": "Snack & Gift Bucket",
+    "id": "BSNACK_024",
+    "name": "Snack Bouquet 024",
+    "category": "Snack Bouquet",
     "size": "Snack",
     "price": 89000,
     "image": "/images/produk/snack-bucket/Bsnack_024_Harga 89K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "BSnack_025",
-    "name": "Snack & Gift Bucket Snack 025",
-    "category": "Snack & Gift Bucket",
+    "id": "BSNACK_025",
+    "name": "Snack Bouquet 025",
+    "category": "Snack Bouquet",
     "size": "Snack",
     "price": 85000,
     "image": "/images/produk/snack-bucket/BSnack_025_Harga 85K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bsnack_026",
-    "name": "Snack & Gift Bucket Snack 026",
-    "category": "Snack & Gift Bucket",
+    "id": "BSNACK_026",
+    "name": "Snack Bouquet 026",
+    "category": "Snack Bouquet",
     "size": "Snack",
     "price": 85000,
     "image": "/images/produk/snack-bucket/Bsnack_026_Harga 85K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "BSnack_027",
-    "name": "Snack & Gift Bucket Snack 027",
-    "category": "Snack & Gift Bucket",
+    "id": "BSNACK_027",
+    "name": "Snack Bouquet 027",
+    "category": "Snack Bouquet",
     "size": "Snack",
     "price": 65000,
     "image": "/images/produk/snack-bucket/BSnack_027_Harga 65K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bsnack_028",
-    "name": "Snack & Gift Bucket Snack 028",
-    "category": "Snack & Gift Bucket",
+    "id": "BSNACK_028",
+    "name": "Snack Bouquet 028",
+    "category": "Snack Bouquet",
     "size": "Snack",
     "price": 65000,
     "image": "/images/produk/snack-bucket/Bsnack_028_Harga 65K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Bsnack_029",
-    "name": "Snack & Gift Bucket Snack 029",
-    "category": "Snack & Gift Bucket",
+    "id": "BSNACK_029",
+    "name": "Snack Bouquet 029",
+    "category": "Snack Bouquet",
     "size": "Snack",
     "price": 45000,
     "image": "/images/produk/snack-bucket/Bsnack_029_Harga 45K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WCArtif_002",
+    "id": "VASKACAARTIF_001",
+    "name": "Vas Arrangement Kaca Artificial 001",
+    "category": "Vas Arrangement",
+    "size": "Kaca Artificial",
+    "price": 165000,
+    "image": "/images/produk/vas-artificial/VasKacaArtif_001_Harga 165K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASKACAARTIF_002",
+    "name": "Vas Arrangement Kaca Artificial 002",
+    "category": "Vas Arrangement",
+    "size": "Kaca Artificial",
+    "price": 149000,
+    "image": "/images/produk/vas-artificial/VasKacaArtif_002_Harga 149K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASKACAARTIF_003",
+    "name": "Vas Arrangement Kaca Artificial 003",
+    "category": "Vas Arrangement",
+    "size": "Kaca Artificial",
+    "price": 149000,
+    "image": "/images/produk/vas-artificial/VasKacaArtif_003_Harga 149K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASKACAARTIF_004",
+    "name": "Vas Arrangement Kaca Artificial 004",
+    "category": "Vas Arrangement",
+    "size": "Kaca Artificial",
+    "price": 149000,
+    "image": "/images/produk/vas-artificial/VasKacaArtif_004_Harga 149K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASKACAARTIF_005",
+    "name": "Vas Arrangement Kaca Artificial 005",
+    "category": "Vas Arrangement",
+    "size": "Kaca Artificial",
+    "price": 199000,
+    "image": "/images/produk/vas-artificial/VasKacaArtif_005_Harga 199K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASKACAARTIF_006",
+    "name": "Vas Arrangement Kaca Artificial 006",
+    "category": "Vas Arrangement",
+    "size": "Kaca Artificial",
+    "price": 199000,
+    "image": "/images/produk/vas-artificial/VasKacaArtif_006_Harga 199K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASKACAARTIF_007",
+    "name": "Vas Arrangement Kaca Artificial 007",
+    "category": "Vas Arrangement",
+    "size": "Kaca Artificial",
+    "price": 199000,
+    "image": "/images/produk/vas-artificial/VasKacaArtif_007_Harga 199K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASKACAARTIF_008",
+    "name": "Vas Arrangement Kaca Artificial 008",
+    "category": "Vas Arrangement",
+    "size": "Kaca Artificial",
+    "price": 199000,
+    "image": "/images/produk/vas-artificial/VasKacaArtif_008_Harga 199K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASKACAARTIF_009",
+    "name": "Vas Arrangement Kaca Artificial 009",
+    "category": "Vas Arrangement",
+    "size": "Kaca Artificial",
+    "price": 199000,
+    "image": "/images/produk/vas-artificial/VasKacaArtif_009_Harga 199K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASKACAARTIF_010",
+    "name": "Vas Arrangement Kaca Artificial 010",
+    "category": "Vas Arrangement",
+    "size": "Kaca Artificial",
+    "price": 209000,
+    "image": "/images/produk/vas-artificial/VasKacaArtif_010_Harga 209K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASKACAARTIF_011",
+    "name": "Vas Arrangement Kaca Artificial 011",
+    "category": "Vas Arrangement",
+    "size": "Kaca Artificial",
+    "price": 299000,
+    "image": "/images/produk/vas-artificial/VasKacaArtif_011_Harga 299K(1).webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASKACAARTIF_011_1",
+    "name": "Vas Arrangement Kaca Artificial 011",
+    "category": "Vas Arrangement",
+    "size": "Kaca Artificial",
+    "price": 299000,
+    "image": "/images/produk/vas-artificial/VasKacaArtif_011_Harga 299K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASKACAARTIF_012",
+    "name": "Vas Arrangement Kaca Artificial 012",
+    "category": "Vas Arrangement",
+    "size": "Kaca Artificial",
+    "price": 299000,
+    "image": "/images/produk/vas-artificial/VasKacaArtif_012_Harga 299K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASKACAARTIF_013",
+    "name": "Vas Arrangement Kaca Artificial 013",
+    "category": "Vas Arrangement",
+    "size": "Kaca Artificial",
+    "price": 349000,
+    "image": "/images/produk/vas-artificial/VasKacaArtif_013_Harga 349K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASKACAARTIF_014",
+    "name": "Vas Arrangement Kaca Artificial 014",
+    "category": "Vas Arrangement",
+    "size": "Kaca Artificial",
+    "price": 499000,
+    "image": "/images/produk/vas-artificial/VasKacaArtif_014_Harga 499K(1).webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASKACAARTIF_014_1",
+    "name": "Vas Arrangement Kaca Artificial 014",
+    "category": "Vas Arrangement",
+    "size": "Kaca Artificial",
+    "price": 499000,
+    "image": "/images/produk/vas-artificial/VasKacaArtif_014_Harga 499K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASKACAARTIF_015",
+    "name": "Vas Arrangement Kaca Artificial 015",
+    "category": "Vas Arrangement",
+    "size": "Kaca Artificial",
+    "price": 999000,
+    "image": "/images/produk/vas-artificial/VasKacaArtif_015_Harga 999K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASKACAARTIF_016",
+    "name": "Vas Arrangement Kaca Artificial 016",
+    "category": "Vas Arrangement",
+    "size": "Kaca Artificial",
+    "price": 999000,
+    "image": "/images/produk/vas-artificial/VasKacaArtif_016_Harga 999K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASKACAARTIF_017",
+    "name": "Vas Arrangement Kaca Artificial 017",
+    "category": "Vas Arrangement",
+    "size": "Kaca Artificial",
+    "price": 149000,
+    "image": "/images/produk/vas-artificial/VasKacaArtif_017_Harga 149K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASPETITEARTI_001",
+    "name": "Vas Arrangement Petite Artificial 001",
+    "category": "Vas Arrangement",
+    "size": "Petite Artificial",
+    "price": 110000,
+    "image": "/images/produk/vas-artificial/VasPetiteArti_001_Harga 110K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASPETITEARTI_002",
+    "name": "Vas Arrangement Petite Artificial 002",
+    "category": "Vas Arrangement",
+    "size": "Petite Artificial",
+    "price": 125000,
+    "image": "/images/produk/vas-artificial/VasPetiteArti_002_Harga 125K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASPETITE_003",
+    "name": "Vas Arrangement Petite Artificial 003",
+    "category": "Vas Arrangement",
+    "size": "Petite Artificial",
+    "price": 110000,
+    "image": "/images/produk/vas-artificial/VasPetite_003_Harga 110K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASPETITE_004",
+    "name": "Vas Arrangement Petite Artificial 004",
+    "category": "Vas Arrangement",
+    "size": "Petite Artificial",
+    "price": 110000,
+    "image": "/images/produk/vas-artificial/VasPetite_004_Harga 110K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASPETITE_005",
+    "name": "Vas Arrangement Petite Artificial 005",
+    "category": "Vas Arrangement",
+    "size": "Petite Artificial",
+    "price": 110000,
+    "image": "/images/produk/vas-artificial/VasPetite_005_Harga 110K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASPETITE_006",
+    "name": "Vas Arrangement Petite Artificial 006",
+    "category": "Vas Arrangement",
+    "size": "Petite Artificial",
+    "price": 110000,
+    "image": "/images/produk/vas-artificial/Vaspetite_006_Harga 110K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASPETITE_007",
+    "name": "Vas Arrangement Petite Artificial 007",
+    "category": "Vas Arrangement",
+    "size": "Petite Artificial",
+    "price": 110000,
+    "image": "/images/produk/vas-artificial/Vaspetite_007_Harga 110K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASPLASTICMELAMINARTIF_001",
+    "name": "Vas Arrangement Plastic Melamin Artificial 001",
+    "category": "Vas Arrangement",
+    "size": "Plastic Melamin Artificial",
+    "price": 199000,
+    "image": "/images/produk/vas-artificial/VasPlasticMelaminArtif_001_Harga 199K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASPLASTICMELAMINARTIF_002",
+    "name": "Vas Arrangement Plastic Melamin Artificial 002",
+    "category": "Vas Arrangement",
+    "size": "Plastic Melamin Artificial",
+    "price": 275000,
+    "image": "/images/produk/vas-artificial/VasPlasticMelaminArtif_002_Harga 275K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASPLASTICMELAMINARTIF_003",
+    "name": "Vas Arrangement Plastic Melamin Artificial 003",
+    "category": "Vas Arrangement",
+    "size": "Plastic Melamin Artificial",
+    "price": 325000,
+    "image": "/images/produk/vas-artificial/VasPlasticMelaminArtif_003_Harga 325K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASPLASTICMELAMINARTIF_004",
+    "name": "Vas Arrangement Plastic Melamin Artificial 004",
+    "category": "Vas Arrangement",
+    "size": "Plastic Melamin Artificial",
+    "price": 220000,
+    "image": "/images/produk/vas-artificial/VasPlasticMelaminArtif_004_Harga 220K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASPLASTICMELAMINARTIF_005",
+    "name": "Vas Arrangement Plastic Melamin Artificial 005",
+    "category": "Vas Arrangement",
+    "size": "Plastic Melamin Artificial",
+    "price": 265000,
+    "image": "/images/produk/vas-artificial/VasPlasticMelaminArtif_005_Harga 265K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASPLASTICMELAMINARTIF_006",
+    "name": "Vas Arrangement Plastic Melamin Artificial 006",
+    "category": "Vas Arrangement",
+    "size": "Plastic Melamin Artificial",
+    "price": 250000,
+    "image": "/images/produk/vas-artificial/VasPlasticMelaminArtif_006_Harga 250K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASPLASTICMELAMINARTIF_007",
+    "name": "Vas Arrangement Plastic Melamin Artificial 007",
+    "category": "Vas Arrangement",
+    "size": "Plastic Melamin Artificial",
+    "price": 220000,
+    "image": "/images/produk/vas-artificial/VasPlasticMelaminArtif_007_Harga 220K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASPLASTICMELAMINARTIF_008",
+    "name": "Vas Arrangement Plastic Melamin Artificial 008",
+    "category": "Vas Arrangement",
+    "size": "Plastic Melamin Artificial",
+    "price": 235000,
+    "image": "/images/produk/vas-artificial/VasPlasticMelaminArtif_008_Harga 235K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASPLASTICMELAMINARTIF_009",
+    "name": "Vas Arrangement Plastic Melamin Artificial 009",
+    "category": "Vas Arrangement",
+    "size": "Plastic Melamin Artificial",
+    "price": 235000,
+    "image": "/images/produk/vas-artificial/VasPlasticMelaminArtif_009_Harga 235K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASPLASTICMELAMINARTIF_010",
+    "name": "Vas Arrangement Plastic Melamin Artificial 010",
+    "category": "Vas Arrangement",
+    "size": "Plastic Melamin Artificial",
+    "price": 235000,
+    "image": "/images/produk/vas-artificial/VasPlasticMelaminArtif_010_Harga 235K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASPLASTICMELAMINARTIF_011",
+    "name": "Vas Arrangement Plastic Melamin Artificial 011",
+    "category": "Vas Arrangement",
+    "size": "Plastic Melamin Artificial",
+    "price": 349000,
+    "image": "/images/produk/vas-artificial/VasPlasticMelaminArtif_011_Harga 349K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASPLASTICMELAMINARTIF_012",
+    "name": "Vas Arrangement Plastic Melamin Artificial 012",
+    "category": "Vas Arrangement",
+    "size": "Plastic Melamin Artificial",
+    "price": 325000,
+    "image": "/images/produk/vas-artificial/VasPlasticMelaminArtif_012_Harga 325K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASPLASTICMELAMINARTIF_013",
+    "name": "Vas Arrangement Plastic Melamin Artificial 013",
+    "category": "Vas Arrangement",
+    "size": "Plastic Melamin Artificial",
+    "price": 315000,
+    "image": "/images/produk/vas-artificial/VasPlasticMelaminArtif_013_Harga 315K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASPLASTICMELAMINARTIF_014",
+    "name": "Vas Arrangement Plastic Melamin Artificial 014",
+    "category": "Vas Arrangement",
+    "size": "Plastic Melamin Artificial",
+    "price": 299000,
+    "image": "/images/produk/vas-artificial/VasPlasticMelaminArtif_014_Harga 299K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASPLASTICMELAMINARTIF_015",
+    "name": "Vas Arrangement Plastic Melamin Artificial 015",
+    "category": "Vas Arrangement",
+    "size": "Plastic Melamin Artificial",
+    "price": 299000,
+    "image": "/images/produk/vas-artificial/VasPlasticMelaminArtif_015_Harga 299K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASPLASTICMELAMINARTIF_016",
+    "name": "Vas Arrangement Plastic Melamin Artificial 016",
+    "category": "Vas Arrangement",
+    "size": "Plastic Melamin Artificial",
+    "price": 289000,
+    "image": "/images/produk/vas-artificial/VasPlasticMelaminArtif_016_Harga 289K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASPLASTICMELAMINARTIF_017",
+    "name": "Vas Arrangement Plastic Melamin Artificial 017",
+    "category": "Vas Arrangement",
+    "size": "Plastic Melamin Artificial",
+    "price": 289000,
+    "image": "/images/produk/vas-artificial/VasPlasticMelaminArtif_017_Harga 289K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASPLASTICMELAMINARTIF_018",
+    "name": "Vas Arrangement Plastic Melamin Artificial 018",
+    "category": "Vas Arrangement",
+    "size": "Plastic Melamin Artificial",
+    "price": 279000,
+    "image": "/images/produk/vas-artificial/VasPlasticMelaminArtif_018_Harga 279K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASPLASTICMELAMINARTIF_019",
+    "name": "Vas Arrangement Plastic Melamin Artificial 019",
+    "category": "Vas Arrangement",
+    "size": "Plastic Melamin Artificial",
+    "price": 275000,
+    "image": "/images/produk/vas-artificial/VasPlasticMelaminArtif_019_Harga 275K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASPLASTICMELAMINARTIF_020",
+    "name": "Vas Arrangement Plastic Melamin Artificial 020",
+    "category": "Vas Arrangement",
+    "size": "Plastic Melamin Artificial",
+    "price": 249000,
+    "image": "/images/produk/vas-artificial/VasPlasticMelaminArtif_020_Harga 249K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASPLASTICMELAMINARTIF_021",
+    "name": "Vas Arrangement Plastic Melamin Artificial 021",
+    "category": "Vas Arrangement",
+    "size": "Plastic Melamin Artificial",
+    "price": 249000,
+    "image": "/images/produk/vas-artificial/VasPlasticMelaminArtif_021_Harga 249K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASPLASTICMELAMINARTIF_022",
+    "name": "Vas Arrangement Plastic Melamin Artificial 022",
+    "category": "Vas Arrangement",
+    "size": "Plastic Melamin Artificial",
+    "price": 245000,
+    "image": "/images/produk/vas-artificial/VasPlasticMelaminArtif_022_Harga 245K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASPLASTICMELAMINARTIF_023",
+    "name": "Vas Arrangement Plastic Melamin Artificial 023",
+    "category": "Vas Arrangement",
+    "size": "Plastic Melamin Artificial",
+    "price": 245000,
+    "image": "/images/produk/vas-artificial/VasPlasticMelaminArtif_023_Harga 245K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASPLASTICMELAMINARTIF_024",
+    "name": "Vas Arrangement Plastic Melamin Artificial 024",
+    "category": "Vas Arrangement",
+    "size": "Plastic Melamin Artificial",
+    "price": 235000,
+    "image": "/images/produk/vas-artificial/VasPlasticMelaminArtif_024_Harga 235K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASPLASTICMELAMINARTIF_025",
+    "name": "Vas Arrangement Plastic Melamin Artificial 025",
+    "category": "Vas Arrangement",
+    "size": "Plastic Melamin Artificial",
+    "price": 235000,
+    "image": "/images/produk/vas-artificial/VasPlasticMelaminArtif_025_Harga 235K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASPLASTICMELAMINARTIF_026",
+    "name": "Vas Arrangement Plastic Melamin Artificial 026",
+    "category": "Vas Arrangement",
+    "size": "Plastic Melamin Artificial",
+    "price": 229000,
+    "image": "/images/produk/vas-artificial/VasPlasticMelaminArtif_026_Harga 229K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASPLASTICMELAMINARTIF_027",
+    "name": "Vas Arrangement Plastic Melamin Artificial 027",
+    "category": "Vas Arrangement",
+    "size": "Plastic Melamin Artificial",
+    "price": 220000,
+    "image": "/images/produk/vas-artificial/VasPlasticMelaminArtif_027_Harga 220K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASPLASTICMELAMINARTIF_028",
+    "name": "Vas Arrangement Plastic Melamin Artificial 028",
+    "category": "Vas Arrangement",
+    "size": "Plastic Melamin Artificial",
+    "price": 220000,
+    "image": "/images/produk/vas-artificial/VasPlasticMelaminArtif_028_Harga 220K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASPLASTICMELAMINARTIF_029",
+    "name": "Vas Arrangement Plastic Melamin Artificial 029",
+    "category": "Vas Arrangement",
+    "size": "Plastic Melamin Artificial",
+    "price": 199000,
+    "image": "/images/produk/vas-artificial/VasPlasticMelaminArtif_029_Harga 199K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASPLASTICMELAMINARTIF_030",
+    "name": "Vas Arrangement Plastic Melamin Artificial 030",
+    "category": "Vas Arrangement",
+    "size": "Plastic Melamin Artificial",
+    "price": 285000,
+    "image": "/images/produk/vas-artificial/VasPlasticMelaminArtif_030_Harga 285K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASKACAFRESH_001",
+    "name": "Vas Arrangement Kaca Fresh 001",
+    "category": "Vas Arrangement",
+    "size": "Kaca Fresh",
+    "price": 239000,
+    "image": "/images/produk/vas-fresh/VasKacaFresh_001_Harga 239K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASKACAFRESH_002",
+    "name": "Vas Arrangement Kaca Fresh 002",
+    "category": "Vas Arrangement",
+    "size": "Kaca Fresh",
+    "price": 239000,
+    "image": "/images/produk/vas-fresh/Vaskacafresh_002_Harga 239K(1).webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASKACAFRESH_002_1",
+    "name": "Vas Arrangement Kaca Fresh 002",
+    "category": "Vas Arrangement",
+    "size": "Kaca Fresh",
+    "price": 239000,
+    "image": "/images/produk/vas-fresh/VasKacaFresh_002_Harga 239K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASKACAFRESH_003",
+    "name": "Vas Arrangement Kaca Fresh 003",
+    "category": "Vas Arrangement",
+    "size": "Kaca Fresh",
+    "price": 299000,
+    "image": "/images/produk/vas-fresh/VasKacaFresh_003_Harga 299K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "VASKACAFRESH_004",
+    "name": "Vas Arrangement Kaca Fresh 004",
+    "category": "Vas Arrangement",
+    "size": "Kaca Fresh",
+    "price": 385000,
+    "image": "/images/produk/vas-fresh/VasKacaFresh_004_Harga 385K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "WCARTIF_002",
     "name": "Wedding Arrangement Corsage Artificial 002",
     "category": "Wedding Arrangement",
     "size": "Corsage Artificial",
     "price": 40000,
     "image": "/images/produk/wedding-arrangement/WCArtif_002_Harga 40K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WCArtif_004",
+    "id": "WCARTIF_004",
     "name": "Wedding Arrangement Corsage Artificial 004",
     "category": "Wedding Arrangement",
     "size": "Corsage Artificial",
     "price": 35000,
     "image": "/images/produk/wedding-arrangement/WCArtif_004_Harga 35K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Wcfresh_001",
+    "id": "WCFRESH_001",
     "name": "Wedding Arrangement Corsage Fresh 001",
     "category": "Wedding Arrangement",
     "size": "Corsage Fresh",
     "price": 35000,
     "image": "/images/produk/wedding-arrangement/Wcfresh_001_Harga 35K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WCFresh_003",
+    "id": "WCFRESH_003",
     "name": "Wedding Arrangement Corsage Fresh 003",
     "category": "Wedding Arrangement",
     "size": "Corsage Fresh",
     "price": 30000,
     "image": "/images/produk/wedding-arrangement/WCFresh_003_Harga 30K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Wedartifcar_001",
+    "id": "WEDARTIFCAR_001",
     "name": "Wedding Arrangement Wedding Car Artificial 001",
     "category": "Wedding Arrangement",
     "size": "Wedding Car Artificial",
     "price": 299000,
     "image": "/images/produk/wedding-arrangement/Wedartifcar_001_Harga 299K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedArtifCar_002",
+    "id": "WEDARTIFCAR_002",
     "name": "Wedding Arrangement Wedding Car Artificial 002",
     "category": "Wedding Arrangement",
     "size": "Wedding Car Artificial",
     "price": 259000,
     "image": "/images/produk/wedding-arrangement/WedArtifCar_002_Harga 259K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedArtif_001",
+    "id": "WEDARTIF_001",
     "name": "Wedding Arrangement Artificial 001",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 350000,
     "image": "/images/produk/wedding-arrangement/WedArtif_001_Harga 350K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedArtif_002",
+    "id": "WEDARTIF_002",
     "name": "Wedding Arrangement Artificial 002",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 65000,
     "image": "/images/produk/wedding-arrangement/WedArtif_002_Harga 65K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "WEDARTIF_003",
@@ -6839,151 +7598,168 @@ export const products = [
     "size": "Artificial",
     "price": 425000,
     "image": "/images/produk/wedding-arrangement/WEDARTIF_003_Harga 425K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedArtif_004",
+    "id": "WEDARTIF_004",
     "name": "Wedding Arrangement Artificial 004",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 425000,
     "image": "/images/produk/wedding-arrangement/WedArtif_004_Harga 425K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedArtif_005",
+    "id": "WEDARTIF_005",
     "name": "Wedding Arrangement Artificial 005",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 425000,
     "image": "/images/produk/wedding-arrangement/WedArtif_005_Harga 425K(1).webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedArtif_005_1",
+    "id": "WEDARTIF_005_1",
     "name": "Wedding Arrangement Artificial 005",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 425000,
     "image": "/images/produk/wedding-arrangement/WedArtif_005_Harga 425K(2).webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedArtif_005_2",
+    "id": "WEDARTIF_005_2",
     "name": "Wedding Arrangement Artificial 005",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 425000,
     "image": "/images/produk/wedding-arrangement/WedArtif_005_Harga 425K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedArtif_006",
+    "id": "WEDARTIF_006",
     "name": "Wedding Arrangement Artificial 006",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 425000,
     "image": "/images/produk/wedding-arrangement/WedArtif_006_Harga 425K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedArtif_007",
+    "id": "WEDARTIF_007",
     "name": "Wedding Arrangement Artificial 007",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 425000,
     "image": "/images/produk/wedding-arrangement/WedArtif_007_Harga 425K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedArtif_008",
+    "id": "WEDARTIF_008",
     "name": "Wedding Arrangement Artificial 008",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 425000,
     "image": "/images/produk/wedding-arrangement/WedArtif_008_Harga 425K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Wedartif_009",
+    "id": "WEDARTIF_009",
     "name": "Wedding Arrangement Artificial 009",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 425000,
     "image": "/images/produk/wedding-arrangement/Wedartif_009_Harga 425K(1).webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedArtif_009",
+    "id": "WEDARTIF_009_1",
     "name": "Wedding Arrangement Artificial 009",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 425000,
     "image": "/images/produk/wedding-arrangement/WedArtif_009_Harga 425K(2).webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Wedartif_009_1",
+    "id": "WEDARTIF_009_2",
     "name": "Wedding Arrangement Artificial 009",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 425000,
     "image": "/images/produk/wedding-arrangement/Wedartif_009_Harga 425K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedArtif_010",
+    "id": "WEDARTIF_010",
     "name": "Wedding Arrangement Artificial 010",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 425000,
     "image": "/images/produk/wedding-arrangement/WedArtif_010_Harga 425K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedArtif_011",
+    "id": "WEDARTIF_011",
     "name": "Wedding Arrangement Artificial 011",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 425000,
     "image": "/images/produk/wedding-arrangement/WedArtif_011_Harga 425K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedArtif_012",
+    "id": "WEDARTIF_012",
     "name": "Wedding Arrangement Artificial 012",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 399000,
     "image": "/images/produk/wedding-arrangement/WedArtif_012_Harga 399K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedArtif_013",
+    "id": "WEDARTIF_013",
     "name": "Wedding Arrangement Artificial 013",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 349000,
     "image": "/images/produk/wedding-arrangement/WedArtif_013_Harga 349K(1).webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedArtif_013_1",
+    "id": "WEDARTIF_013_1",
     "name": "Wedding Arrangement Artificial 013",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 349000,
     "image": "/images/produk/wedding-arrangement/WedArtif_013_Harga 349K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedArtif_014",
+    "id": "WEDARTIF_014",
     "name": "Wedding Arrangement Artificial 014",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 349000,
     "image": "/images/produk/wedding-arrangement/WedArtif_014_Harga 349K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "WEDARTIF_015",
@@ -6992,214 +7768,238 @@ export const products = [
     "size": "Artificial",
     "price": 325000,
     "image": "/images/produk/wedding-arrangement/WEDARTIF_015_Harga 325K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedArtif_016",
+    "id": "WEDARTIF_016",
     "name": "Wedding Arrangement Artificial 016",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 325000,
     "image": "/images/produk/wedding-arrangement/WedArtif_016_Harga 325K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedArtif_017",
+    "id": "WEDARTIF_017",
     "name": "Wedding Arrangement Artificial 017",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 325000,
     "image": "/images/produk/wedding-arrangement/WedArtif_017_Harga 325K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedArtif_018",
+    "id": "WEDARTIF_018",
     "name": "Wedding Arrangement Artificial 018",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 325000,
     "image": "/images/produk/wedding-arrangement/WedArtif_018_Harga 325K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedArtif_019",
+    "id": "WEDARTIF_019",
     "name": "Wedding Arrangement Artificial 019",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 299000,
     "image": "/images/produk/wedding-arrangement/WedArtif_019_Harga 299K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedArtif_020",
+    "id": "WEDARTIF_020",
     "name": "Wedding Arrangement Artificial 020",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 299000,
     "image": "/images/produk/wedding-arrangement/WedArtif_020_Harga 299K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedArtif_021",
+    "id": "WEDARTIF_021",
     "name": "Wedding Arrangement Artificial 021",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 299000,
     "image": "/images/produk/wedding-arrangement/WedArtif_021_Harga 299K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedArtif_022",
+    "id": "WEDARTIF_022",
     "name": "Wedding Arrangement Artificial 022",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 299000,
     "image": "/images/produk/wedding-arrangement/WedArtif_022_Harga 299K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedArtif_023",
+    "id": "WEDARTIF_023",
     "name": "Wedding Arrangement Artificial 023",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 299000,
     "image": "/images/produk/wedding-arrangement/WedArtif_023_Harga 299K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedArtif_024",
+    "id": "WEDARTIF_024",
     "name": "Wedding Arrangement Artificial 024",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 299000,
     "image": "/images/produk/wedding-arrangement/WedArtif_024_Harga 299K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedArtif_025",
+    "id": "WEDARTIF_025",
     "name": "Wedding Arrangement Artificial 025",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 299000,
     "image": "/images/produk/wedding-arrangement/WedArtif_025_Harga 299K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Wedartif_026",
+    "id": "WEDARTIF_026",
     "name": "Wedding Arrangement Artificial 026",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 299000,
     "image": "/images/produk/wedding-arrangement/Wedartif_026_Harga 299K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedArtif_027",
+    "id": "WEDARTIF_027",
     "name": "Wedding Arrangement Artificial 027",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 279000,
     "image": "/images/produk/wedding-arrangement/WedArtif_027_Harga 279K(1).webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedArtif_027_1",
+    "id": "WEDARTIF_027_1",
     "name": "Wedding Arrangement Artificial 027",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 279000,
     "image": "/images/produk/wedding-arrangement/WedArtif_027_Harga 279K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedArtif_028",
+    "id": "WEDARTIF_028",
     "name": "Wedding Arrangement Artificial 028",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 249000,
     "image": "/images/produk/wedding-arrangement/WedArtif_028_Harga 249K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedArtif_029",
+    "id": "WEDARTIF_029",
     "name": "Wedding Arrangement Artificial 029",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 199000,
     "image": "/images/produk/wedding-arrangement/WedArtif_029_Harga 199K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedArtif_030",
+    "id": "WEDARTIF_030",
     "name": "Wedding Arrangement Artificial 030",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 180000,
     "image": "/images/produk/wedding-arrangement/WedArtif_030_Harga 180K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedArtif_031",
+    "id": "WEDARTIF_031",
     "name": "Wedding Arrangement Artificial 031",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 179000,
     "image": "/images/produk/wedding-arrangement/WedArtif_031_Harga 179K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Wedfreshcar_001",
+    "id": "WEDFRESHCAR_001",
     "name": "Wedding Arrangement Wedding Car Fresh 001",
     "category": "Wedding Arrangement",
     "size": "Wedding Car Fresh",
     "price": 40000,
     "image": "/images/produk/wedding-arrangement/Wedfreshcar_001_Harga 40K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "Wedfreshcar_002",
+    "id": "WEDFRESHCAR_002",
     "name": "Wedding Arrangement Wedding Car Fresh 002",
     "category": "Wedding Arrangement",
     "size": "Wedding Car Fresh",
     "price": 299000,
     "image": "/images/produk/wedding-arrangement/Wedfreshcar_002_Harga 299K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedFresh_001",
+    "id": "WEDFRESH_001",
     "name": "Wedding Arrangement Fresh 001",
     "category": "Wedding Arrangement",
     "size": "Fresh",
     "price": 429000,
     "image": "/images/produk/wedding-arrangement/WedFresh_001_Harga 429K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedFresh_002",
+    "id": "WEDFRESH_002",
     "name": "Wedding Arrangement Fresh 002",
     "category": "Wedding Arrangement",
     "size": "Fresh",
     "price": 199000,
     "image": "/images/produk/wedding-arrangement/WedFresh_002_Harga 199K(1).webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedFresh_002_1",
+    "id": "WEDFRESH_002_1",
     "name": "Wedding Arrangement Fresh 002",
     "category": "Wedding Arrangement",
     "size": "Fresh",
     "price": 199000,
     "image": "/images/produk/wedding-arrangement/WedFresh_002_Harga 199K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedFresh_003",
+    "id": "WEDFRESH_003",
     "name": "Wedding Arrangement Fresh 003",
     "category": "Wedding Arrangement",
     "size": "Fresh",
     "price": 289000,
     "image": "/images/produk/wedding-arrangement/WedFresh_003_Harga 289K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
     "id": "WEDFRESH_004",
@@ -7208,106 +8008,118 @@ export const products = [
     "size": "Fresh",
     "price": 299000,
     "image": "/images/produk/wedding-arrangement/WEDFRESH_004_Harga 299K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedFresh_005",
+    "id": "WEDFRESH_005",
     "name": "Wedding Arrangement Fresh 005",
     "category": "Wedding Arrangement",
     "size": "Fresh",
     "price": 299000,
     "image": "/images/produk/wedding-arrangement/WedFresh_005_Harga 299K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedFresh_005_1",
+    "id": "WEDFRESH_005_1",
     "name": "Wedding Arrangement Fresh 005",
     "category": "Wedding Arrangement",
     "size": "Fresh",
     "price": 325000,
     "image": "/images/produk/wedding-arrangement/WedFresh_005_Harga 325K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedFresh_006",
+    "id": "WEDFRESH_006",
     "name": "Wedding Arrangement Fresh 006",
     "category": "Wedding Arrangement",
     "size": "Fresh",
     "price": 599000,
     "image": "/images/produk/wedding-arrangement/WedFresh_006_Harga 599K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedFresh_007",
+    "id": "WEDFRESH_007",
     "name": "Wedding Arrangement Fresh 007",
     "category": "Wedding Arrangement",
     "size": "Fresh",
     "price": 599000,
     "image": "/images/produk/wedding-arrangement/WedFresh_007_Harga 599K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedMix_001",
+    "id": "WEDMIX_001",
     "name": "Wedding Arrangement Mix 001",
     "category": "Wedding Arrangement",
     "size": "Mix",
     "price": 275000,
     "image": "/images/produk/wedding-arrangement/WedMix_001_Harga 275K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedMix_002",
+    "id": "WEDMIX_002",
     "name": "Wedding Arrangement Mix 002",
     "category": "Wedding Arrangement",
     "size": "Mix",
     "price": 289000,
     "image": "/images/produk/wedding-arrangement/WedMix_002_Harga 289K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedMix_003",
+    "id": "WEDMIX_003",
     "name": "Wedding Arrangement Mix 003",
     "category": "Wedding Arrangement",
     "size": "Mix",
     "price": 399000,
     "image": "/images/produk/wedding-arrangement/WedMix_003_Harga 399K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedMix_004",
+    "id": "WEDMIX_004",
     "name": "Wedding Arrangement Mix 004",
     "category": "Wedding Arrangement",
     "size": "Mix",
     "price": 329000,
     "image": "/images/produk/wedding-arrangement/WedMix_004_Harga 329K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedMix_005",
+    "id": "WEDMIX_005",
     "name": "Wedding Arrangement Mix 005",
     "category": "Wedding Arrangement",
     "size": "Mix",
     "price": 219000,
     "image": "/images/produk/wedding-arrangement/WedMix_005_Harga 219K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedMix_006",
+    "id": "WEDMIX_006",
     "name": "Wedding Arrangement Mix 006",
     "category": "Wedding Arrangement",
     "size": "Mix",
     "price": 299000,
     "image": "/images/produk/wedding-arrangement/WedMix_006_Harga 299K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   },
   {
-    "id": "WedMix_007",
+    "id": "WEDMIX_007",
     "name": "Wedding Arrangement Mix 007",
     "category": "Wedding Arrangement",
     "size": "Mix",
     "price": 699000,
     "image": "/images/produk/wedding-arrangement/WedMix_007_Harga 699K.webp",
-    "isPopular": false
+    "isPopular": false,
+    "available": true
   }
 ];
 
@@ -7316,21 +8128,18 @@ export const categories = [
   { id: "Bouquet Artificial", label: "Bouquet Artificial" },
   { id: "Fresh Flowers", label: "Fresh Flowers" },
   { id: "Fresh Mix Artificial", label: "Fresh Mix Artificial" },
-  { id: "Bloom Box & Vas", label: "Bloom Box & Vas" },
-  { id: "Money Bucket", label: "Money Bucket" },
+  { id: "Bloom Box", label: "Bloom Box" },
+  { id: "Vas Arrangement", label: "Vas Arrangement" },
+  { id: "Money Bouquet", label: "Money Bouquet" },
   { id: "Wedding Arrangement", label: "Wedding Arrangement" },
-  { id: "Snack & Gift Bucket", label: "Snack & Gift Bucket" },
-  { id: "Bucket Pipe", label: "Bucket Pipe" },
-  { id: "Custom Bucket", label: "Custom Bucket" }
+  { id: "Snack Bouquet", label: "Snack Bouquet" },
+  { id: "Pipe Bouquet", label: "Pipe Bouquet" },
+  { id: "Custom Bouquet", label: "Custom Bouquet" }
 ];
 
 export const sizes = [
-  "Bloom Box Artificial",
-  "Bloom Box Fresh",
-  "Vas Kaca Artificial",
-  "Vas Kaca Fresh",
-  "Vas Petite Artificial",
-  "Vas Plastic Melamin Artificial",
+  "Artificial",
+  "Fresh",
   "Human Size",
   "Large",
   "Medium",
@@ -7350,9 +8159,11 @@ export const sizes = [
   "Photo",
   "Rokok",
   "Gift Custom",
-  "Artificial",
-  "Fresh",
   "Snack",
+  "Kaca Artificial",
+  "Petite Artificial",
+  "Plastic Melamin Artificial",
+  "Kaca Fresh",
   "Corsage Artificial",
   "Corsage Fresh",
   "Wedding Car Artificial",

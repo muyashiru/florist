@@ -1,20 +1,114 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect, useRef } from 'react';
+import { useLocation } from 'react-router-dom';
 import { products, categories, sizes } from '../data/products';
 import ProductCard from './ProductCard';
 import QuickView from './QuickView';
 
+const CustomDropdown = ({ value, options, onChange, disabled }) => {
+  const [isOpen, setIsOpen] = useState(false);
+  const dropdownRef = useRef(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setIsOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
+
+  const selectedOption = options.find(opt => opt.value === value) || options[0];
+
+  return (
+    <div className={`relative ${disabled ? 'opacity-70 cursor-not-allowed' : ''}`} ref={dropdownRef}>
+      <div 
+        onClick={() => !disabled && setIsOpen(!isOpen)}
+        className={`w-full bg-white/90 backdrop-blur-sm border border-sand rounded-2xl px-5 py-4 flex justify-between items-center shadow-sm transition-all duration-300 ${disabled ? 'bg-cream/50' : 'cursor-pointer hover:shadow-md hover:border-rose-brand/50'} ${isOpen ? 'ring-4 ring-rose-brand/10 border-rose-brand bg-white' : ''}`}
+      >
+        <span className={`font-medium truncate pr-4 ${disabled ? 'text-muted' : 'text-charcoal'}`}>
+          {selectedOption?.label}
+        </span>
+        <svg className={`w-5 h-5 text-rose-brand transition-transform duration-300 flex-shrink-0 ${isOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M19 9l-7 7-7-7"></path>
+        </svg>
+      </div>
+
+      {isOpen && !disabled && (
+        <div className="absolute z-50 w-full mt-2 bg-white border border-sand/50 rounded-2xl shadow-[0_15px_40px_-15px_rgba(0,0,0,0.15)] overflow-hidden">
+          <div className="max-h-[250px] overflow-y-auto py-2">
+            {options.map((opt) => (
+              <div
+                key={opt.value}
+                onClick={() => {
+                  onChange(opt.value);
+                  setIsOpen(false);
+                }}
+                className={`px-5 py-3.5 cursor-pointer transition-all duration-200 text-sm md:text-base
+                  ${value === opt.value ? 'bg-rose-brand/10 text-rose-brand font-bold border-l-4 border-rose-brand' : 'text-charcoal hover:bg-sand/30 hover:text-rose-brand border-l-4 border-transparent pl-6'}
+                `}
+              >
+                {opt.label}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+};
+
 export default function Catalog() {
-  const [activeCategory, setActiveCategory] = useState('all');
+  const location = useLocation();
+  const [activeCategory, setActiveCategory] = useState(location.state?.selectedCategory || 'all');
   const [activeSize, setActiveSize] = useState('all');
+  const [searchQuery, setSearchQuery] = useState(location.state?.searchQuery || '');
   const [selectedProduct, setSelectedProduct] = useState(null);
+  const [visibleCount, setVisibleCount] = useState(30);
+
+  // Update filter dari navigasi (state)
+  useEffect(() => {
+    if (location.state) {
+      if (location.state.selectedCategory) {
+        setActiveCategory(location.state.selectedCategory);
+        setActiveSize('all');
+      }
+      if (location.state.searchQuery !== undefined) {
+        setSearchQuery(location.state.searchQuery);
+      }
+    }
+  }, [location.state]);
+
+  // Reset jumlah yang ditampilkan saat filter diganti
+  useEffect(() => {
+    setVisibleCount(30);
+  }, [activeCategory, activeSize, searchQuery]);
+
+  // Acak semua produk sekali saja saat halaman dimuat
+  const randomizedProducts = useMemo(() => {
+    const shuffled = [...products];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+  }, []);
 
   const filtered = useMemo(() => {
-    return products.filter((p) => {
+    return randomizedProducts.filter((p) => {
       const catMatch = activeCategory === 'all' || p.category === activeCategory;
       const sizeMatch = activeSize === 'all' || p.size === activeSize;
-      return catMatch && sizeMatch;
+      
+      const searchMatch = !searchQuery.trim() || 
+        p.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        p.id.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        p.price.toString().includes(searchQuery.trim());
+
+      return catMatch && sizeMatch && searchMatch;
     });
-  }, [activeCategory, activeSize]);
+  }, [activeCategory, activeSize, searchQuery, randomizedProducts]);
+
+  const displayedProducts = filtered.slice(0, visibleCount);
 
   return (
     <section id="catalog" className="py-24 bg-cream relative overflow-hidden">
@@ -125,72 +219,91 @@ export default function Catalog() {
           </p>
         </div>
 
-        {/* Filter Kategori */}
-        <div className="flex flex-wrap gap-2 justify-center mb-4">
-          <button
-            onClick={() => setActiveCategory('all')}
-            className={`px-5 py-2 rounded-full text-sm font-medium transition-all duration-200 ${activeCategory === 'all'
-                ? 'bg-rose-brand text-white shadow-md'
-                : 'bg-blush text-charcoal hover:bg-sand'
-              }`}
-          >
-            Semua Kategori
-          </button>
-          {categories.filter((c) => c.id !== 'all').map((cat) => (
-            <button
-              key={cat.id}
-              onClick={() => setActiveCategory(cat.id)}
-              className={`px-5 py-2 rounded-full text-sm font-medium transition-all duration-200 ${activeCategory === cat.id
-                  ? 'bg-rose-brand text-white shadow-md'
-                  : 'bg-blush text-charcoal hover:bg-sand'
-                }`}
-            >
-              {cat.label}
-            </button>
-          ))}
-        </div>
+        {/* Modern Filter Section */}
+        <div className="flex flex-col gap-4 md:gap-6 justify-center mb-12 max-w-4xl mx-auto relative z-20">
+          {/* Search Input */}
+          <div className="w-full">
+            <div className="relative">
+              <input
+                type="text"
+                placeholder="Cari nama bunga, kode produk, atau harga..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className="w-full bg-white/90 backdrop-blur-sm border border-sand hover:border-rose-brand/50 focus:border-rose-brand rounded-2xl pl-12 pr-5 py-4 shadow-sm transition-all outline-none text-charcoal font-medium placeholder:text-muted/60"
+              />
+              <svg className="w-6 h-6 text-rose-brand absolute left-4 top-1/2 -translate-y-1/2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+              </svg>
+            </div>
+          </div>
 
-        {/* Filter Ukuran */}
-        <div className="flex flex-wrap gap-2 justify-center mb-10">
-          <button
-            onClick={() => setActiveSize('all')}
-            className={`px-4 py-1.5 rounded-full text-xs font-medium border transition-all duration-200 ${activeSize === 'all'
-                ? 'border-rose-brand bg-rose-brand/10 text-rose-brand'
-                : 'border-sand text-muted hover:border-rose-brand hover:text-rose-brand'
-              }`}
-          >
-            Semua Ukuran
-          </button>
-          {sizes.map((size) => (
-            <button
-              key={size}
-              onClick={() => setActiveSize(size)}
-              className={`px-4 py-1.5 rounded-full text-xs font-medium border transition-all duration-200 ${activeSize === size
-                  ? 'border-rose-brand bg-rose-brand/10 text-rose-brand'
-                  : 'border-sand text-muted hover:border-rose-brand hover:text-rose-brand'
-                }`}
-            >
-              {size}
-            </button>
-          ))}
+          <div className="flex flex-col md:flex-row gap-4 md:gap-6">
+            {/* Dropdown Kategori */}
+            <div className="flex-1">
+            <label className="block text-xs font-bold text-rose-brand tracking-widest uppercase mb-2 ml-2">Kategori Produk</label>
+            <CustomDropdown 
+              value={activeCategory}
+              options={[
+                { value: 'all', label: '🌸 Semua Kategori' },
+                ...categories.filter(c => c.id !== 'all').map(cat => ({ value: cat.id, label: cat.label }))
+              ]}
+              onChange={(val) => {
+                setActiveCategory(val);
+                setActiveSize('all');
+              }}
+            />
+          </div>
+
+          {/* Dropdown Ukuran/Varian Dinamis */}
+          <div className="flex-1">
+            <label className="block text-xs font-bold text-rose-brand tracking-widest uppercase mb-2 ml-2">Varian / Ukuran</label>
+            <CustomDropdown 
+              value={activeSize}
+              options={[
+                { value: 'all', label: '✨ Semua Varian' },
+                ...(activeCategory !== 'all' 
+                  ? [...new Set(products.filter(p => p.category === activeCategory).map(p => p.size))]
+                      .filter(Boolean)
+                      .map(size => ({ value: size, label: size }))
+                  : [])
+              ]}
+              onChange={(val) => setActiveSize(val)}
+              disabled={activeCategory === 'all'}
+            />
+          </div>
         </div>
+      </div>
 
         {/* Product Count */}
         <p className="text-sm text-muted text-center mb-8">
-          Menampilkan <span className="font-semibold text-charcoal">{filtered.length}</span> produk
+          Menampilkan <span className="font-semibold text-charcoal">{displayedProducts.length}</span> dari <span className="font-semibold text-charcoal">{filtered.length}</span> produk
         </p>
 
         {/* Grid */}
         {filtered.length > 0 ? (
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 md:gap-6">
-            {filtered.map((product) => (
-              <ProductCard
-                key={product.id}
-                product={product}
-                onClick={setSelectedProduct}
-              />
-            ))}
-          </div>
+          <>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 md:gap-6">
+              {displayedProducts.map((product) => (
+                <ProductCard
+                  key={product.id}
+                  product={product}
+                  onClick={setSelectedProduct}
+                />
+              ))}
+            </div>
+
+            {/* Load More Button */}
+            {visibleCount < filtered.length && (
+              <div className="mt-12 flex justify-center">
+                <button
+                  onClick={() => setVisibleCount(prev => prev + 30)}
+                  className="px-8 py-3 bg-white border border-sand rounded-full text-charcoal font-medium hover:bg-sand/30 hover:shadow-sm transition-all duration-300"
+                >
+                  Lihat Produk Lainnya
+                </button>
+              </div>
+            )}
+          </>
         ) : (
           <div className="text-center py-20">
             <p className="text-4xl mb-3">🌸</p>

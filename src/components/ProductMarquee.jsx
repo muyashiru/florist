@@ -2,13 +2,25 @@ import { products } from "../data/products";
 import { formatPrice, generateOrderLink } from "../utils/whatsapp";
 
 export default function ProductMarquee() {
-  // Mengacak produk agar tampil random
-  const shuffled = [...products].sort(() => 0.5 - Math.random());
+  // Mengambil 30 produk secara acak tanpa mengacak/sort seluruh data (lebih ringan)
+  const getRandomProducts = (arr, count) => {
+    const result = [];
+    const usedIndices = new Set();
+    while (result.length < count && usedIndices.size < arr.length) {
+      const randIndex = Math.floor(Math.random() * arr.length);
+      if (!usedIndices.has(randIndex)) {
+        usedIndices.add(randIndex);
+        result.push(arr[randIndex]);
+      }
+    }
+    return result;
+  };
 
-  // Membagi 2 baris
-  const half = Math.ceil(shuffled.length / 2);
-  const row1 = shuffled.slice(0, half);
-  const row2 = shuffled.slice(half);
+  const randomProducts = getRandomProducts(products, 30);
+
+  // Membagi 2 baris (15 baris atas, 15 baris bawah)
+  const row1 = randomProducts.slice(0, 15);
+  const row2 = randomProducts.slice(15, 30);
 
   // Duplikasi agar animasi seamless
   const duplicatedRow1 = [...row1, ...row1, ...row1];
@@ -83,10 +95,10 @@ export default function ProductMarquee() {
           100% { transform: translateX(0); }
         }
         .animate-product-scroll {
-          animation: scrollX 500s linear infinite;
+          animation: scrollX 35s linear infinite;
         }
         .animate-product-scroll-reverse {
-          animation: scrollXReverse 500s linear infinite;
+          animation: scrollXReverse 35s linear infinite;
         }
         .marquee-track:hover {
           animation-play-state: paused;
