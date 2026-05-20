@@ -7,7 +7,7 @@ const slides = [
   { desktop: '/images/hero/hero4.webp', mobile: '/images/hero/heroM4.webp' },
 ];
 
-// Menambahkan slide terakhir di awal, dan slide pertama di akhir untuk infinite loop
+// Menambahkan slide terakhir di awal, dan slide pertama di akhir untuk infinite loops
 const extendedSlides = [slides[slides.length - 1], ...slides, slides[0]];
 
 export default function Hero() {
