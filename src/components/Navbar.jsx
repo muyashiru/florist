@@ -95,7 +95,7 @@ export default function Navbar() {
               >
                 <input
                   type="text"
-                  placeholder="Cari (misal: Bloombox.. )"
+                  placeholder="Cari (misal: Bloom box.. )"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                   className="w-full bg-white/80 backdrop-blur-sm border border-rose-brand/30 rounded-full py-1.5 pl-4 pr-9 text-sm focus:outline-none focus:ring-2 focus:ring-rose-brand/50"
