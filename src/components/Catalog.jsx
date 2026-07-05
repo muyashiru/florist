@@ -64,7 +64,7 @@ export default function Catalog() {
   const [activeSize, setActiveSize] = useState('all');
   const [searchQuery, setSearchQuery] = useState(location.state?.searchQuery || '');
   const [selectedProduct, setSelectedProduct] = useState(null);
-  const [visibleCount, setVisibleCount] = useState(30);
+  const [visibleCount, setVisibleCount] = useState(20);
 
   // Update filter dari navigasi (state)
   useEffect(() => {
@@ -81,21 +81,13 @@ export default function Catalog() {
 
   // Reset jumlah yang ditampilkan saat filter diganti
   useEffect(() => {
-    setVisibleCount(30);
+    setVisibleCount(20);
   }, [activeCategory, activeSize, searchQuery]);
 
-  // Acak semua produk sekali saja saat halaman dimuat
-  const randomizedProducts = useMemo(() => {
-    const shuffled = [...products];
-    for (let i = shuffled.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-    }
-    return shuffled;
-  }, []);
-
+  // Kita tidak lagi mengacak produk secara acak untuk menghemat bandwidth (Cache browser bisa bekerja)
+  // Produk akan ditampilkan sesuai urutan di file data.
   const filtered = useMemo(() => {
-    return randomizedProducts.filter((p) => {
+    return products.filter((p) => {
       const catMatch = activeCategory === 'all' || p.category === activeCategory;
       const sizeMatch = activeSize === 'all' || p.size === activeSize;
       
@@ -106,7 +98,7 @@ export default function Catalog() {
 
       return catMatch && sizeMatch && searchMatch;
     });
-  }, [activeCategory, activeSize, searchQuery, randomizedProducts]);
+  }, [activeCategory, activeSize, searchQuery]);
 
   const displayedProducts = filtered.slice(0, visibleCount);
 
@@ -296,7 +288,7 @@ export default function Catalog() {
             {visibleCount < filtered.length && (
               <div className="mt-12 flex justify-center">
                 <button
-                  onClick={() => setVisibleCount(prev => prev + 30)}
+                  onClick={() => setVisibleCount(prev => prev + 20)}
                   className="px-8 py-3 bg-white border border-sand rounded-full text-charcoal font-medium hover:bg-sand/30 hover:shadow-sm transition-all duration-300"
                 >
                   Lihat Produk Lainnya

@@ -1,0 +1,8 @@
+User-agent: *
+Crawl-delay: 10
+
+# Block bad bots if any specific ones are known, otherwise general rules apply
+User-agent: Googlebot-Image
+Crawl-delay: 30
+
+Sitemap: https://yourdomain.com/sitemap.xml

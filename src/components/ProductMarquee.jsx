@@ -5,25 +5,15 @@ import QuickView from "./QuickView";
 
 export default function ProductMarquee() {
   const [selectedProduct, setSelectedProduct] = useState(null);
-  // Mengambil 30 produk secara acak tanpa mengacak/sort seluruh data (lebih ringan)
-  const getRandomProducts = (arr, count) => {
-    const result = [];
-    const usedIndices = new Set();
-    while (result.length < count && usedIndices.size < arr.length) {
-      const randIndex = Math.floor(Math.random() * arr.length);
-      if (!usedIndices.has(randIndex)) {
-        usedIndices.add(randIndex);
-        result.push(arr[randIndex]);
-      }
-    }
-    return result;
-  };
-
-  const randomProducts = getRandomProducts(products, 30);
+  
+  // Mengambil 30 produk pertama secara statis.
+  // Menghilangkan Math.random() agar gambar-gambar ini bisa di-cache dengan baik oleh browser
+  // sehingga sangat menghemat Fast Data Transfer di Vercel.
+  const staticProducts = products.slice(0, 30);
 
   // Membagi 2 baris (15 baris atas, 15 baris bawah)
-  const row1 = randomProducts.slice(0, 15);
-  const row2 = randomProducts.slice(15, 30);
+  const row1 = staticProducts.slice(0, 15);
+  const row2 = staticProducts.slice(15, 30);
 
   // Duplikasi agar animasi seamless
   const duplicatedRow1 = [...row1, ...row1, ...row1];
@@ -38,6 +28,7 @@ export default function ProductMarquee() {
         <img
           src={p.image}
           alt={p.name}
+          loading="lazy"
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
           onError={(e) => {
             e.target.style.display = "none";
