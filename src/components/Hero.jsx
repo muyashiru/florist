@@ -122,6 +122,7 @@ export default function Hero() {
                 alt={`Banner ${i}`}
                 className="block w-full h-auto"
                 draggable="false"
+                loading={i === 1 || i === 0 ? "eager" : "lazy"}
               />
             </picture>
           ))}

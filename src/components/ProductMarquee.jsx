@@ -6,10 +6,14 @@ import QuickView from "./QuickView";
 export default function ProductMarquee() {
   const [selectedProduct, setSelectedProduct] = useState(null);
   
-  // Mengambil 30 produk pertama secara statis.
-  // Menghilangkan Math.random() agar gambar-gambar ini bisa di-cache dengan baik oleh browser
-  // sehingga sangat menghemat Fast Data Transfer di Vercel.
-  const staticProducts = products.slice(0, 30);
+  // Mengambil 30 produk secara merata dari seluruh daftar produk agar mewakili banyak kategori
+  // tapi urutannya tetap statis (tidak random) sehingga bisa di-cache oleh browser.
+  const staticProducts = [];
+  const totalProducts = products.length;
+  const step = Math.max(1, Math.floor(totalProducts / 30));
+  for (let i = 0; i < 30 && (i * step) < totalProducts; i++) {
+    staticProducts.push(products[i * step]);
+  }
 
   // Membagi 2 baris (15 baris atas, 15 baris bawah)
   const row1 = staticProducts.slice(0, 15);
