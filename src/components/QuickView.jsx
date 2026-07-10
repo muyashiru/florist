@@ -69,6 +69,10 @@ export default function QuickView({ product, onClose }) {
     text += `*Total Harga:* ${displayTotalWA}\n\n`;
     text += `Mohon info ketersediaan dan total biaya ongkirnya ya. Terima kasih!`;
 
+    const baseUrl = 'https://jaleflorist.com';
+    const previewUrl = `${baseUrl}/api/preview?id=${product.id}`;
+    text += `\n\nLink Produk: ${previewUrl}`;
+
     return `https://wa.me/${phoneNumber}?text=${encodeURIComponent(text)}`;
   };
 
