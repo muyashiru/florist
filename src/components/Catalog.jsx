@@ -79,6 +79,18 @@ export default function Catalog() {
     }
   }, [location.state]);
 
+  // Handle ?open= param dari URL (untuk redirect WhatsApp Preview)
+  useEffect(() => {
+    const searchParams = new URLSearchParams(location.search);
+    const openId = searchParams.get('open');
+    if (openId) {
+      const productToOpen = products.find(p => p.id === openId);
+      if (productToOpen) {
+        setSelectedProduct(productToOpen);
+      }
+    }
+  }, [location.search]);
+
   // Reset jumlah yang ditampilkan saat filter diganti
   useEffect(() => {
     setVisibleCount(20);
