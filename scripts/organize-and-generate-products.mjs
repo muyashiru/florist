@@ -67,7 +67,40 @@ const prefixMap = {
   'bcsayur': { cat: 'Custom Bouquet', sub: 'Sayur', dir: 'custom-bucket', namePrefix: 'Bouquet Sayur' },
 
   // Pipe Bouquet
-  'bpipe': { cat: 'Pipe Bouquet', sub: '', dir: 'bucket-pipe', namePrefix: 'Bouquet Pipe' }
+  'bpipe': { cat: 'Pipe Bouquet', sub: '', dir: 'bucket-pipe', namePrefix: 'Bouquet Pipe' },
+
+  // New Categories
+  // Lily
+  'lilyartifm': { cat: 'Lily', sub: 'Artificial Medium', dir: 'lily/artificial', namePrefix: 'Lily Artificial Medium' },
+  'lilyartifl': { cat: 'Lily', sub: 'Artificial Large', dir: 'lily/artificial', namePrefix: 'Lily Artificial Large' },
+  'lilyartifxl': { cat: 'Lily', sub: 'Artificial XL', dir: 'lily/artificial', namePrefix: 'Lily Artificial XL' },
+  'lilyartifxxl': { cat: 'Lily', sub: 'Artificial XXL', dir: 'lily/artificial', namePrefix: 'Lily Artificial XXL' },
+  'lilyfreshm': { cat: 'Lily', sub: 'Fresh Medium', dir: 'lily/fresh', namePrefix: 'Lily Fresh Medium' },
+  'lilyfreshl': { cat: 'Lily', sub: 'Fresh Large', dir: 'lily/fresh', namePrefix: 'Lily Fresh Large' },
+  'lilyfreshxxl': { cat: 'Lily', sub: 'Fresh XXL', dir: 'lily/fresh', namePrefix: 'Lily Fresh XXL' },
+  'callalilyfreshm': { cat: 'Lily', sub: 'Calla Lily Fresh Medium', dir: 'lily/fresh', namePrefix: 'Calla Lily Fresh Medium' },
+
+  // Omakase
+  'omakasexl': { cat: 'Omakase', sub: 'XL', dir: 'omakase', namePrefix: 'Omakase XL' },
+
+  // Sunflower
+  'sunflowersartifl': { cat: 'Sunflower', sub: 'Artificial Large', dir: 'sunflower/artificial', namePrefix: 'Sunflower Artificial Large' },
+  'sunflowersartifxxl': { cat: 'Sunflower', sub: 'Artificial XXL', dir: 'sunflower/artificial', namePrefix: 'Sunflower Artificial XXL' },
+  'sunflowersartifhumansize': { cat: 'Sunflower', sub: 'Artificial Human Size', dir: 'sunflower/artificial', namePrefix: 'Sunflower Artificial Human Size' },
+  'sunflowersfreshl': { cat: 'Sunflower', sub: 'Fresh Large', dir: 'sunflower/fresh', namePrefix: 'Sunflower Fresh Large' },
+
+  // Thumbelina
+  'thumfreshm': { cat: 'Thumbelina', sub: 'Fresh Medium', dir: 'thumbelina/fresh', namePrefix: 'Thumbelina Fresh Medium' },
+  'thumfreshl': { cat: 'Thumbelina', sub: 'Fresh Large', dir: 'thumbelina/fresh', namePrefix: 'Thumbelina Fresh Large' },
+  'thumfreshxxl': { cat: 'Thumbelina', sub: 'Fresh XXL', dir: 'thumbelina/fresh', namePrefix: 'Thumbelina Fresh XXL' },
+  'thumhumansize': { cat: 'Thumbelina', sub: 'Human Size', dir: 'thumbelina/human-size', namePrefix: 'Thumbelina Human Size' },
+  'thuml': { cat: 'Thumbelina', sub: 'Large', dir: 'thumbelina/l', namePrefix: 'Thumbelina Large' },
+  'thumm': { cat: 'Thumbelina', sub: 'Medium', dir: 'thumbelina/m', namePrefix: 'Thumbelina Medium' },
+  'thumxlpastel': { cat: 'Thumbelina', sub: 'XL Pastel', dir: 'thumbelina/xl', namePrefix: 'Thumbelina XL Pastel' },
+  'thumxlpink': { cat: 'Thumbelina', sub: 'XL Pink', dir: 'thumbelina/xl', namePrefix: 'Thumbelina XL Pink' },
+  'thumxl': { cat: 'Thumbelina', sub: 'XL', dir: 'thumbelina/xl', namePrefix: 'Thumbelina XL' },
+  'thumxxlcrybaby': { cat: 'Thumbelina', sub: 'XXL Crybaby', dir: 'thumbelina/xxl', namePrefix: 'Thumbelina XXL Crybaby' },
+  'thumxxl': { cat: 'Thumbelina', sub: 'XXL', dir: 'thumbelina/xxl', namePrefix: 'Thumbelina XXL' }
 };
 
 function getPrefixInfo(filename) {
@@ -223,6 +256,9 @@ async function organizeProducts() {
 
   scanCatalog(produkDir);
 
+  // Sort products alphabetically and numerically by ID
+  productsList.sort((a, b) => a.id.localeCompare(b.id, undefined, { numeric: true, sensitivity: 'base' }));
+
   // Gather unique sizes
   const uniqueSizes = [...new Set(productsList.map(p => p.size))].filter(Boolean);
 
@@ -242,7 +278,11 @@ export const categories = [
   { id: "Wedding Arrangement", label: "Wedding Arrangement" },
   { id: "Snack Bouquet", label: "Snack Bouquet" },
   { id: "Pipe Bouquet", label: "Pipe Bouquet" },
-  { id: "Custom Bouquet", label: "Custom Bouquet" }
+  { id: "Custom Bouquet", label: "Custom Bouquet" },
+  { id: "Lily", label: "Lily" },
+  { id: "Omakase", label: "Omakase" },
+  { id: "Sunflower", label: "Sunflower" },
+  { id: "Thumbelina", label: "Thumbelina" }
 ];
 
 export const sizes = ${JSON.stringify(uniqueSizes, null, 2)};
