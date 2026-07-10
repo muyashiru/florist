@@ -115,7 +115,7 @@ export default function Catalog() {
   const displayedProducts = filtered.slice(0, visibleCount);
 
   return (
-    <section id="catalog" className="py-24 bg-cream relative overflow-hidden">
+    <section id="catalog" className="pt-8 pb-24 md:pt-12 bg-cream relative overflow-hidden">
       {/* --- Ornamen Background --- */}
       {/* Blur Backgrounds (Menyebar di berbagai area) */}
       <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-[#D9A299]/10 rounded-full blur-[100px] -translate-x-1/2 -translate-y-1/2 pointer-events-none"></div>
