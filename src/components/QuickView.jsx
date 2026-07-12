@@ -22,6 +22,7 @@ const additionalItemsList = [
 
 export default function QuickView({ product, onClose }) {
   const [addons, setAddons] = useState({});
+  const [isZoomed, setIsZoomed] = useState(false);
 
   useEffect(() => {
     const onKey = (e) => e.key === 'Escape' && onClose();
@@ -89,8 +90,32 @@ export default function QuickView({ product, onClose }) {
       className="fixed inset-0 z-[999] flex items-center justify-center p-4 md:p-6 bg-black/60 backdrop-blur-sm"
       onClick={(e) => e.target === e.currentTarget && onClose()}
     >
+      {/* Zoomed Image Overlay (Mobile) */}
+      {isZoomed && (
+        <div 
+          className="fixed inset-0 z-[1000] bg-black/95 flex flex-col items-center justify-center md:hidden"
+          onClick={() => setIsZoomed(false)}
+        >
+          <button 
+            className="absolute top-4 right-4 z-50 p-2 bg-white/10 text-white rounded-full backdrop-blur-md"
+            onClick={(e) => { e.stopPropagation(); setIsZoomed(false); }}
+          >
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+          
+          <img 
+            src={product.image} 
+            alt={product.name} 
+            className="w-full h-auto max-h-[90vh] object-contain"
+          />
+          <p className="text-white/60 text-sm mt-4">Ketuk di mana saja untuk kembali</p>
+        </div>
+      )}
+
       <div
-        className="bg-cream rounded-2xl md:rounded-3xl shadow-2xl w-full max-w-4xl max-h-[85vh] md:max-h-[90vh] flex flex-col md:flex-row relative overflow-hidden"
+        className={`bg-cream rounded-2xl md:rounded-3xl shadow-2xl w-full max-w-4xl max-h-[85vh] md:max-h-[90vh] flex flex-col md:flex-row relative overflow-hidden ${isZoomed ? 'hidden md:flex' : 'flex'}`}
         style={{ animation: 'modalIn 0.3s ease forwards' }}
       >
         {/* Tombol Close */}
@@ -105,12 +130,29 @@ export default function QuickView({ product, onClose }) {
         </button>
 
         {/* Image */}
-        <div className="w-full h-[28vh] md:h-auto md:w-5/12 bg-blush flex-shrink-0 relative">
+        <div 
+          className="w-full h-[28vh] md:h-auto md:w-5/12 bg-blush flex-shrink-0 relative group md:cursor-default cursor-pointer"
+          onClick={() => {
+            // Hanya aktifkan zoom di mobile (layar < 768px)
+            if (window.innerWidth < 768) {
+              setIsZoomed(true);
+            }
+          }}
+        >
           <img
             src={product.image}
             alt={product.name}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover transition-transform duration-500 md:group-hover:scale-105"
           />
+          {/* Hint Zoom (Mobile only) */}
+          <div className="absolute top-3 left-3 md:hidden pointer-events-none">
+            <div className="bg-black/40 backdrop-blur-md px-2.5 py-1.5 rounded-full text-[10px] font-medium text-white flex items-center gap-1.5 shadow-sm">
+              <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
+              </svg>
+              Ketuk untuk zoom
+            </div>
+          </div>
         </div>
 
         {/* Details Area */}
