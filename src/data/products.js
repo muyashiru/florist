@@ -7682,16 +7682,6 @@ export const products = [
     "available": true
   },
   {
-    "id": "THUMXL_002_1",
-    "name": "Thumbelina XL 002",
-    "category": "Thumbelina",
-    "size": "XL",
-    "price": 375000,
-    "image": "/images/produk/thumbelina/xl/ThumXl_002_Harga 375k.webp",
-    "isPopular": false,
-    "available": true
-  },
-  {
     "id": "THUMXL_003",
     "name": "Thumbelina XL 003",
     "category": "Thumbelina",
@@ -7808,6 +7798,16 @@ export const products = [
     "size": "XL",
     "price": 300000,
     "image": "/images/produk/thumbelina/xl/ThumXL_036_Harga 300K.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
+    "id": "THUMXL_037",
+    "name": "Thumbelina XL 037",
+    "category": "Thumbelina",
+    "size": "XL",
+    "price": 375000,
+    "image": "/images/produk/thumbelina/xl/ThumXl_037_Harga 375k.webp",
     "isPopular": false,
     "available": true
   },
