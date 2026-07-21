@@ -4472,6 +4472,16 @@ export const products = [
     "available": true
   },
   {
+    "id": "BFMAS_001",
+    "name": "Bouquet Fresh Mix Artificial Small 001",
+    "category": "Fresh Mix Artificial",
+    "size": "Small",
+    "price": 120000,
+    "image": "/images/produk/bouquet-mix/s/Bfmas_001_Harga 120k.webp",
+    "isPopular": false,
+    "available": true
+  },
+  {
     "id": "BFMAXL_012",
     "name": "Bouquet Fresh Mix Artificial XL 012",
     "category": "Fresh Mix Artificial",
@@ -4778,16 +4788,6 @@ export const products = [
     "size": "Premium",
     "price": 249000,
     "image": "/images/produk/bouquet-fresh/premium/BFP_025_Harga 249K.webp",
-    "isPopular": false,
-    "available": true
-  },
-  {
-    "id": "BFS_001",
-    "name": "Bouquet Fresh Small 001",
-    "category": "Fresh Flowers",
-    "size": "Small",
-    "price": 85000,
-    "image": "/images/produk/bouquet-fresh/s/Bfs_001_Harga 85k.webp",
     "isPopular": false,
     "available": true
   },

@@ -28,6 +28,7 @@ const prefixMap = {
   'bfhs': { cat: 'Fresh Flowers', sub: 'Human Size', dir: 'bouquet-fresh/human-size', namePrefix: 'Bouquet Fresh Flower Human Size' },
 
   // Bouquet Mix
+  'bfmas': { cat: 'Fresh Mix Artificial', sub: 'Small', dir: 'bouquet-mix/s', namePrefix: 'Bouquet Fresh Mix Artificial Small' },
   'bfmam': { cat: 'Fresh Mix Artificial', sub: 'Medium', dir: 'bouquet-mix/m', namePrefix: 'Bouquet Fresh Mix Artificial Medium' },
   'bfmal': { cat: 'Fresh Mix Artificial', sub: 'Large', dir: 'bouquet-mix/l', namePrefix: 'Bouquet Fresh Mix Artificial Large' },
   'bfmaxl': { cat: 'Fresh Mix Artificial', sub: 'XL', dir: 'bouquet-mix/xl', namePrefix: 'Bouquet Fresh Mix Artificial XL' },
